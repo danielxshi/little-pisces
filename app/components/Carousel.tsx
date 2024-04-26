@@ -58,7 +58,7 @@ export default function Carousel() {
             <SplideSlide key={index} className="min-h-screen w-full">
               <ContentfulImage
                 className="d-block w-100 h-100"
-                src={item.image}
+                src="https://images.unsplash.com/photo-1593344661881-2396a4fd20aa?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 // fallbackSrc={item.fallback}
                 //   alt={item.alt}
                 layout="fill"
