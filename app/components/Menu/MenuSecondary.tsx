@@ -9,13 +9,37 @@ import {
   AwaitedReactNode,
 } from "react";
 
-export default function MenuSecondary(props: { image: string; title: string | number | bigint | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<AwaitedReactNode> | null | undefined; children: string | number | bigint | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<AwaitedReactNode> | null | undefined; }) {
+export default function MenuSecondary(props: {
+  image: string;
+  title:
+    | string
+    | number
+    | bigint
+    | boolean
+    | ReactElement<any, string | JSXElementConstructor<any>>
+    | Iterable<ReactNode>
+    | ReactPortal
+    | Promise<AwaitedReactNode>
+    | null
+    | undefined;
+  children:
+    | string
+    | number
+    | bigint
+    | boolean
+    | ReactElement<any, string | JSXElementConstructor<any>>
+    | Iterable<ReactNode>
+    | ReactPortal
+    | Promise<AwaitedReactNode>
+    | null
+    | undefined;
+}) {
   return (
     <div className="container pt-32 grid grid-cols-12 food-menu">
       <div className="col-start-2 col-end-7 relative">
         {/* add color block variation */}
         {/* <div className="color-block bg-blue-p w-3/5 block z-1 h-4/5 absolute"></div> */}
-        <div className="food-image-container h-4/5 relative w-4/5 justify-end mr-0 ml-auto flex z-100 mt-24 -mr-8">
+        <div className="food-image-container h-4/5 relative w-4/5 justify-end ml-auto flex z-100 mt-24 -mr-8">
           <ContentfulImage src={props.image} fill={true} objectFit="cover" />
         </div>
       </div>
