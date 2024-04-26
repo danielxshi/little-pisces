@@ -26,8 +26,12 @@ export default function StoreInfo() {
       <div className="absolute md:py-16 right-0 top-0 grid grid-cols-12 container store-info-wrapper">
         <div className="col-start-7 col-end-13">
           <div className="ml-16">
-            <h2 className="text-7xl mb-8 text-white title-orange text-shadow-strong">TAIYAKI & </h2>
-            <h2 className="text-7xl mb-8 text-white title-orange text-shadow-strong">SOFT SERVE</h2>
+            <h2 className="text-7xl mb-8 text-white title-orange text-shadow-strong">
+              TAIYAKI &{" "}
+            </h2>
+            <h2 className="text-7xl mb-8 text-white title-orange text-shadow-strong">
+              SOFT SERVE
+            </h2>
           </div>
           <div className="h-full pb-8 flex flex-col w-full bg-white text-black">
             <div className="ml-16 align-center flex flex-col m-auto">

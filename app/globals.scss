@@ -9,8 +9,17 @@ $blue: #77b7cb;
   background: $orange;
 }
 
-.bg-blue-p{
+.bg-blue-p {
   background: $blue;
+}
+
+button {
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  transition: 0.24s;
+}
+button:hover {
+  color: $orange;
 }
 
 .food-menu {
@@ -46,6 +55,9 @@ $blue: #77b7cb;
 }
 
 .carousel-container {
+  .splide__slide {
+    width: 100vw !important;
+  }
   .splide__arrow {
     background: none;
     color: white;
