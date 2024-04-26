@@ -11,16 +11,22 @@ import Header from "./components/HeaderContainer";
 import ScrollObserver from "./util/scroll-observer";
 import ProjectMessages from "./JSON/ProjectMessages";
 import Link from "next/link";
+import localFont from "next/font/local";
+// import d from "./fonts/Manrope/Manrope-Regular.ttf"
 
 // export const metadata = {
 //   title: `Next.js and ${CMS_NAME} Example`,
 //   description: `This is a blog built with Next.js and ${CMS_NAME}.`,
 // };
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  display: "swap",
+const Manrope = localFont({
+  src: [
+    {
+      path: "./fonts/Manrope/Manrope-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
 });
 
 function Footer() {
@@ -77,7 +83,7 @@ function HeaderModal() {
     const openModal = () => {};
   };
 
-  const closeModal2 = (e: { target: HTMLInputElement | null; }) => {
+  const closeModal2 = (e: { target: HTMLInputElement | null }) => {
     // console.log("close modal");
     if (modalRef.current === e.target) {
       setShowModal(false);
@@ -92,9 +98,12 @@ function HeaderModal() {
         setShowModal={setShowModal}
         ListClick={closeModal2}
       />
-      {<Header 
-      // onLogoClick={closeModal2} 
-      onClick={openModal} />}
+      {
+        <Header
+          // onLogoClick={closeModal2}
+          onClick={openModal}
+        />
+      }
     </AnimatePresence>
   );
 }
@@ -108,7 +117,8 @@ export default function RootLayout({
     <ScrollObserver>
       <html
         lang="en"
-        // className={inter.variable}
+
+        className={` ${Manrope.className}`}
       >
         <body>
           <section className="min-h-screen">

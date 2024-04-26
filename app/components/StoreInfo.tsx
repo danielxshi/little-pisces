@@ -1,6 +1,18 @@
 import Link from "next/link";
 import ProjectMessages from "../JSON/ProjectMessages";
 import ParallaxBG from "./ParallaxBG";
+import localFont from "next/font/local";
+
+
+const Manrope = localFont({
+  src: [
+    {
+      path: "./fonts/Manrope/Manrope-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+});
 
 export default function StoreInfo() {
   return (
@@ -25,8 +37,8 @@ export default function StoreInfo() {
       </ParallaxBG>
       <div className="absolute md:py-16 right-0 top-0 grid grid-cols-12 container store-info-wrapper">
         <div className="col-start-7 col-end-13">
-          <div className="ml-16">
-            <h2 className="text-7xl mb-8 text-white title-orange text-shadow-strong">
+          <div className="ml-16 mb-8">
+            <h2 className="font-black text-7xl leading-tight tracking-tighter text-white title-orange text-shadow-strong">
               TAIYAKI &{" "}
             </h2>
             <h2 className="text-7xl mb-8 text-white title-orange text-shadow-strong">
