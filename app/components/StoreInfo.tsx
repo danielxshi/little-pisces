@@ -3,11 +3,10 @@ import ProjectMessages from "../JSON/ProjectMessages";
 import ParallaxBG from "./ParallaxBG";
 import localFont from "next/font/local";
 
-
 const Manrope = localFont({
   src: [
     {
-      path: "./fonts/Manrope/Manrope-Regular.ttf",
+      path: "../fonts/Manrope/Manrope-Regular.ttf",
       weight: "400",
       style: "normal",
     },
