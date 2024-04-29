@@ -8,7 +8,7 @@ export default function SocialMedia() {
       <ul className="flex flex-row  m-auto justify-between ">
         {ProjectMessages.SocialMedia.map((item, index) => (
           <li className="mx-2">
-            <Link className="" href={item.url}>
+            <Link className="w-[2rem] h-[2rem]" href={item.url}>
               {/* <ContentfulImage href=""></ContentfulImage> */}
               {item.icon}
             </Link>

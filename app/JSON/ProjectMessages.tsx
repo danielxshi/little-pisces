@@ -1,123 +1,66 @@
-const PageItems = [
-  {
-    company: {
-      header: [
-        {
-          text: "We're a multi-disciplinary Real Estate development firm focusing on developing properties that connect Nature, Architecture, Technology, and Functionality.",
-          page: "company",
-          url: "/",
-        },
-      ],
-    },
-  },
-  {
-    project: {
-      header: [
-        {
-          text: "We're a multi-disciplinary Real Estate development firm focusing on developing properties that connect Nature, Architecture, Technology, and Functionality.",
-          page: "project",
-          url: "/",
-        },
-      ],
-    },
-  },
-  {
-    contact: {
-      header: [
-        {
-          text: "We're a multi-disciplinary Real Estate development firm focusing on developing properties that connect Nature, Architecture, Technology, and Functionality.",
-          page: "contact",
-          url: "/",
-        },
-      ],
-    },
-  },
-  {
-    news: {
-      header: [
-        {
-          text: "We're a multi-disciplinary Real Estate development firm focusing on developing properties that connect Nature, Architecture, Technology, and Functionality.",
-          page: "news",
-          url: "/",
-        },
-      ],
-    },
-  },
-  {
-    home: {
-      content: [
-        {
-          header: "Eminent Design, Modern Experience.",
-          page: "home",
-          url: "/",
-        },
-      ],
-    },
-  },
-];
+import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 
 const SocialMedia = [
-  { icon: "LOGO", url: "", name: "WECHAT" },
-  { icon: "LOGO", url: "", name: "TWITTER" },
-  { icon: "LOGO", url: "", name: "INSTAGRAM" },
-  { icon: "LOGO", url: "", name: "TIKTOK" },
-  { icon: "LOGO", url: "", name: "LITTLE RED BOOK" },
+  // { icon: "LOGO", url: "", name: "WECHAT" },
+  // { icon: "LOGO", url: "", name: "TWITTER" },
+  { icon: <FaInstagram />, url: "https://www.instagram.com/eatlittlepisces/", name: "INSTAGRAM" },
+  { icon: <FaTiktok />, url: "https://www.tiktok.com/@eatlittlepisces", name: "TIKTOK" },
+  // { icon: "LOGO", url: "", name: "LITTLE RED BOOK" },
 ];
 
 const OperationHours = [
-  { day: "MONDAY", hours: "10:00 - 21:00" },
-  { day: "TUESDAY", hours: "10:00 - 21:00" },
-  { day: "WEDNESDAY", hours: "10:00 - 21:00" },
-  { day: "THURSDAY", hours: "10:00 - 21:00" },
-  { day: "FRIDAY", hours: "10:00 - 21:00" },
-  { day: "SATURDAY", hours: "10:00 - 21:00" },
-  { day: "SUNDAY", hours: "10:00 - 21:00" },
+  { day: "MONDAY", hours: "12PM - 10PM" },
+  { day: "TUESDAY", hours: "12PM - 10PM" },
+  { day: "WEDNESDAY", hours: "12PM - 10PM" },
+  { day: "THURSDAY", hours: "12PM -10PM" },
+  { day: "FRIDAY", hours: "12PM - 12AM" },
+  { day: "SATURDAY", hours: "12PM - 12AM" },
+  { day: "SUNDAY", hours: "12PM - 12AM" },
 ];
 
 const StoreInfo = [
-  { content: "Burnaby, BC V5H 2A9" },
-  { content: "4500 Kingsway #1601" },
+  { content: "Burnaby, BC V3N 4R7" },
+  { content: "4501 North Rd, Unit 202B" },
 ];
 
 const ContactInfo = [{ content: "jacky@littlepisces.com" }];
 
 const MenuTaiyaki = [
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
+  { name: "Red Bean", price: "$7.00" },
+  { name: "Custard", price: "$7.00" },
+  { name: "Nutella", price: "$7.00" },
+  { name: "Taro", price: "$7.00" },
+  { name: "Ube Halaya", price: "$7.00" },
+  { name: "Salted Egg Yolk", price: "$7.00" },
+  { name: "Hotteok", price: "$7.00" },
+  { name: "Pizza", price: "$7.00" },
 ];
 
 const MenuSoftServe = [
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
+  { name: "Vanilla", price: "$7.00" },
+  { name: "Ube", price: "$7.00" },
+  { name: "Matcha", price: "$7.00" },
+  { name: "Black Sesame", price: "$7.00" },
 ];
 
 const MenuTaiyakiSoftServe = [
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
+  { name: "Red Bean", price: "$7.00" },
+  { name: "Custard", price: "$7.00" },
+  { name: "Nutella", price: "$7.00" },
+  { name: "Taro", price: "$7.00" },
+  { name: "Ube Halaya", price: "$7.00" },
+  { name: "Salted Egg Yolk", price: "$7.00" },
+  { name: "Hotteok", price: "$7.00" },
+  { name: "Pizza", price: "$7.00" },
 ];
 
 const MenuDrinks = [
-  { name: "yuzu green tea lemonade", price: "$7.00" },
-  { name: "yuzu green tea lemonade", price: "$7.00" },
+  { name: "Yuzu Green Tea Lemonade", price: "$7.00" },
+  { name: "Hojicha Sweet Foam Latte", price: "$7.00" },
 ];
 
 const ProjectMessages = {
-  PageItems: PageItems,
   OperationHours: OperationHours,
   StoreInfo: StoreInfo,
   SocialMedia: SocialMedia,

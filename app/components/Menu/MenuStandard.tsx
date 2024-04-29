@@ -35,7 +35,7 @@ export default function MenuStandard(props: {
     | undefined;
 }) {
   return (
-    <div className="container pt-32 grid grid-cols-12 food-menu">
+    <div className="container pt-32 lg:grid lg:grid-cols-12 food-menu flex flex-col">
       <div className="col-start-1 col-end-5 relative">
         {/* add color block variation */}
         <div className="color-block bg-blue-p w-3/5 block z-1 h-4/5 absolute"></div>
@@ -44,7 +44,7 @@ export default function MenuStandard(props: {
         </div>
       </div>
 
-      <div className="col-start-6 col-end-13 text-white">
+      <div className="col-start-6 col-end-13 text-white lg:mt-0 mt-16">
         <h2 className="text-6xl uppercase md:mb-8">{props.title}</h2>
 
         {props.children}

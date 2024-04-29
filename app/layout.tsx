@@ -31,28 +31,33 @@ const Manrope = localFont({
 
 function Footer() {
   return (
-    <footer className=" bg-orange md:pt-16 pb-4 text-white ">
+    <footer className=" bg-orange md:pt-16 pt-16 pb-4 text-white ">
       <div className="grid grid-cols-12 container">
-        <div className="col-start-1 col-end-13 flex justify-between">
+        <div className="col-start-1 col-end-13 flex justify-between md:flex-row flex-col">
           <div className="w-2/4 ">
             <ul className="">
               {ProjectMessages.StoreInfo.map((item, index) => (
-                <li className="">{item.content}</li>
+                <li className="mb-2 md:mb-0">{item.content}</li>
               ))}
             </ul>
             <div className="w-2/4 ">
               <ul className="">
                 {ProjectMessages.ContactInfo.map((item, index) => (
-                  <li className="">{item.content}</li>
+                  <Link
+                    href="mailto:jacky@littlepisces.ca"
+                    className="mb-2 md:mb-0"
+                  >
+                    {item.content}
+                  </Link>
                 ))}
               </ul>
             </div>
           </div>
 
-          <div className="w-2/4 right-0 mr-0 ml-auto">
+          <div className="w-full md:w-2/4 right-0 mr-0 ml-auto mt-8 md:mt-0">
             <ul className="flex flex-col right-0 ml-auto w-full text-right">
               {ProjectMessages.SocialMedia.map((item, index) => (
-                <li className="">
+                <li className="text-left md:text-right mb-2 md:mb-0">
                   <Link href={item.url}>{item.name}</Link>
                 </li>
               ))}
@@ -60,10 +65,10 @@ function Footer() {
           </div>
         </div>
 
-        <div className="col-start-1 col-end-13 flex justify-between md:mt-32">
+        <div className="col-start-1 col-end-13 flex justify-between md:mt-32 mt-16">
           <div
             className="w-full flex justify-between
-          bottom-0"
+          bottom-0 flex-col sm:flex-row"
           >
             <p>Little Pisces Copyright 2024 &copy;</p>
             <Link href="005f.agency">Website by 005F</Link>
@@ -115,11 +120,7 @@ export default function RootLayout({
 }) {
   return (
     <ScrollObserver>
-      <html
-        lang="en"
-
-        className={` ${Manrope.className}`}
-      >
+      <html lang="en" className={` ${Manrope.className}`}>
         <body>
           <section className="min-h-screen">
             <HeaderModal />

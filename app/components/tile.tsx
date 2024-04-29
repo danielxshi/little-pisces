@@ -60,7 +60,7 @@ export const TileBackground: React.FC<{ children: any }> = ({
 
 export const TileContent: React.FC<{ children: any }> = ({ children }: any) => {
   return (
-    <div className="sticky top-0 h-screen overflow-hidden container">
+    <div className="sticky top-0 h-screen overflow-hidden w-screen md:w-full md:container md:mx-auto">
       {children}
     </div>
   );

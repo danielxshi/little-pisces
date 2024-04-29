@@ -3,7 +3,7 @@ import MenuSecondary from "../components/Menu/MenuSecondary";
 import ProjectMessages from "../JSON/ProjectMessages";
 export default function Menu() {
   return (
-    <div className="min-h-screen bg-orange pb-16">
+    <div className="min-h-screen bg-orange md:pb-32 pb-16">
       <MenuStandard
         title="Taiyaki"
         image="https://images.unsplash.com/photo-1582049786862-a4c5730b7160?q=80&w=2980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -34,7 +34,7 @@ export default function Menu() {
           </ul>
         </div>
       </MenuStandard>
-      <MenuSecondary
+      <MenuStandard
         title="TAIYAKI SOFT SERVE"
         image="https://images.unsplash.com/photo-1636564499112-6113e73c504a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       >
@@ -48,7 +48,7 @@ export default function Menu() {
             ))}
           </ul>
         </div>
-      </MenuSecondary>
+      </MenuStandard>
       <MenuSecondary
         title="DRINKS"
         image="https://images.unsplash.com/photo-1589638895165-e80df3583854?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

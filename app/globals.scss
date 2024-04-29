@@ -13,6 +13,11 @@ $blue: #77b7cb;
   background: $blue;
 }
 
+.social-media-container svg {
+  width: 2rem;
+  height: 2rem;
+}
+
 button {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
@@ -29,6 +34,25 @@ button:hover {
   .food-image-container {
     height: 500px;
     min-width: 300px;
+  }
+}
+a:hover {
+  color: $orange;
+}
+a {
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  transition: 0.24s;
+}
+
+footer {
+  a:hover {
+    color: $blue;
+  }
+  a {
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    transition: 0.24s;
   }
 }
 
@@ -54,7 +78,14 @@ button:hover {
   border-right: solid 30px transparent;
 }
 
+.work-container {
+  // * {
+  //   margin: auto;
+  // }
+}
+
 .carousel-container {
+  // width: 80vw;
   .splide__slide {
     width: 100vw !important;
   }

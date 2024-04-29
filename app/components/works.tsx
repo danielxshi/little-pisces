@@ -52,7 +52,7 @@ const Works = () => (
                 OUR TAIYAKI
               </div>
             </WorkLeft>
-            <WorkRight progress={progress}>
+            {/* <WorkRight progress={progress}>
               <ContentfulImage
                 height={1620}
                 quality={75}
@@ -61,7 +61,12 @@ const Works = () => (
                 // height={1620}
                 // alt='Pink Panda'
               />
-            </WorkRight>
+            </WorkRight> */}
+            <WorkLeft progress={progress}>
+              <p className="w-4/5 m-auto">
+              At Little Pisces, we love everything taiyaki, and wanted to create something that was both aesthetically pleasing and delicious to eat.
+              </p>
+            </WorkLeft>
           </WorkContainer>
         )}
       ></Tile>
@@ -81,16 +86,14 @@ const Works = () => (
                 OUR TAIYAKI
               </div>
             </WorkLeft>
-            <WorkRight progress={progress}>
-              <ContentfulImage
-                height={1620}
-                quality={75}
-                src="https://images.pexels.com/photos/17963791/pexels-photo-17963791/free-photo-of-close-up-of-dark-green-leaves.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                width={840}
-                // height={1620}
-                // alt='Streak Wallet'
-              />
-            </WorkRight>
+            <WorkLeft progress={progress}>
+              <p className="w-4/5 m-auto">
+                We want to serve you the best taiyaki you've ever eaten, so we
+                traveled the world in search of the best ingredients in order to
+                share that experience with you. Just ask us where all of our
+                ingredients are sourced from!
+              </p>
+            </WorkLeft>
           </WorkContainer>
         )}
       ></Tile>
@@ -111,10 +114,7 @@ const Works = () => (
             </WorkLeft>
             <WorkLeft progress={progress}>
               <p className="w-4/5 m-auto">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Similique laboriosam modi pariatur ea voluptates iure veritatis
-                placeat. Distinctio autem, non vero natus atque nam. Beatae sit
-                reprehenderit impedit iusto error?
+              Through extensive experimentation, we perfected a mochi batter that is crunchy on the outside, yet soft and chewy on the inside. When paired with any of our delicious fillings, don't overthink what the result will be.
               </p>
             </WorkLeft>
           </WorkContainer>
