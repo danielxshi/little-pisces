@@ -122,7 +122,7 @@ export default function Landing() {
       // transition={{ delay: 0.5, duration: 2, ease: "easeInOut" }}
       >
         {/* <Reveal></Reveal> */}
-        <div ref={container} className="reveal-container absolute">
+        <div ref={container} className="reveal-container absolute z-10">
           <div className="blocks">
             <div className="block block-left"></div>
             <div className="block block-right"></div>

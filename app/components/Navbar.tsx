@@ -35,7 +35,7 @@ const Navbar = ({ children, ...props }: Props) => {
       setHiddenBranding(false);
     } else if (window.scrollY <= 10) {
       setHiddenBranding(false);
-    } 
+    }
     // else if (latest > previous && latest > 150) {
     //   //   setHiddenBranding(true);
     // }
@@ -52,9 +52,7 @@ const Navbar = ({ children, ...props }: Props) => {
         }}
         animate={hidden ? "hidden" : "visible"}
         transition={{ duration: 0.95, ease: "easeInOut", delay: 0.25 }}
-        className={`navbar top-0 fixed h-20 w-screen z-20 ${
-          hidden ? " " : "  "
-        }`}
+        className={`navbar top-0 fixed h-20 w-screen ${hidden ? " " : "  "}`}
       ></motion.div>
     </section>
   );
