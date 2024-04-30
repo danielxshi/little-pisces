@@ -26,7 +26,7 @@ export default function StoreInfo() {
               <h2 className="text-5xl mb-8">Cafe Info</h2>
               <ul className="flex flex-col">
                 {ProjectMessages.OperationHours.map((item, index) => (
-                  <li className="w-3/5 text-2xl mb-4 flex justify-between">
+                  <li className="w-full md:w-3/5 text-2xl mb-4 flex justify-between">
                     <span>{item.day}</span>
                     <span>{item.hours}</span>
                   </li>
@@ -46,11 +46,11 @@ export default function StoreInfo() {
                   SOFT SERVE
                 </h2>
               </div>
-              <div className="h-full md:pb-8 pt-16 pb-16 md:pt-0 flex flex-col md:w-full max-w-[80rem] bg-white text-black rounded-l-xl">
-                <div className="ml-16 align-center flex flex-col m-auto">
+              <div className="h-full md:pb-8 pt-16 pb-16 md:pt-0 flex flex-col md:w-full max-w-[80rem] bg-white text-black rounded-xl md:rounded-l-xl">
+                <div className="mx-4 md:ml-16 align-center flex flex-col m-auto">
                   <ul className="flex flex-col">
                     {ProjectMessages.StoreInfo.map((item, index) => (
-                      <li className="text-2xl">
+                      <li className="text-xl md:text-2xl">
                         <span>{item.content}</span>
                       </li>
                     ))}

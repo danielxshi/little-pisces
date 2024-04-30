@@ -64,7 +64,9 @@ const Works = () => (
             </WorkRight> */}
             <WorkLeft progress={progress}>
               <p className="w-4/5 m-auto">
-              At Little Pisces, we love everything taiyaki, and wanted to create something that was both aesthetically pleasing and delicious to eat.
+                At Little Pisces, we love everything taiyaki, and wanted to
+                create something that was both aesthetically pleasing and
+                delicious to eat.
               </p>
             </WorkLeft>
           </WorkContainer>
@@ -74,7 +76,7 @@ const Works = () => (
         page={1}
         renderContent={({ progress }) => (
           <WorkContainer>
-            <div className="triangle-5 absolute"></div>
+            {/* <div className="triangle-5 absolute"></div> */}
             <WorkLeft progress={progress}>
               <div className="text-4xl md:text-6xl font-black text-shadow-strong tracking-tight uppercase text-right">
                 MISSION
@@ -114,7 +116,10 @@ const Works = () => (
             </WorkLeft>
             <WorkLeft progress={progress}>
               <p className="w-4/5 m-auto">
-              Through extensive experimentation, we perfected a mochi batter that is crunchy on the outside, yet soft and chewy on the inside. When paired with any of our delicious fillings, don't overthink what the result will be.
+                Through extensive experimentation, we perfected a mochi batter
+                that is crunchy on the outside, yet soft and chewy on the
+                inside. When paired with any of our delicious fillings, don't
+                overthink what the result will be.
               </p>
             </WorkLeft>
           </WorkContainer>

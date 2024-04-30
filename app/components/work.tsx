@@ -5,7 +5,7 @@ export const WorkContainer: React.FC<{ children: any }> = ({
   children,
 }: any) => {
   return (
-    <div className="md:grid flex-col flex md:grid-cols-2 w-full min-h-screen work-container">
+    <div className="md:grid flex-col flex md:grid-cols-2 w-full m-auto md:min-h-screen work-container">
       {children}
     </div>
   );
@@ -28,7 +28,7 @@ export const WorkLeft: React.FC<{
   if (progress > 0.85) translateY = Math.max(-50, -(progress - 0.85) * 2 * 50);
   return (
     <div
-      className="flex flex-col items-center justify-center text-3xl md:text-3xl md:h-auto mx-auto mt-[20vh] md:mt-8 mb-8 z-10"
+      className="flex flex-col items-center justify-center md:text-3xl text-xl md:h-auto mx-auto md:mt-8 mb-8 z-10"
       style={
         {
           // transform: `translateY(${translateY}px)`,
