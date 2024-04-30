@@ -54,11 +54,13 @@ function Footer() {
             </div>
           </div>
 
-          <div className="w-full md:w-2/4 right-0 mr-0 ml-auto mt-8 md:mt-0">
-            <ul className="flex flex-col right-0 ml-auto w-full text-right">
+          <div className="footer-icon-wrapper w-full md:w-2/4 right-0 mr-0 ml-auto mt-4 md:mt-0">
+            <ul className="flex flex-row right-0 ml-auto mr-0 w-full text-right md:justify-end justify-start">
               {ProjectMessages.SocialMedia.map((item, index) => (
-                <li className="text-left md:text-right mb-2 md:mb-0">
-                  <Link href={item.url}>{item.name}</Link>
+                <li className="text-left md:text-right mb-2 md:mb-0 mr-4 ">
+                  <Link className="w-[1.5rem] h-[1.5rem]" href={item.url}>
+                    {item.icon}
+                  </Link>
                 </li>
               ))}
             </ul>

@@ -3,13 +3,17 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import React from "react";
 import "@splidejs/react-splide/css";
 import { LOOP } from "@splidejs/splide";
+import car1 from "../../public/car-1.webp";
+import car2 from "../../public/car-2.webp";
+import car3 from "../../public/car-3.webp";
+import car4 from "../../public/car-4.webp";
+import car5 from "../../public/car-5.webp";
 
 const content = [
   {
     name: "text",
     page: 0,
-    image:
-      "https://images.unsplash.com/photo-1593343534320-75e59f3f4232?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: car1,
     textOne: "text",
     textTwo: "text",
   },
@@ -17,16 +21,28 @@ const content = [
     name: "text",
 
     page: 1,
-    image:
-      "https://images.unsplash.com/photo-1574236079409-f76313628df9?q=80&w=3134&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: car2,
     textOne: "text",
     textTwo: "text",
   },
   {
     name: "text",
     page: 2,
-    image:
-      "https://images.unsplash.com/photo-1593344661881-2396a4fd20aa?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: car3,
+    textOne: "text",
+    textTwo: "text",
+  },
+  {
+    name: "text",
+    page: 3,
+    image: car4,
+    textOne: "text",
+    textTwo: "text",
+  },
+  {
+    name: "text",
+    page: 4,
+    image: car5,
     textOne: "text",
     textTwo: "text",
   },
@@ -58,7 +74,7 @@ export default function Carousel() {
             <SplideSlide key={index} className="min-h-screen w-screen">
               <ContentfulImage
                 className="d-block w-100 h-100"
-                src="https://images.unsplash.com/photo-1593344661881-2396a4fd20aa?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src={item.image}
                 // fallbackSrc={item.fallback}
                 //   alt={item.alt}
                 layout="fill"

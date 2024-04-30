@@ -13,6 +13,54 @@ $blue: #77b7cb;
   background: $blue;
 }
 
+.reveal-container {
+  width: 100%;
+  height: 100%;
+}
+.block {
+  position: fixed;
+  width: 50%;
+  height: 100vh;
+  z-index: 99;
+  background-color: $orange;
+}
+.block-left {
+  left: 0;
+}
+.block-right {
+  right: 0;
+}
+.letter {
+  user-select: none;
+  position: absolute;
+  z-index: 1000;
+  padding: 0 0.2rem;
+  color: white;
+  // mix-blend-mode: difference;
+}
+.row {
+  width: 100%;
+  height: 50vh;
+}
+.top-left,
+.top-right,
+.bottom-right {
+  position: absolute;
+  z-index: 1000;
+}
+.top-left {
+  top: 32%;
+  left: 42%;
+}
+.top-right {
+  top: 32%;
+  right: 42%;
+}
+.bottom-right {
+  bottom: 32%;
+  right: 42%;
+}
+
 .social-media-container svg {
   width: 2rem;
   height: 2rem;
@@ -53,6 +101,13 @@ footer {
     -webkit-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
     transition: 0.24s;
+  }
+}
+
+.footer-icon-wrapper {
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
 
@@ -173,17 +228,17 @@ footer {
   background-size: cover;
 }
 
-.react-parallax {
-  img {
-    position: absolute;
-    backface-visibility: hidden;
-    filter: none;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    object-fit: cover !important;
-  }
-}
+// .react-parallax {
+//   img {
+//     position: absolute;
+//     backface-visibility: hidden;
+//     filter: none;
+//     object-fit: cover;
+//     object-position: center;
+//     width: 100%;
+//     object-fit: cover !important;
+//   }
+// }
 
 // project page
 .project-card-content {
@@ -309,7 +364,7 @@ header {
   justify-content: center;
   width: 100%;
   position: fixed;
-  z-index: 999;
+  z-index: 1000;
   .inner-header {
     position: relative;
     z-index: 10;

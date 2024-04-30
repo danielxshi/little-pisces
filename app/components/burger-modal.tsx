@@ -264,7 +264,7 @@ export const BurgerModal = ({
 
                                 <div className="foot-notes flex flex-row bottom-0 justify-between pl-8 md:p-16 w-3/5 md:w-4/5">
                                   <div className="flex-col flex ">
-                                    <p className="mb-4">+1 888 8888</p>
+                                    <p className="mb-4">604 706 5876</p>
                                     <p>4501 North Rd, Unit 202B</p>
                                   </div>
                                   <div className="flex-col flex ">

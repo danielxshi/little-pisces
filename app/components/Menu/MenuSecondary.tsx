@@ -50,14 +50,14 @@ export default function MenuSecondary(props: {
 
         <div className="flex flex-row mt-16 ">
           {/* <h3 className="text-3xl md:mr-16">LOREM</h3> */}
-          <div className="w-full">
+          {/* <div className="w-full">
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
               necessitatibus cupiditate veritatis ducimus consequatur vero sed
               ipsam incidunt enim neque eos sapiente et numquam pariatur,
               perspiciatis modi explicabo? Tempora, hic.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

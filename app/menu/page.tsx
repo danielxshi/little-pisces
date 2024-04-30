@@ -7,11 +7,15 @@ export default function Menu() {
       <MenuStandard
         title="Taiyaki"
         image="https://images.unsplash.com/photo-1582049786862-a4c5730b7160?q=80&w=2980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        combo1="mix and match any 2 flavors"
+        price1="$6.95"
+        combo2="mix and match any 2 flavors"
+        price2="$13.95"
       >
         <div className="w-full">
           <ul className="w-3/5">
             {ProjectMessages.MenuTaiyaki.map((item, index) => (
-              <li className="w-full flex justify-between mb-8">
+              <li className="w-full flex justify-between mb-4 ml-8">
                 <span>{item.name}</span>
                 <span>{item.price}</span>
               </li>
@@ -22,11 +26,15 @@ export default function Menu() {
       <MenuStandard
         title="Soft Serve"
         image="https://images.unsplash.com/photo-1636564499112-6113e73c504a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        combo1="in a cup"
+        price1="$8.95"
+        combo2="in a taiyaki cone"
+        price2="$8.95"
       >
         <div className="w-full">
           <ul className="w-3/5">
             {ProjectMessages.MenuSoftServe.map((item, index) => (
-              <li className="w-full flex justify-between mb-8">
+              <li className="w-full flex justify-between mb-4 ml-8">
                 <span>{item.name}</span>
                 <span>{item.price}</span>
               </li>
@@ -34,36 +42,40 @@ export default function Menu() {
           </ul>
         </div>
       </MenuStandard>
-      <MenuStandard
+      {/* <MenuStandard
         title="TAIYAKI SOFT SERVE"
         image="https://images.unsplash.com/photo-1636564499112-6113e73c504a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       >
         <div className="w-full">
           <ul className="w-4/5">
             {ProjectMessages.MenuSoftServe.map((item, index) => (
-              <li className="w-full flex justify-between mb-8">
+              <li className="w-full flex justify-between mb-4 ml-8">
                 <span>{item.name}</span>
                 <span>{item.price}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </MenuStandard> */}
+      <MenuStandard
+        title="DRINKS"
+        image="https://images.unsplash.com/photo-1589638895165-e80df3583854?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        combo1=""
+        price1=""
+        combo2=""
+        price2=""
+      >
+        <div className="w-full">
+          <ul className="w-4/5">
+            {ProjectMessages.MenuDrinks.map((item, index) => (
+              <li className="w-full flex justify-between mb-4 ml-8">
+                <span>{item.name}</span>
+                <span className="md:mr-32">{item.price}</span>
               </li>
             ))}
           </ul>
         </div>
       </MenuStandard>
-      <MenuSecondary
-        title="DRINKS"
-        image="https://images.unsplash.com/photo-1589638895165-e80df3583854?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      >
-        <div className="w-full">
-          <ul className="w-4/5">
-            {ProjectMessages.MenuSoftServe.map((item, index) => (
-              <li className="w-full flex justify-between mb-8">
-                <span>{item.name}</span>
-                <span>{item.price}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </MenuSecondary>
     </div>
   );
 }

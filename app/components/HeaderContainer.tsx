@@ -4,10 +4,11 @@
 import Link from "next/link";
 import React, { Component } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-// import logo from "../../public/images/logo-full.webp";
+import logo from "../../public/Circle Logo - Orange Fish v3.png";
 import ContentfulImage from "@/lib/contentful-image";
 // import { getLocale, toggleLocale } from "@/src/i18n";
 import Navbar from "./Navbar";
+
 
 type Props = {
   onClick: () => void;
@@ -46,13 +47,13 @@ class SlugNav extends Component<Props, any> {
                   // }}
                   href="/"
                 >
-                  {/* <ContentfulImage
-                    width={150}
-                    height={150}
-                    quality={85}
+                  <ContentfulImage
+                    width={45}
+                    height={45}
+                    quality={100}
                     src={logo}
-                  /> */}
-                  Logo
+                  />
+
                 </Link>
               </div>
               <div className="menu">

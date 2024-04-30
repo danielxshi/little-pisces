@@ -10,6 +10,11 @@ import {
 } from "react";
 
 export default function MenuStandard(props: {
+  price2: ReactNode;
+  combo2: ReactNode;
+  price1: ReactNode;
+  combo1: ReactNode;
+  // subtitle: ReactNode;
   image: string;
   title:
     | string
@@ -45,19 +50,28 @@ export default function MenuStandard(props: {
       </div>
 
       <div className="col-start-6 col-end-13 text-white lg:mt-0 mt-16">
-        <h2 className="text-6xl uppercase md:mb-8">{props.title}</h2>
+        <h2 className="text-6xl uppercase mb-8 md:mb-8 font-black">{props.title}</h2>
+        {/* <p>{props.subtitle}</p> */}
 
         {props.children}
 
         <div className="flex flex-row mt-16">
-          <h3 className="text-3xl md:mr-16">LOREM</h3>
-          <div className="w-3/5">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-              necessitatibus cupiditate veritatis ducimus consequatur vero sed
-              ipsam incidunt enim neque eos sapiente et numquam pariatur,
-              perspiciatis modi explicabo? Tempora, hic.
-            </p>
+          {/* <h3 className="text-3xl md:mr-16">LOREM</h3> */}
+          <div className="w-full md:w-3/5">
+            <ul className="">
+              <li className="flex ml-8 mb-4 flex-row justify-between">
+                <span className="md:mr-16">{props.combo1}</span>
+                <span className="font-black mr-8">{props.price1}</span>
+              </li>
+              <li className="flex ml-8 justify-between">
+                {/* <span className="mr-16">Mix and match any 5 flavors</span>
+                <span className="font-black mr-8">$13.95</span>
+                 */}
+
+                <span className="md:mr-16">{props.combo2}</span>
+                <span className="font-black mr-8">{props.price2}</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
