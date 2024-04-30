@@ -103,7 +103,6 @@ const cities = [
   },
 ];
 
-
 export const BurgerModal = ({
   showModal,
   setShowModal,
@@ -140,7 +139,7 @@ export const BurgerModal = ({
     x: showModal ? "100%" : "200%",
   });
 
-  const closeModal = (e: { target: HTMLInputElement | null; }) => {
+  const closeModal = (e: { target: HTMLInputElement | null }) => {
     if (modalRef.current === e.target) {
       setShowModal(false);
     }
@@ -156,7 +155,10 @@ export const BurgerModal = ({
           <motion.div ref={modalRef}>
             <Background ref={modalRef}>
               <a.div className="" style={animation}>
-                <ModalWrapper ref={(el) => setElement(el)}>
+                <ModalWrapper
+                  className="w-screen md:w-[50vw]"
+                  ref={(el) => setElement(el)}
+                >
                   <motion.div
                     className=""
                     animate={hidden ? "hidden" : "visible"}
@@ -169,7 +171,7 @@ export const BurgerModal = ({
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0 }}
                           transition={{ duration: 1, ease: "easeInOut" }}
-                          className="container h-full"
+                          className="w-screen md:w-[50vw] h-full"
                         >
                           <div className="wrapper">
                             <div className="menu-links">
@@ -218,7 +220,7 @@ export const BurgerModal = ({
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line1 = el)}
-                                        href="mailto:user@domain.com?Subject=Hello%20User"
+                                        href="mailto:jacky@littlepisces.ca"
                                         onClick={() => {
                                           ListClick.onClick();
                                         }}
@@ -249,14 +251,14 @@ export const BurgerModal = ({
                                   </ul>
                                 </nav>
 
-                                <div className="foot-notes flex w-1/2 flex-row bottom-0 justify-center justify-between pl-8 md:p-16">
+                                <div className="foot-notes flex flex-row bottom-0 justify-between pl-8 md:p-16 w-3/5 md:w-4/5">
                                   <div className="flex-col flex ">
-                                    <p className="mb-4">+1 888 8888</p>
-                                    <p>1311 REVEL PLAZA</p>
+                                    <p className="mb-4">604 706 5876</p>
+                                    <p>4501 North Rd, Unit 202B</p>
                                   </div>
                                   <div className="flex-col flex ">
-                                    <p className="mb-4">NOW HIRING</p>
-                                    <p>JACKY@LITTLEPISCES.CA</p>
+                                    {/* <p className="mb-4">NOW HIRING</p> */}
+                                    <Link href="">JACKY@LITTLEPISCES.COM</Link>
                                   </div>
                                 </div>
                               </div>
