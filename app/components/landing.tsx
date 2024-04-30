@@ -8,6 +8,7 @@ import test from "../../public/Circle Logo - White Text w Orange BG v3.webp";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import logo from "../../public/Circle Logo - Orange Fish v3.png";
+import ProjectMessages from "../JSON/ProjectMessages";
 
 export default function Landing() {
   // const container = useRef<HTMLDivElement>(null); // create a ref for the root level element
@@ -160,8 +161,13 @@ export default function Landing() {
             >
               <div className="  container flex flex-col mt-auto h-full">
                 <div className="flex flex-col mb-[5vh] mt-auto">
-                  <span>Address</span>
-                  <span>Produced By</span>
+                  <ul className="">
+                    {ProjectMessages.StoreInfo.map((item, index) => (
+                      <li className="text-base">
+                        <span>{item.content}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
               <div className="absolute w-[15rem] h-[15rem] m-auto">

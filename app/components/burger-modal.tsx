@@ -62,7 +62,6 @@ type Props = {
   setShowModal: any;
   state: any;
   ListClick: any;
-  d: any;
 };
 
 const Background = styled.div`
@@ -75,6 +74,7 @@ const Background = styled.div`
 `;
 
 const ModalWrapper = styled.div`
+  width: 50vw;
   height: 100vh;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   color: #fff;
@@ -84,6 +84,25 @@ const ModalWrapper = styled.div`
   border-radius: 3px;
   overflow-y: scroll;
 `;
+
+const cities = [
+  {
+    url: "/posts/1650-on-second",
+    name: "1650 ON SECOND",
+    image: "https://i.imgur.com/hvXK67e.jpeg",
+  },
+  {
+    url: "/posts/618-carnavron",
+    name: "618 CARNAVRON",
+    image: "https://i.imgur.com/Ogkc2c7.jpg",
+  },
+  {
+    url: "/posts/pendrell-street",
+    name: "EDITION",
+    image: "https://i.imgur.com/3loZccM.jpeg",
+  },
+];
+
 
 export const BurgerModal = ({
   showModal,
@@ -113,42 +132,15 @@ export const BurgerModal = ({
   let info = useRef(null);
 
   const modalRef = React.useRef<HTMLInputElement>(null);
-  const [width, setWidth] = useState(window.innerWidth);
-
-  let d = "200%";
-  let f = "100%";
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  if (width > 1000) {
-    d = "200%";
-  } else {
-    d = "100%";
-    f = "0%";
-  }
-
-  console.log(width + " screen width");
-  console.log(d + " animate value");
 
   const animation = useSpring({
     config: {
-      duration: 450,
+      duration: 500,
     },
-    x: showModal ? f : d,
-    // x: showModal ? "0%" : "200%",
+    x: showModal ? "100%" : "200%",
   });
 
-  const closeModal = (e: { target: HTMLInputElement | null }) => {
+  const closeModal = (e: { target: HTMLInputElement | null; }) => {
     if (modalRef.current === e.target) {
       setShowModal(false);
     }
@@ -157,8 +149,6 @@ export const BurgerModal = ({
   const [hidden, setHidden] = useState(false);
   const [element, setElement] = useState<null | HTMLDivElement>(null);
 
-  // finally you can render components conditionally if isMobile is True or False
-
   return (
     <header className="burger-menu">
       <AnimatePresence>
@@ -166,10 +156,7 @@ export const BurgerModal = ({
           <motion.div ref={modalRef}>
             <Background ref={modalRef}>
               <a.div className="" style={animation}>
-                <ModalWrapper
-                  className="w-screen md:w-[50vw]"
-                  ref={(el) => setElement(el)}
-                >
+                <ModalWrapper ref={(el) => setElement(el)}>
                   <motion.div
                     className=""
                     animate={hidden ? "hidden" : "visible"}
@@ -182,7 +169,7 @@ export const BurgerModal = ({
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0 }}
                           transition={{ duration: 1, ease: "easeInOut" }}
-                          className="w-screen md:w-[50vw] h-full"
+                          className="container h-full"
                         >
                           <div className="wrapper">
                             <div className="menu-links">
@@ -231,7 +218,7 @@ export const BurgerModal = ({
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line1 = el)}
-                                        href="mailto:jacky@littlepisces.ca"
+                                        href="mailto:user@domain.com?Subject=Hello%20User"
                                         onClick={() => {
                                           ListClick.onClick();
                                         }}
@@ -262,14 +249,14 @@ export const BurgerModal = ({
                                   </ul>
                                 </nav>
 
-                                <div className="foot-notes flex flex-row bottom-0 justify-between pl-8 md:p-16 w-3/5 md:w-4/5">
+                                <div className="foot-notes flex w-1/2 flex-row bottom-0 justify-center justify-between pl-8 md:p-16">
                                   <div className="flex-col flex ">
-                                    <p className="mb-4">604 706 5876</p>
-                                    <p>4501 North Rd, Unit 202B</p>
+                                    <p className="mb-4">+1 888 8888</p>
+                                    <p>1311 REVEL PLAZA</p>
                                   </div>
                                   <div className="flex-col flex ">
-                                    {/* <p className="mb-4">NOW HIRING</p> */}
-                                    <Link href="">JACKY@LITTLEPISCES.COM</Link>
+                                    <p className="mb-4">NOW HIRING</p>
+                                    <p>JACKY@LITTLEPISCES.CA</p>
                                   </div>
                                 </div>
                               </div>

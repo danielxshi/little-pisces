@@ -46,7 +46,7 @@ export default function StoreInfo() {
                   SOFT SERVE
                 </h2>
               </div>
-              <div className="h-full md:pb-8 pt-16 pb-16 md:pt-0 flex flex-col md:w-full max-w-[80rem] bg-blue-p text-white rounded-l-xl">
+              <div className="h-full md:pb-8 pt-16 pb-16 md:pt-0 flex flex-col md:w-full max-w-[80rem] bg-white text-black rounded-l-xl">
                 <div className="ml-16 align-center flex flex-col m-auto">
                   <ul className="flex flex-col">
                     {ProjectMessages.StoreInfo.map((item, index) => (
@@ -55,7 +55,7 @@ export default function StoreInfo() {
                       </li>
                     ))}
                   </ul>
-                  <span className="opacity-45 border-white border-solid border-y-1 line mb-8"></span>
+                  <span className="opacity-45 border-black border-solid border-y-1 line mb-8"></span>
                   <div>
                     {/* <h3 className="uppercase font-bold">NOW HIRING</h3> */}
                     {/* <ul>
@@ -68,13 +68,13 @@ export default function StoreInfo() {
                     <div>
                       <Link
                         href="mailto:jacky@littlepisces.ca"
-                        className="mr-4 z-10 py-1 text-white text-lg lang-btn  border-white border-solid rounded-3xl px-4 border"
+                        className="mr-4 z-10 py-1 text-black text-lg lang-btn  border-black border-solid rounded-3xl px-4 border"
                       >
                         contact
                       </Link>{" "}
                       <Link
                         href="https://www.google.com/maps/place/4501+North+Rd+%23202b,+Burnaby,+BC+V3N+4R7/@49.2439464,-122.8940462,17z/data=!3m1!4b1!4m5!3m4!1s0x5486783d355af23f:0x47fd170423aa20d2!8m2!3d49.2439464!4d-122.8940462?entry=ttu"
-                        className="z-10 py-1 text-white text-lg lang-btn  border-white border-solid rounded-3xl px-4 border"
+                        className="z-10 py-1 text-black text-lg lang-btn  border-black border-solid rounded-3xl px-4 border"
                       >
                         google maps
                       </Link>
