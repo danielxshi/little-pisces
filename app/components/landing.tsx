@@ -9,6 +9,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import logo from "../../public/Circle Logo - Orange Fish v3.png";
 import ProjectMessages from "../JSON/ProjectMessages";
+import car1 from "../../public/car-1.webp";
 
 export default function Landing() {
   // const container = useRef<HTMLDivElement>(null); // create a ref for the root level element
@@ -147,10 +148,7 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        <ParallaxBG
-          url="https://images.unsplash.com/photo-1713988665693-b92222aa2818?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          style="text-white landing-parallax bg-black"
-        >
+        <ParallaxBG url="" style="text-white landing-parallax bg-orange">
           <section className="landing-content">
             <motion.div
               // initial={{ opacity: 0 }}
@@ -170,7 +168,7 @@ export default function Landing() {
                   </ul>
                 </div>
               </div>
-              <div className="absolute w-[15rem] h-[15rem] m-auto">
+              <div className="absolute w-[10rem] h-[10rem] md:w-[15rem] md:h-[15rem] m-auto">
                 <ContentfulImage
                   src={test}
                   // fallbackSrc={item.fallback}
