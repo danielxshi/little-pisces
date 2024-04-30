@@ -1,6 +1,7 @@
 import ContentfulImage from "@/lib/contentful-image";
 import ProjectMessages from "@/app/JSON/ProjectMessages";
 import Link from "next/link";
+import { StaticImageData } from "next/image";
 import {
   ReactElement,
   JSXElementConstructor,
@@ -15,7 +16,7 @@ export default function MenuStandard(props: {
   price1: ReactNode;
   combo1: ReactNode;
   // subtitle: ReactNode;
-  image: string;
+  image: string | StaticImageData;
   title:
     | string
     | number
@@ -43,14 +44,16 @@ export default function MenuStandard(props: {
     <div className="container pt-32 lg:grid lg:grid-cols-12 food-menu flex flex-col">
       <div className="col-start-1 col-end-5 relative">
         {/* add color block variation */}
-        <div className="color-block bg-blue-p w-3/5 block z-1 h-4/5 absolute"></div>
-        <div className="food-image-container h-4/5 relative w-4/5 justify-end mr-0 ml-auto flex z-100 mt-24">
+        <div className="color-block bg-blue-p w-3/5 z-1 h-4/5 absolute"></div>
+        <div className="food-image-container h-3/5 relative w-4/5 justify-end mr-0 ml-auto flex z-100 mt-24">
           <ContentfulImage src={props.image} fill={true} objectFit="cover" />
         </div>
       </div>
 
       <div className="col-start-6 col-end-13 text-white lg:mt-0 mt-16">
-        <h2 className="text-6xl uppercase mb-8 md:mb-8 font-black">{props.title}</h2>
+        <h2 className="text-6xl uppercase mb-8 md:mb-8 font-black">
+          {props.title}
+        </h2>
         {/* <p>{props.subtitle}</p> */}
 
         {props.children}

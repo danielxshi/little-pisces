@@ -148,7 +148,7 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        <ParallaxBG url="" style="text-white landing-parallax bg-orange">
+        <div className="text-white landing-parallax bg-orange">
           <section className="landing-content">
             <motion.div
               // initial={{ opacity: 0 }}
@@ -186,7 +186,7 @@ export default function Landing() {
               </a>
             </motion.div>
           </section>
-        </ParallaxBG>
+        </div>
       </motion.div>
     </div>
   );

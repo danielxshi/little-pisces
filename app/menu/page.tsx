@@ -1,12 +1,13 @@
 import MenuStandard from "../components/Menu/MenuStandard";
 import MenuSecondary from "../components/Menu/MenuSecondary";
 import ProjectMessages from "../JSON/ProjectMessages";
+import taiyaki from "../../public/DSCF4600.webp";
 export default function Menu() {
   return (
     <div className="min-h-screen bg-orange md:pb-32 pb-16">
       <MenuStandard
         title="Taiyaki"
-        image="https://images.unsplash.com/photo-1582049786862-a4c5730b7160?q=80&w=2980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        image={taiyaki}
         combo1="mix and match any 2 flavors"
         price1="$6.95"
         combo2="mix and match any 2 flavors"
