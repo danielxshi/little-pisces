@@ -42,7 +42,7 @@ export default function StoreInfo() {
                 <h2 className="font-black text-7xl leading-tight tracking-tighter text-white title-orange text-shadow-strong">
                   TAIYAKI &{" "}
                 </h2>
-                <h2 className="text-7xl mb-8 text-white title-orange text-shadow-strong">
+                <h2 className="font-black text-7xl mb-8 text-white title-orange text-shadow-strong">
                   SOFT SERVE
                 </h2>
               </div>
