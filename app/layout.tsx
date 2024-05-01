@@ -34,7 +34,7 @@ function Footer() {
     <footer className=" bg-orange md:pt-16 pt-16 pb-4 text-white ">
       <div className="grid grid-cols-12 container">
         <div className="col-start-1 col-end-13 flex justify-between md:flex-row flex-col">
-          <div className="w-2/4 ">
+          <div className="w-full md:w-2/4 ">
             <ul className="">
               {ProjectMessages.StoreInfo.map((item, index) => (
                 <li className="mb-2 md:mb-0">{item.content}</li>
@@ -44,7 +44,7 @@ function Footer() {
               <ul className="">
                 {ProjectMessages.ContactInfo.map((item, index) => (
                   <Link
-                    href="mailto:jacky@littlepisces.ca"
+                    href="mailto:jacky@littlepisces.com"
                     className="mb-2 md:mb-0"
                   >
                     {item.content}

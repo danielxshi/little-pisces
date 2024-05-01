@@ -39,35 +39,29 @@ export default function StoreInfo() {
           <div className=" md:absolute md:py-16 right-0 top-0 md:grid md:grid-cols-12 relative flex store-info-wrapper w-[90vw] m-auto">
             <div className="md:col-start-7 md:col-end-13 flex flex-col md:block w-full">
               <div className="md:ml-16 mb-8 pt-8 md:pt-0 ml-0 w-full">
-                <h2 className="font-black text-7xl leading-tight tracking-tighter text-white title-orange text-shadow-strong">
+                <h2 className="md:block hidden font-black text-7xl leading-tight tracking-tighter text-white title-orange text-shadow-strong">
                   TAIYAKI &{" "}
                 </h2>
-                <h2 className="font-black text-7xl mb-8 text-white title-orange text-shadow-strong">
+                <h2 className="md:block hidden font-black text-7xl mb-8 text-white title-orange text-shadow-strong">
                   SOFT SERVE
                 </h2>
               </div>
-              <div className="h-full md:pb-8 pt-16 pb-16 md:pt-0 flex flex-col md:w-full max-w-[80rem] bg-white text-black rounded-xl md:rounded-l-xl">
+              <div className="h-full md:pb-8 pt-16 pb-16 md:pt-0 flex flex-col md:w-full max-w-[80rem] bg-white text-black sm:rounded-xl md:rounded-l-xl">
                 <div className="mx-4 md:ml-16 align-center flex flex-col m-auto">
                   <ul className="flex flex-col">
                     {ProjectMessages.StoreInfo.map((item, index) => (
                       <li className="text-xl md:text-2xl">
-                        <span>{item.content}</span>
+                        <Link href="https://www.google.com/maps/place/Little+Pisces/@49.2438823,-122.893232,15z/data=!4m2!3m1!1s0x0:0xc9eb0fd6b40fa8f4?sa=X&ved=1t:2428&ictx=111">
+                          {item.content}
+                        </Link>
                       </li>
                     ))}
                   </ul>
                   <span className="opacity-45 border-black border-solid border-y-1 line mb-8"></span>
                   <div>
-                    {/* <h3 className="uppercase font-bold">NOW HIRING</h3> */}
-                    {/* <ul>
-                      {ProjectMessages.ContactInfo.map((item, index) => (
-                        <Link href="" className="">
-                          <span>{item.content}</span>
-                        </Link>
-                      ))}
-                    </ul> */}
                     <div>
                       <Link
-                        href="mailto:jacky@littlepisces.ca"
+                        href="mailto:jacky@littlepisces.com"
                         className="mr-4 z-10 py-1 text-black text-lg lang-btn  border-black border-solid rounded-3xl px-4 border"
                       >
                         contact

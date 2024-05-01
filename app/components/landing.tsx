@@ -111,6 +111,10 @@ export default function Landing() {
         delay: 5,
         opacity: 0,
       });
+      gsap.to(".reveal-container", {
+        delay: 5.3,
+        display: "none",
+      });
     },
     { scope: container }
   ); // <-- scope is for selector text (optional)
@@ -158,7 +162,7 @@ export default function Landing() {
               className="header-wrapper container justify-center align-middle items-center"
             >
               <div className="  container flex flex-col mt-auto h-full">
-                <div className="flex flex-col mb-[5vh] mt-auto">
+                <div className="flex flex-col md:mb-[5vh] mb-[8vh] mt-auto">
                   <ul className="">
                     {ProjectMessages.StoreInfo.map((item, index) => (
                       <li className="text-base">

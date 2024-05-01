@@ -43,7 +43,7 @@ $blue: #77b7cb;
 }
 .row {
   width: 100%;
-  height: 50vh;
+  height: 50svh;
 }
 .top-left,
 .top-right,
@@ -361,13 +361,21 @@ footer {
     }
   }
 }
+
+.foot-notes {
+  a:hover {
+    color: #154050 !important;
+    
+  }
+}
 // header
 header {
+  // background: $orange;
   top: 0;
   justify-content: center;
   width: 100%;
   position: fixed;
-  z-index: 1000;
+  z-index: 10;
   .inner-header {
     position: relative;
     z-index: 1000;
@@ -388,7 +396,6 @@ header {
         font-size: 1rem;
         //   margin-right: $sm-space;
         padding: 0.1rem 0.75rem;
-        margin-right: 1rem;
         border-width: 1px;
         border-color: white;
         border: solid 1px;
