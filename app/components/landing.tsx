@@ -126,7 +126,7 @@ export default function Landing() {
       // transition={{ delay: 0.5, duration: 2, ease: "easeInOut" }}
       >
         {/* <Reveal></Reveal> */}
-        <div ref={container} className="reveal-container absolute z-10">
+        {/* <div ref={container} className="reveal-container absolute z-10">
           <div className="blocks">
             <div className="block block-left"></div>
             <div className="block block-right"></div>
@@ -134,12 +134,7 @@ export default function Landing() {
           <div className="letters container relative">
             <div className="row">
               <div className="letter top-left lg:text-[8rem] text-[2rem] ">
-                {/* <ContentfulImage
-                  width={45}
-                  height={45}
-                  quality={100}
-                  src={logo}
-                />{" "} */}
+
               </div>
               <div className="letter top-right lg:text-[8rem] text-[2rem] ">
                 L
@@ -151,7 +146,7 @@ export default function Landing() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="text-white landing-parallax bg-orange">
           <section className="landing-content">
             <motion.div
