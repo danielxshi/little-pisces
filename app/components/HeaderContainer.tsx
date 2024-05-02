@@ -61,7 +61,7 @@ class SlugNav extends Component<Props, any> {
                   href="https://littlepisces.square.site"
                   className="z-10 text-white text-lg lang-btn uppercase bg-blue-400"
                 >
-                  SHOP
+                  MERCH
                 </Link>
 
                 <button

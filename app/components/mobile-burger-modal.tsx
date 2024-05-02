@@ -241,7 +241,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        SHOP
+                                        MERCH
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
