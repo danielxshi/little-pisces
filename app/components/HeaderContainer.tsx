@@ -72,12 +72,12 @@ class SlugNav extends Component<Props, any> {
                     this.handleClick();
                   }}
                 >
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
+                  <span className="w-full"></span>
+                  <span className="w-full"></span>
+                  <span className="w-full"></span>
+                  <span className="w-full"></span>
+                  <span className="w-full"></span>
+                  <span className="w-full"></span>
                 </button>
               </div>
             </div>
