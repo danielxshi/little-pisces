@@ -10,6 +10,7 @@ import { useGSAP } from "@gsap/react";
 import logo from "../../public/Circle Logo - Orange Fish v3.png";
 import ProjectMessages from "../JSON/ProjectMessages";
 import car1 from "../../public/car-1.webp";
+import Link from "next/link";
 
 export default function Landing() {
   // const container = useRef<HTMLDivElement>(null); // create a ref for the root level element
@@ -158,13 +159,15 @@ export default function Landing() {
             >
               <div className="  container flex flex-col mt-auto h-full">
                 <div className="flex flex-col md:mb-[5vh] mb-[8vh] mt-auto">
-                  <ul className="">
-                    {ProjectMessages.StoreInfo.map((item, index) => (
-                      <li className="text-base">
-                        <span>{item.content}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  <Link className="h-fit w-fit " href="">
+                    <ul className="h-fit w-fit">
+                      {ProjectMessages.StoreInfo.map((item, index) => (
+                        <li className="text-base">
+                          <span className="h-fit w-fit">{item.content}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </Link>
                 </div>
               </div>
               <div className="absolute w-[10rem] h-[10rem] md:w-[15rem] md:h-[15rem] m-auto">
