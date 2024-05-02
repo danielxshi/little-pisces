@@ -48,15 +48,18 @@ export default function StoreInfo() {
               </div>
               <div className="h-full md:pb-8 pt-16 pb-16 md:pt-0 flex flex-col md:w-full max-w-[80rem] bg-white text-black sm:rounded-xl md:rounded-l-xl">
                 <div className="mx-4 md:ml-16 align-center flex flex-col m-auto">
-                  <ul className="flex flex-col">
-                    {ProjectMessages.StoreInfo.map((item, index) => (
-                      <li className="text-xl md:text-2xl">
-                        <Link href="https://www.google.com/maps/place/Little+Pisces/@49.2438823,-122.893232,15z/data=!4m2!3m1!1s0x0:0xc9eb0fd6b40fa8f4?sa=X&ved=1t:2428&ictx=111">
-                          {item.content}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
+                  <Link
+                    className="w-fit h-fit"
+                    href="https://www.google.com/maps/place/Little+Pisces/@49.2438823,-122.893232,15z/data=!4m2!3m1!1s0x0:0xc9eb0fd6b40fa8f4?sa=X&ved=1t:2428&ictx=111"
+                  >
+                    <ul className="w-fit h-fit flex flex-col">
+                      {ProjectMessages.StoreInfo.map((item, index) => (
+                        <li className="text-xl md:text-2xl">
+                          <span>{item.content}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </Link>
                   <span className="opacity-45 border-black border-solid border-y-1 line mb-8"></span>
                   <div>
                     <div>

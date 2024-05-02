@@ -12,6 +12,7 @@ import ScrollObserver from "./util/scroll-observer";
 import ProjectMessages from "./JSON/ProjectMessages";
 import Link from "next/link";
 import localFont from "next/font/local";
+import MobileBurgerModal from "./components/mobile-burger-modal";
 // import d from "./fonts/Manrope/Manrope-Regular.ttf"
 
 // export const metadata = {
@@ -100,6 +101,12 @@ function HeaderModal() {
   return (
     <AnimatePresence>
       <BurgerModal
+        state={setShowModal}
+        showModal={showModal}
+        setShowModal={setShowModal}
+        ListClick={closeModal2}
+      />
+      <MobileBurgerModal
         state={setShowModal}
         showModal={showModal}
         setShowModal={setShowModal}

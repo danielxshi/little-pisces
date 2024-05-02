@@ -74,7 +74,7 @@ const Background = styled.div`
 `;
 
 const ModalWrapper = styled.div`
-  width: 50vw;
+  width: 100vw;
   height: 100vh;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   color: #fff;
@@ -132,13 +132,11 @@ export const BurgerModal = ({
 
   const modalRef = React.useRef<HTMLInputElement>(null);
 
-  
-
   const animation = useSpring({
     config: {
       duration: 400,
     },
-    x: showModal ? "100%" : "200%",
+    x: showModal ? "0%" : "100%",
   });
 
   const closeModal = (e: { target: HTMLInputElement | null }) => {
@@ -151,16 +149,13 @@ export const BurgerModal = ({
   const [element, setElement] = useState<null | HTMLDivElement>(null);
 
   return (
-    <header className="burger-menu hidden md:block">
+    <header className="burger-menu  md:hidden">
       <AnimatePresence>
         {showModal ? (
           <motion.div ref={modalRef}>
             <Background ref={modalRef}>
               <a.div className="" style={animation}>
-                <ModalWrapper
-                  className="w-screen md:w-[50vw]"
-                  ref={(el) => setElement(el)}
-                >
+                <ModalWrapper className="w-screen" ref={(el) => setElement(el)}>
                   <motion.div
                     className=""
                     animate={hidden ? "hidden" : "visible"}
@@ -173,7 +168,7 @@ export const BurgerModal = ({
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0 }}
                           transition={{ duration: 1, ease: "easeInOut" }}
-                          className="w-screen md:w-[50vw] h-full"
+                          className="w-screen h-full"
                         >
                           <div className="wrapper">
                             <div className="menu-links">

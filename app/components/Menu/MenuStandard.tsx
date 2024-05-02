@@ -44,7 +44,7 @@ export default function MenuStandard(props: {
     <div className="container pt-32 lg:grid lg:grid-cols-12 food-menu flex flex-col">
       <div className="col-start-1 col-end-5 relative">
         {/* add color block variation */}
-        <div className="color-block bg-blue-p w-3/5 z-1 h-4/5 absolute"></div>
+        <div className="color-block bg-cream w-3/5 z-1 h-4/5 absolute"></div>
         <div className="food-image-container h-3/5 relative w-4/5 justify-end mr-0 ml-auto flex z-100 mt-24">
           <ContentfulImage src={props.image} fill={true} objectFit="cover" />
         </div>

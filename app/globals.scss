@@ -4,6 +4,23 @@
 
 $orange: #edad4b;
 $blue: #77b7cb;
+$cream: #feef9d;
+
+html {
+  overflow-x: hidden;
+}
+
+.logo {
+  a,
+  img:hover {
+    transform: rotate(20deg);
+    transition: 200ms ease;
+  }
+}
+
+.bg-cream {
+  background: $cream;
+}
 
 .bg-orange {
   background: $orange;
@@ -365,7 +382,6 @@ footer {
 .foot-notes {
   a:hover {
     color: #154050 !important;
-    
   }
 }
 // header

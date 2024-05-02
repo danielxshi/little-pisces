@@ -63,12 +63,12 @@ const MenuTaiyakiSoftServe = [
 ];
 
 const MenuDrinks = [
-  { name: "Mango Milk", price: "$4.95" },
-  { name: "Strawberry Milk", price: "$4.95" },
-  { name: "Matcha Latte", price: "$6.45" },
-  { name: "Mango Matcha Latte", price: "$6.45" },
-  { name: "Strawberry Matcha Latte", price: "$6.45" },
-  { name: "Cold Brew", price: "$4.95" },
+  { name: "Mango Milk", price: "" },
+  { name: "Strawberry Milk", price: "" },
+  { name: "Matcha Latte", price: "" },
+  { name: "Mango Matcha Latte", price: "" },
+  { name: "Strawberry Matcha Latte", price: "" },
+  { name: "Cold Brew", price: "" },
 ];
 
 const ProjectMessages = {

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import React, { useEffect, useRef } from "react";
 import localFont from "next/font/local";
 import ContentfulImage from "@/lib/contentful-image";
-import test from "../../public/Circle Logo - White Text w Orange BG v3.webp";
+import test from "../../public/Circle Logo - White Text w Transparent BG v3.webp";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import logo from "../../public/Circle Logo - Orange Fish v3.png";

@@ -4,7 +4,7 @@
 import Link from "next/link";
 import React, { Component } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "../../public/Circle Logo - Orange Fish v3.png";
+import logo from "../../public/Circle Logo -  Transparent BG v3.webp";
 import ContentfulImage from "@/lib/contentful-image";
 // import { getLocale, toggleLocale } from "@/src/i18n";
 import Navbar from "./Navbar";
