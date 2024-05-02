@@ -183,7 +183,7 @@ export const BurgerModal = ({
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
-                                        href="/projects"
+                                        href="/"
                                         onClick={() => {
                                           ListClick.onClick();
                                         }}

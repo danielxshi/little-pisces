@@ -10,7 +10,7 @@ export default function Menu() {
         image={taiyaki}
         combo1="mix and match any 2 flavors"
         price1=""
-        combo2="mix and match any 2 flavors"
+        combo2="mix and match any 5 flavors"
         price2=""
       >
         <div className="w-full">
