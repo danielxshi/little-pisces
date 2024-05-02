@@ -74,7 +74,7 @@ function Footer() {
           bottom-0 flex-col sm:flex-row"
           >
             <p>Little Pisces Copyright 2024 &copy;</p>
-            <Link href="005f.agency">Website by 005F</Link>
+            <Link href="https://www.005f.agency">Website by 005F</Link>
           </div>
         </div>
       </div>
