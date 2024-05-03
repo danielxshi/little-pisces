@@ -15,7 +15,6 @@ import Works from "./components/works";
 import Carousel from "./components/Carousel";
 import SocialMedia from "./components/SocialMedia";
 import Head from "next/head";
-// import test from "./favicon.ico"
 
 export const metadata = {
   title: `Little Pisces`,

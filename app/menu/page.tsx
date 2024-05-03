@@ -3,13 +3,14 @@ import MenuSecondary from "../components/Menu/MenuSecondary";
 import ProjectMessages from "../JSON/ProjectMessages";
 import taiyaki from "../../public/DSCF4600.webp";
 import Head from "next/head";
-import test from "../../public/Circle Logo - Orange Fish v3.webp"
+// import test from "../../public/Circle Logo - Orange Fish v3.webp";
+// import test2 from "../../public/favicon.ico"
 
 export const metadata = {
   title: `Little Pisces Menu`,
-  icons: {
-    icon: '../../public/Circle Logo - Orange Fish v3.webp',
-  }
+  // icons: {
+  //   icon: `../../public/favicon.ico`,
+  // },
   // description: ``,
 };
 
@@ -18,6 +19,12 @@ export default function Menu() {
     <div className="min-h-screen bg-orange md:pb-32 pb-16">
       <Head>
         <title>Little Pisces Menu</title>
+        <link rel="apple-touch-icon" href="../../public/favicon.ico" />
+        <link
+          rel="shortcut icon"
+          href="../../public/favicon.ico"
+          type="image/x-icon"
+        />
       </Head>
       <MenuStandard
         title="Taiyaki"
