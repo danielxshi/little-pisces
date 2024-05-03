@@ -14,6 +14,7 @@ import Link from "next/link";
 import localFont from "next/font/local";
 import MobileBurgerModal from "./components/mobile-burger-modal";
 import Head from "next/head";
+import Meta from "./components/meta";
 
 const Manrope = localFont({
   src: [
@@ -125,6 +126,7 @@ export default function RootLayout({
   return (
     <ScrollObserver>
       <html lang="en" className={` ${Manrope.className}`}>
+        <Meta />
         <body>
           <section className="min-h-screen">
             <HeaderModal />
