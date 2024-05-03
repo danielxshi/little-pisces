@@ -14,10 +14,14 @@ import StoreInfo from "./components/StoreInfo";
 import Works from "./components/works";
 import Carousel from "./components/Carousel";
 import SocialMedia from "./components/SocialMedia";
+import Head from "next/head";
 
 export default function Page() {
   return (
     <div className="">
+      <Head>
+        <title>Little Pisces</title>
+      </Head>
       <Landing />
       <StoreInfo />
       <Works />

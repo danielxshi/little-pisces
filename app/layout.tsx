@@ -13,11 +13,10 @@ import ProjectMessages from "./JSON/ProjectMessages";
 import Link from "next/link";
 import localFont from "next/font/local";
 import MobileBurgerModal from "./components/mobile-burger-modal";
-// import d from "./fonts/Manrope/Manrope-Regular.ttf"
 
 // export const metadata = {
-//   title: `Next.js and ${CMS_NAME} Example`,
-//   description: `This is a blog built with Next.js and ${CMS_NAME}.`,
+  // title: `Little Pisces`,
+  // description: ``,
 // };
 
 const Manrope = localFont({
