@@ -13,11 +13,7 @@ import ProjectMessages from "./JSON/ProjectMessages";
 import Link from "next/link";
 import localFont from "next/font/local";
 import MobileBurgerModal from "./components/mobile-burger-modal";
-
-// export const metadata = {
-//   title: `Little Pisces`,
-//   description: ``,
-// };
+import Head from "next/head";
 
 const Manrope = localFont({
   src: [
