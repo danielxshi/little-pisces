@@ -15,6 +15,7 @@ import Works from "./components/works";
 import Carousel from "./components/Carousel";
 import SocialMedia from "./components/SocialMedia";
 import Head from "next/head";
+import test from "../public/favicon.ico"
 
 
 export const metadata = {
@@ -22,18 +23,22 @@ export const metadata = {
   // description: ``,
 };
 
-
 export default function Page() {
   return (
     <div className="">
       <Head>
-        <title>Little Pisces</title>
+        <link rel="shortcut icon" href="./favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="16x16"
+          href="../public/favicon.ico"
+        />
       </Head>
       <Landing />
       <StoreInfo />
       <Works />
       <Carousel />
-      <SocialMedia/>
+      <SocialMedia />
     </div>
   );
 }

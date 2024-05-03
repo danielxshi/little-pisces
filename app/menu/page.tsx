@@ -3,9 +3,13 @@ import MenuSecondary from "../components/Menu/MenuSecondary";
 import ProjectMessages from "../JSON/ProjectMessages";
 import taiyaki from "../../public/DSCF4600.webp";
 import Head from "next/head";
+import test from "../../public/Circle Logo - Orange Fish v3.webp"
 
 export const metadata = {
   title: `Little Pisces Menu`,
+  icons: {
+    icon: '../../public/Circle Logo - Orange Fish v3.webp',
+  }
   // description: ``,
 };
 
