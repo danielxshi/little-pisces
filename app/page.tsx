@@ -18,6 +18,9 @@ import Head from "next/head";
 
 export const metadata = {
   title: `Little Pisces`,
+  icons: {
+    icon: `./favicon.ico`,
+  },
   // description: ``,
 };
 

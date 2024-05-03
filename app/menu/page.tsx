@@ -8,9 +8,9 @@ import Head from "next/head";
 
 export const metadata = {
   title: `Little Pisces Menu`,
-  // icons: {
-  //   icon: `../../public/favicon.ico`,
-  // },
+  icons: {
+    icon: `../../public/favicon.ico`,
+  },
   // description: ``,
 };
 
