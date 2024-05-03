@@ -15,8 +15,8 @@ import localFont from "next/font/local";
 import MobileBurgerModal from "./components/mobile-burger-modal";
 
 // export const metadata = {
-  // title: `Little Pisces`,
-  // description: ``,
+//   title: `Little Pisces`,
+//   description: ``,
 // };
 
 const Manrope = localFont({

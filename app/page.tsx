@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import Link from "next/link";
 import { draftMode } from "next/headers";
 
@@ -15,6 +15,13 @@ import Works from "./components/works";
 import Carousel from "./components/Carousel";
 import SocialMedia from "./components/SocialMedia";
 import Head from "next/head";
+
+
+export const metadata = {
+  title: `Little Pisces`,
+  // description: ``,
+};
+
 
 export default function Page() {
   return (

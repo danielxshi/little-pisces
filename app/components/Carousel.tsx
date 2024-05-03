@@ -1,3 +1,4 @@
+"use client"
 import ContentfulImage from "@/lib/contentful-image";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import React from "react";

@@ -2,9 +2,19 @@ import MenuStandard from "../components/Menu/MenuStandard";
 import MenuSecondary from "../components/Menu/MenuSecondary";
 import ProjectMessages from "../JSON/ProjectMessages";
 import taiyaki from "../../public/DSCF4600.webp";
+import Head from "next/head";
+
+export const metadata = {
+  title: `Little Pisces Menu`,
+  // description: ``,
+};
+
 export default function Menu() {
   return (
     <div className="min-h-screen bg-orange md:pb-32 pb-16">
+      <Head>
+        <title>Little Pisces Menu</title>
+      </Head>
       <MenuStandard
         title="Taiyaki"
         image={taiyaki}
