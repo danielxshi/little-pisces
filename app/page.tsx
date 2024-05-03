@@ -33,6 +33,7 @@ export default function Page() {
           href="./favicon.ico?v=2"
           type="image/x-icon"
         />
+        <link rel=" bookmark" href="./favicon.ico?v=2" type="image/x-icon" />
       </Head>
       <Landing />
       <StoreInfo />
