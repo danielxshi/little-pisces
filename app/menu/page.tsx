@@ -22,6 +22,11 @@ export default function Menu() {
         <link rel="apple-touch-icon" href="../../public/favicon.ico" />
         <link
           rel="shortcut icon"
+          href="../../public/favicon.ico?v=2"
+          type="image/x-icon"
+        />
+        <link
+          rel="shortcut icon"
           href="../../public/favicon.ico"
           type="image/x-icon"
         />

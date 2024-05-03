@@ -27,6 +27,11 @@ export default function Page() {
       <Head>
         <link rel="apple-touch-icon" href="./favicon.ico" />
         <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+        <link
+          rel="shortcut icon"
+          href="./favicon.ico?v=2"
+          type="image/x-icon"
+        />
       </Head>
       <Landing />
       <StoreInfo />
