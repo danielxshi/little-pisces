@@ -20,6 +20,7 @@ export default function Menu() {
       <Head>
         <title>Little Pisces Menu</title>
         <link rel="apple-touch-icon" href="../../public/favicon.ico" />
+        <link rel="apple-touch-icon" href="../../public/favicon.ico?v=2" />
         <link
           rel="shortcut icon"
           href="../../public/favicon.ico?v=2"
