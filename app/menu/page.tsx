@@ -9,7 +9,7 @@ import Head from "next/head";
 export const metadata = {
   title: `Little Pisces Menu`,
   icons: {
-    icon: `../../public/favicon.ico`,
+    icon: `../../public/favicon.ico?v=2`,
   },
   // description: ``,
 };
@@ -19,16 +19,10 @@ export default function Menu() {
     <div className="min-h-screen bg-orange md:pb-32 pb-16">
       <Head>
         <title>Little Pisces Menu</title>
-        <link rel="apple-touch-icon" href="../../public/favicon.ico" />
         <link rel="apple-touch-icon" href="../../public/favicon.ico?v=2" />
         <link
           rel="shortcut icon"
           href="../../public/favicon.ico?v=2"
-          type="image/x-icon"
-        />
-        <link
-          rel="shortcut icon"
-          href="../../public/favicon.ico"
           type="image/x-icon"
         />
       </Head>
