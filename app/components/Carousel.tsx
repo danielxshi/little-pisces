@@ -72,7 +72,7 @@ export default function Carousel() {
       >
         {content.map((item, index) => {
           return (
-            <SplideSlide key={index} className="h-[700px]">
+            <SplideSlide key={index} className="lg:h-[700px] md:h-[500px] h-[400px]">
               <ContentfulImage
                 className="d-block w-[80vw] h-100"
                 src={item.image}
