@@ -58,7 +58,7 @@ class SlugNav extends Component<Props, any> {
               <div className="menu">
                 <Link
                   href="https://littlepisces.square.site"
-                  className="z-10 text-white text-lg lang-btn uppercase bg-blue-400"
+                  className="z-10 text-white text-lg lang-btn uppercase bg-blue-400 rounded-full"
                 >
                   MERCH
                 </Link>
