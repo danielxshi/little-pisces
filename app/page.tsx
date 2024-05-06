@@ -49,6 +49,18 @@ export default function Page() {
           type="image/png"
           sizes="180x180"
         ></link>
+        <link
+          rel="apple-touch-icon"
+          href="../../public/apple-icon.png"
+          type="image/png"
+          sizes="32x32"
+        ></link>
+        <link
+          rel="icon"
+          href="../../public/favicon.ico"
+          type="image/x-icon"
+          sizes="32x32"
+        />
       </Head>
       <Landing />
       <StoreInfo />

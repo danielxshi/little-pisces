@@ -3,8 +3,7 @@ import MenuSecondary from "../components/Menu/MenuSecondary";
 import ProjectMessages from "../JSON/ProjectMessages";
 import taiyaki from "../../public/DSCF4600.webp";
 import Head from "next/head";
-
-
+// import test from "../../public/apple-icon.png"
 
 export const metadata = {
   title: `Little Pisces Menu`,
@@ -40,6 +39,18 @@ export default function Menu() {
           type="image/png"
           sizes="180x180"
         ></link>
+        <link
+          rel="apple-touch-icon"
+          href="../../public/apple-icon.png"
+          type="image/png"
+          sizes="32x32"
+        ></link>
+        <link
+          rel="icon"
+          href="../../public/favicon.ico"
+          type="image/x-icon"
+          sizes="32x32"
+        />
       </Head>
       <MenuStandard
         title="Taiyaki"
