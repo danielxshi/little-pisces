@@ -14,7 +14,7 @@ import Link from "next/link";
 import localFont from "next/font/local";
 import MobileBurgerModal from "./components/mobile-burger-modal";
 import Head from "next/head";
-import Meta from "./components/meta";
+
 // import test from "../public/apple-icon.png"
 
 const Manrope = localFont({
@@ -127,7 +127,6 @@ export default function RootLayout({
   return (
     <ScrollObserver>
       <html lang="en" className={` ${Manrope.className}`}>
-        {/* <Meta /> */}
         <Head>
           <link rel="shortcut icon" href="/images/favicon.ico?v=2" />
           <link
