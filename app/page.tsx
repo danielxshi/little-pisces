@@ -16,12 +16,11 @@ import Carousel from "./components/Carousel";
 import SocialMedia from "./components/SocialMedia";
 import Head from "next/head";
 
-
 export const metadata = {
   title: `Little Pisces`,
-  // icons: {
-  //   icon: `./favicon.ico`,
-  // },
+  icons: {
+    icon: `./favicon.ico?v=2`,
+  },
   // description: ``,
 };
 
@@ -34,9 +33,6 @@ export default function Page() {
           href="./favicon.ico?v=2"
           type="image/x-icon"
         />
-        {/* <link rel=" bookmark" href="./favicon.ico?v=2" type="image/x-icon" /> */}
-
-        {/* <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="32x32"> */}
         <link
           rel="shortcut icon"
           href="./favicon.ico?v=2"
