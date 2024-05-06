@@ -3,8 +3,8 @@ import MenuSecondary from "../components/Menu/MenuSecondary";
 import ProjectMessages from "../JSON/ProjectMessages";
 import taiyaki from "../../public/DSCF4600.webp";
 import Head from "next/head";
-// import test from "../../public/Circle Logo - Orange Fish v3.webp";
-// import test2 from "../../public/favicon.ico"
+
+
 
 export const metadata = {
   title: `Little Pisces Menu`,
@@ -19,12 +19,27 @@ export default function Menu() {
     <div className="min-h-screen bg-orange md:pb-32 pb-16">
       <Head>
         <title>Little Pisces Menu</title>
-        <link rel="apple-touch-icon" href="../../public/favicon.ico?v=2" />
+        <link rel="apple-touch-icon" href="../favicon.ico?v=2" />
         <link
           rel="shortcut icon"
-          href="../../public/favicon.ico?v=2"
+          href="../favicon.ico?v=2"
           type="image/x-icon"
         />
+        {/* <link rel=" bookmark" href="./favicon.ico?v=2" type="image/x-icon" /> */}
+
+        {/* <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="32x32"> */}
+        <link
+          rel="shortcut icon"
+          href="../favicon.ico?v=2"
+          type="image/x-icon"
+          sizes="32x32"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="../apple-icon.png?ce70f3e9aca01868"
+          type="image/png"
+          sizes="180x180"
+        ></link>
       </Head>
       <MenuStandard
         title="Taiyaki"
