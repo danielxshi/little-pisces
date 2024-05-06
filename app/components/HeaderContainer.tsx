@@ -9,7 +9,6 @@ import ContentfulImage from "@/lib/contentful-image";
 // import { getLocale, toggleLocale } from "@/src/i18n";
 import Navbar from "./Navbar";
 
-
 type Props = {
   onClick: () => void;
   // onLogoClick: () => void;
@@ -31,6 +30,7 @@ class SlugNav extends Component<Props, any> {
     return (
       // <AnimatePresence>
       <Navbar style={""}>
+        <div className="w-full h-full bg-orange absolute z-0"></div>
         <motion.nav
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, y: 0 }}
@@ -53,7 +53,6 @@ class SlugNav extends Component<Props, any> {
                     quality={100}
                     src={logo}
                   />
-
                 </Link>
               </div>
               <div className="menu">

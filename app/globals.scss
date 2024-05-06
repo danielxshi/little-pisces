@@ -5,9 +5,18 @@
 $orange: #edad4b;
 $blue: #77b7cb;
 $cream: #feef9d;
+$black: #154050;
 
 html {
   overflow-x: hidden;
+}
+
+.store-info-link:hover {
+  color: $orange;
+}
+
+.store-info-buttons a:hover {
+  // transform: scale(1.1);
 }
 
 .logo {
@@ -111,7 +120,7 @@ button:hover {
   }
 }
 a:hover {
-  color: $orange;
+  color: #154050;
 }
 a {
   -webkit-transition-timing-function: ease-in-out;
@@ -121,7 +130,7 @@ a {
 
 footer {
   a:hover {
-    color: $blue;
+    color: #154050;
   }
   a {
     -webkit-transition-timing-function: ease-in-out;
@@ -166,9 +175,14 @@ footer {
 }
 
 .carousel-container {
-  // width: 80vw;
+  width: 80vw;
+  margin: auto;
+  margin-top: 4rem;
   .splide__slide {
     width: 100vw !important;
+  }
+  img {
+    width: 80% !important;
   }
   .splide__arrow {
     background: none;
@@ -192,14 +206,21 @@ footer {
     margin-bottom: 2rem;
 
     // justify-self: left;
-    * {
+    button {
       opacity: 0.95;
       margin: 0.25rem;
-      height: 0.8rem;
+      height: 0.6rem;
       width: 0.6rem;
+      border-style: solid;
+      border-color: $black;
+
+      border-width: 0.01rem;
       // left: 0;
       // text-align: left;
       // justify-content: end;
+    }
+    .carousel-container .splide__pagination button {
+      border-width: 1px;
     }
     // align-items: center;
     button {
@@ -207,7 +228,7 @@ footer {
       background-color: white !important;
     }
     button.splide__pagination__page.is-active {
-      background-color: $blue !important;
+      background-color: $orange !important;
     }
   }
 }
@@ -223,7 +244,8 @@ footer {
     margin-right: 1rem;
   }
   .line {
-    width: 30vw;
+    min-width: 30vw;
+    width: 80%;
   }
 }
 

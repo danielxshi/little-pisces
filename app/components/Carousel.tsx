@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import ContentfulImage from "@/lib/contentful-image";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import React from "react";
@@ -72,9 +72,9 @@ export default function Carousel() {
       >
         {content.map((item, index) => {
           return (
-            <SplideSlide key={index} className="min-h-screen w-screen">
+            <SplideSlide key={index} className="h-[700px]">
               <ContentfulImage
-                className="d-block w-100 h-100"
+                className="d-block w-[80vw] h-100"
                 src={item.image}
                 // fallbackSrc={item.fallback}
                 //   alt={item.alt}

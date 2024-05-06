@@ -21,7 +21,7 @@ const OperationHours = [
   { day: "MONDAY", hours: "12PM - 10PM" },
   { day: "TUESDAY", hours: "12PM - 10PM" },
   { day: "WEDNESDAY", hours: "12PM - 10PM" },
-  { day: "THURSDAY", hours: "12PM -10PM" },
+  { day: "THURSDAY", hours: "12PM - 10PM" },
   { day: "FRIDAY", hours: "12PM - 12AM" },
   { day: "SATURDAY", hours: "12PM - 12AM" },
   { day: "SUNDAY", hours: "12PM - 12AM" },

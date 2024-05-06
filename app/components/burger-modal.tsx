@@ -76,7 +76,6 @@ const Background = styled.div`
 const ModalWrapper = styled.div`
   width: 50vw;
   height: 100vh;
-  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   color: #fff;
   grid-template-columns: 1fr 1fr;
   position: relative;
@@ -131,8 +130,6 @@ export const BurgerModal = ({
   let info = useRef(null);
 
   const modalRef = React.useRef<HTMLInputElement>(null);
-
-  
 
   const animation = useSpring({
     config: {

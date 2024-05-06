@@ -24,9 +24,9 @@ export default function StoreInfo() {
           <section className="container md:py-16 md:grid md:grid-cols-12 flex flex-wrap">
             <div className="flex flex-col col-start-1 col-end-6 w-full py-16 md:py-0">
               <h2 className="text-5xl mb-8">Cafe Info</h2>
-              <ul className="flex flex-col">
+              <ul className="flex flex-col w-full">
                 {ProjectMessages.OperationHours.map((item, index) => (
-                  <li className="w-full md:w-3/5 text-2xl mb-4 flex justify-between">
+                  <li className="w-full lg:w-4/5 text-2xl mb-4 flex justify-between">
                     <span>{item.day}</span>
                     <span>{item.hours}</span>
                   </li>
@@ -47,9 +47,9 @@ export default function StoreInfo() {
                 </h2>
               </div>
               <div className="h-full md:pb-8 pt-16 pb-16 md:pt-0 flex flex-col md:w-full max-w-[80rem] bg-white text-black sm:rounded-xl md:rounded-l-xl">
-                <div className="mx-4 md:ml-16 align-center flex flex-col m-auto">
+                <div className="mx-4 md:ml-16 align-center  flex flex-col m-auto">
                   <Link
-                    className="w-fit h-fit"
+                    className="w-fit h-fit store-info-link"
                     href="https://www.google.com/maps/place/Little+Pisces/@49.2438823,-122.893232,15z/data=!4m2!3m1!1s0x0:0xc9eb0fd6b40fa8f4?sa=X&ved=1t:2428&ictx=111"
                   >
                     <ul className="w-fit h-fit flex flex-col">
@@ -61,17 +61,17 @@ export default function StoreInfo() {
                     </ul>
                   </Link>
                   <span className="opacity-45 border-black border-solid border-y-1 line mb-8"></span>
-                  <div>
-                    <div>
+                  <div className="store-info-buttons">
+                    <div className="mt-8">
                       <Link
                         href="mailto:jacky@littlepisces.com"
-                        className="mr-4 z-10 py-1 text-black text-lg lang-btn  border-black border-solid rounded-3xl px-4 border"
+                        className="mr-4 z-10 text-white text-lg lang-btn bg-orange  rounded-full py-4 px-8 border"
                       >
                         contact
                       </Link>{" "}
                       <Link
                         href="https://www.google.com/maps/place/4501+North+Rd+%23202b,+Burnaby,+BC+V3N+4R7/@49.2439464,-122.8940462,17z/data=!3m1!4b1!4m5!3m4!1s0x5486783d355af23f:0x47fd170423aa20d2!8m2!3d49.2439464!4d-122.8940462?entry=ttu"
-                        className="z-10 py-1 text-black text-lg lang-btn  border-black border-solid rounded-3xl px-4 border"
+                        className="z-10 text-white text-lg lang-btn bg-orange rounded-full py-4 px-8 border"
                       >
                         google maps
                       </Link>
