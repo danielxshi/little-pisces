@@ -126,7 +126,7 @@ export default function RootLayout({
   return (
     <ScrollObserver>
       <html lang="en" className={` ${Manrope.className}`}>
-        <Meta />
+        {/* <Meta /> */}
         <body>
           <section className="min-h-screen">
             <HeaderModal />
