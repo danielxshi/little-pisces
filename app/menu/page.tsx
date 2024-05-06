@@ -15,16 +15,16 @@ export const metadata = {
 export default function Menu() {
   return (
     <div className="min-h-screen bg-orange md:pb-32 pb-16">
-      <Head>
+      {/* <Head>
         <title>Little Pisces Menu</title>
         <link
           rel="shortcut icon"
           href="../favicon.ico?v=2"
           type="image/x-icon"
         />
-        {/* <link rel=" bookmark" href="./favicon.ico?v=2" type="image/x-icon" /> */}
 
-        {/* <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="32x32"> */}
+
+
         <link
           rel="shortcut icon"
           href="../favicon.ico?v=2"
@@ -43,7 +43,7 @@ export default function Menu() {
           type="image/png"
           sizes="32x32"
         ></link>
-      </Head>
+      </Head> */}
       <MenuStandard
         title="Taiyaki"
         image={taiyaki}

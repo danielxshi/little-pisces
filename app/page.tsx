@@ -18,16 +18,16 @@ import Head from "next/head";
 
 export const metadata = {
   title: `Little Pisces`,
-  icons: {
-    icon: `./favicon.ico?v=2`,
-  },
+  // icons: {
+  //   icon: `./favicon.ico?v=2`,
+  // },
   // description: ``,
 };
 
 export default function Page() {
   return (
     <div className="">
-      <Head>
+      {/* <Head>
         <link
           rel="shortcut icon"
           href="./favicon.ico?v=2"
@@ -57,7 +57,7 @@ export default function Page() {
           type="image/x-icon"
           sizes="32x32"
         />
-      </Head>
+      </Head> */}
       <Landing />
       <StoreInfo />
       <Works />

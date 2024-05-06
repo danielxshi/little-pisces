@@ -15,6 +15,7 @@ import localFont from "next/font/local";
 import MobileBurgerModal from "./components/mobile-burger-modal";
 import Head from "next/head";
 import Meta from "./components/meta";
+// import test from "../public/apple-icon.png"
 
 const Manrope = localFont({
   src: [
@@ -128,23 +129,23 @@ export default function RootLayout({
       <html lang="en" className={` ${Manrope.className}`}>
         {/* <Meta /> */}
         <Head>
-          <link rel="shortcut icon" href="/images/favicon.ico" />
+          <link rel="shortcut icon" href="/images/favicon.ico?v=2" />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/images/apple-touch-icon.png"
+            href="../public/images/apple-touch-icon.png?ce70f3e9aca01868"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/images/favicon-32x32.png"
+            href="../public/images/favicon.png?v=2"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/images/favicon-16x16.png"
+            href="../public/images/favicon.png?v=2"
           />
         </Head>
         <body>
