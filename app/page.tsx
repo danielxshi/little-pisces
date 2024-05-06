@@ -16,6 +16,7 @@ import Carousel from "./components/Carousel";
 import SocialMedia from "./components/SocialMedia";
 import Head from "next/head";
 
+
 export const metadata = {
   title: `Little Pisces`,
   // icons: {
@@ -44,7 +45,13 @@ export default function Page() {
         />
         <link
           rel="apple-touch-icon"
-          href="../../public/apple-icon.png"
+          href="./apple-icon.png"
+          type="image/png"
+          sizes="32x32"
+        ></link>
+        <link
+          rel="apple-touch-icon"
+          href="../public/apple-icon.png"
           type="image/png"
           sizes="32x32"
         ></link>
