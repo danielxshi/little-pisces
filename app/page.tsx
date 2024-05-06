@@ -28,7 +28,6 @@ export default function Page() {
   return (
     <div className="">
       <Head>
-        <link rel="apple-touch-icon" href="./favicon.ico?v=2" />
         <link
           rel="shortcut icon"
           href="./favicon.ico?v=2"
@@ -43,12 +42,6 @@ export default function Page() {
           type="image/x-icon"
           sizes="32x32"
         />
-        <link
-          rel="apple-touch-icon"
-          href="/apple-icon.png?ce70f3e9aca01868"
-          type="image/png"
-          sizes="180x180"
-        ></link>
         <link
           rel="apple-touch-icon"
           href="../../public/apple-icon.png"
