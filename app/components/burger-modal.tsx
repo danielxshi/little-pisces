@@ -2,7 +2,6 @@
 // Represents Project Info Modal
 import Link from "next/link";
 import gsap from "gsap";
-import ProjectMessages from "../JSON/ProjectMessages";
 import React, {
   useRef,
   useEffect,
@@ -23,15 +22,6 @@ import {
   AnimatePresence,
 } from "framer-motion";
 import styled from "styled-components";
-import { MdClose } from "react-icons/md";
-import dallas from "../images/dallas.webp";
-import austin from "../images/austin.webp";
-import newyork from "../images/newyork.webp";
-
-import gallery1 from "../images/1650-day.webp";
-import gallery2 from "../images/618-lobby.webp";
-import gallery3 from "../images/pendrell-aerial.webp";
-import test from "../../public/images/dec7/P8.webp";
 
 import {
   staggerText,
@@ -84,23 +74,6 @@ const ModalWrapper = styled.div`
   overflow-y: scroll;
 `;
 
-const cities = [
-  {
-    url: "/posts/1650-on-second",
-    name: "1650 ON SECOND",
-    image: "https://i.imgur.com/hvXK67e.jpeg",
-  },
-  {
-    url: "/posts/618-carnavron",
-    name: "618 CARNAVRON",
-    image: "https://i.imgur.com/Ogkc2c7.jpg",
-  },
-  {
-    url: "/posts/pendrell-street",
-    name: "EDITION",
-    image: "https://i.imgur.com/3loZccM.jpeg",
-  },
-];
 
 export const BurgerModal = ({
   showModal,
