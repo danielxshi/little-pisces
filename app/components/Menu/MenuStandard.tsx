@@ -67,9 +67,9 @@ export default function MenuStandard(props: {
                 <span className="font-black mr-8">{props.price1}</span>
               </li>
               <li className="flex ml-8 justify-between">
-                {/* <span className="mr-16">Mix and match any 5 flavors</span>
-                <span className="font-black mr-8">$13.95</span>
-                 */}
+                {/* <span className="mr-16">Mix and match any 5 flavors</span> */}
+                {/* <span className="font-black mr-8">$13.95</span> */}
+                
 
                 <span className="md:mr-16">{props.combo2}</span>
                 <span className="font-black mr-8">{props.price2}</span>

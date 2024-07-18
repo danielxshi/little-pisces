@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import React from "react";
 import { Tile, TileBackground, TileContent, TileWrapper } from "./tile";
@@ -43,13 +43,13 @@ const Works = () => (
         renderContent={({ progress }) => (
           <WorkContainer>
             <WorkLeft progress={progress}>
-              <div className="text-4xl md:text-6xl font-black text-shadow-strong tracking-tight uppercase text-center md:text-right text-black">
+              <div className="text-4xl md:text-6xl font-black  tracking-tight uppercase text-center md:text-right text-black">
                 MISSION
               </div>
-              <div className="text-4xl md:text-6xl font-black text-shadow-strong tracking-tight uppercase text-center md:text-right">
+              <div className="text-4xl md:text-6xl font-black  tracking-tight uppercase text-center md:text-right">
                 STORY
               </div>
-              <div className="text-4xl md:text-6xl font-black text-shadow-strong tracking-tight uppercase text-center md:text-right">
+              <div className="text-4xl md:text-6xl font-black  tracking-tight uppercase text-center md:text-right">
                 OUR TAIYAKI
               </div>
             </WorkLeft>
@@ -79,13 +79,13 @@ const Works = () => (
           <WorkContainer>
             {/* <div className="triangle-5 absolute"></div> */}
             <WorkLeft progress={progress}>
-              <div className="text-4xl md:text-6xl font-black text-shadow-strong tracking-tight uppercase text-center md:text-right">
+              <div className="text-4xl md:text-6xl font-black  tracking-tight uppercase text-center md:text-right">
                 MISSION
               </div>
-              <div className="text-4xl md:text-6xl font-black text-shadow-strong tracking-tight uppercase text-center md:text-right  text-black">
+              <div className="text-4xl md:text-6xl font-black  tracking-tight uppercase text-center md:text-right  text-black">
                 STORY
               </div>
-              <div className="text-4xl md:text-6xl font-black text-shadow-strong tracking-tight uppercase text-center md:text-right">
+              <div className="text-4xl md:text-6xl font-black  tracking-tight uppercase text-center md:text-right">
                 OUR TAIYAKI
               </div>
             </WorkLeft>
@@ -105,13 +105,13 @@ const Works = () => (
         renderContent={({ progress }) => (
           <WorkContainer>
             <WorkLeft progress={progress}>
-              <div className="text-4xl md:text-6xl font-black text-shadow-strong tracking-tight uppercase text-center md:text-right">
+              <div className="text-4xl md:text-6xl font-black  tracking-tight uppercase text-center md:text-right">
                 MISSION
               </div>
-              <div className="text-4xl md:text-6xl font-black text-shadow-strong tracking-tight uppercase text-center md:text-right">
+              <div className="text-4xl md:text-6xl font-black  tracking-tight uppercase text-center md:text-right">
                 STORY
               </div>
-              <div className="text-4xl md:text-6xl font-black text-shadow-strong tracking-tight uppercase text-center md:text-right  text-black">
+              <div className="text-4xl md:text-6xl font-black  tracking-tight uppercase text-center md:text-right  text-black">
                 OUR TAIYAKI
               </div>
             </WorkLeft>

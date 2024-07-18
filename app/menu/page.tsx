@@ -48,9 +48,9 @@ export default function Menu() {
         title="Taiyaki"
         image={taiyaki}
         combo1="mix and match any 2 flavors"
-        price1=""
+        price1="6.7"
         combo2="mix and match any 5 flavors"
-        price2=""
+        price2="14.7"
       >
         <div className="w-full">
           <ul className="w-3/5">
@@ -67,9 +67,9 @@ export default function Menu() {
         title="Soft Serve"
         image="https://images.unsplash.com/photo-1636564499112-6113e73c504a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         combo1="in a cup"
-        price1=""
-        combo2="in a taiyaki cone"
-        price2=""
+        price1="7.9"
+        combo2="with a taiyaki cone"
+        price2="8.9"
       >
         <div className="w-full">
           <ul className="w-3/5">

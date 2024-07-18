@@ -18,10 +18,10 @@ const SocialMedia = [
 ];
 
 const OperationHours = [
-  { day: "MONDAY", hours: "12PM - 10PM" },
-  { day: "TUESDAY", hours: "12PM - 10PM" },
-  { day: "WEDNESDAY", hours: "12PM - 10PM" },
-  { day: "THURSDAY", hours: "12PM - 10PM" },
+  { day: "MONDAY", hours: "12PM - 11PM" },
+  { day: "TUESDAY", hours: "12PM - 11PM" },
+  { day: "WEDNESDAY", hours: "12PM - 11PM" },
+  { day: "THURSDAY", hours: "12PM - 11PM" },
   { day: "FRIDAY", hours: "12PM - 12AM" },
   { day: "SATURDAY", hours: "12PM - 12AM" },
   { day: "SUNDAY", hours: "12PM - 12AM" },
@@ -35,20 +35,21 @@ const StoreInfo = [
 const ContactInfo = [{ content: "jacky@littlepisces.com" }];
 
 const MenuTaiyaki = [
-  { name: "Red Bean", price: "" },
+  { name: "Red Bean", price: "", },
   { name: "Custard", price: "" },
   { name: "Nutella", price: "" },
-  { name: "Taro", price: "" },
-  { name: "Ube Halaya", price: "" },
+  { name: "Ube", price: "" },
   { name: "Hotteok", price: "" },
+  { name: "Matcha Strawberry", price: "" },
   { name: "Pizza", price: "" },
+  // { name: "Taro", price: "" },
 ];
 
 const MenuSoftServe = [
-  { name: "Vanilla", price: "" },
-  { name: "Yuzu", price: "" },
   { name: "Matcha", price: "" },
-  { name: "Black Sesame", price: "" },
+  { name: "Banana Milk", price: "" },
+  { name: "Milk", price: "" },
+  { name: "Guava Sorbet", price: "" },
 ];
 
 const MenuTaiyakiSoftServe = [
@@ -63,12 +64,13 @@ const MenuTaiyakiSoftServe = [
 ];
 
 const MenuDrinks = [
-  { name: "Mango Milk", price: "" },
-  { name: "Strawberry Milk", price: "" },
-  { name: "Matcha Latte", price: "" },
-  { name: "Mango Matcha Latte", price: "" },
-  { name: "Strawberry Matcha Latte", price: "" },
-  { name: "Cold Brew", price: "" },
+  { name: "Mango Milk", price: "6.5", },
+  { name: "Strawberry Milk", price: "6.5" },
+  { name: "Matcha Latte", price: "6.5" },
+  { name: "Matcha Mango Latte", price: "7.5" },
+  { name: "Matcha Strawberry Latte", price: "7.5" },
+  { name: "Cold Brew", price: "5.0" },
+  { name: "Hojicha Tea", price: "4.0" },
 ];
 
 const ProjectMessages = {

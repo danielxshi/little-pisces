@@ -74,7 +74,6 @@ const ModalWrapper = styled.div`
   overflow-y: scroll;
 `;
 
-
 export const BurgerModal = ({
   showModal,
   setShowModal,
@@ -183,25 +182,7 @@ export const BurgerModal = ({
                                         {/* {localizedMessages.PROJECT} */}
                                         MENU
                                       </Link>
-                                    </li>
-                                    <li
-                                    // className={` ${quicksand.className}`}
-                                    >
-                                      <Link
-                                        className="pl-8 md:pl-16"
-                                        onMouseEnter={(e) => handleHover(e)}
-                                        onMouseOut={(e) => handleHoverExit(e)}
-                                        // ref={(el) => (line1 = el)}
-                                        href="mailto:jacky@littlepisces.com"
-                                        onClick={() => {
-                                          ListClick.onClick();
-                                        }}
-                                      >
-                                        CONTACT
-                                        {/* {localizedMessages.COMPANY} */}
-                                      </Link>
-                                    </li>
-
+                                    </li>{" "}
                                     <li
                                     // className={` ${quicksand.className}`}
                                     >
@@ -220,20 +201,31 @@ export const BurgerModal = ({
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
+                                    <li
+                                    // className={` ${quicksand.className}`}
+                                    >
+                                      <Link
+                                        className="pl-8 md:pl-16"
+                                        onMouseEnter={(e) => handleHover(e)}
+                                        onMouseOut={(e) => handleHoverExit(e)}
+                                        // ref={(el) => (line1 = el)}
+                                        href="mailto:jacky@littlepisces.com"
+                                        onClick={() => {
+                                          ListClick.onClick();
+                                        }}
+                                      >
+                                        CONTACT
+                                        {/* {localizedMessages.COMPANY} */}
+                                      </Link>
+                                    </li>
                                   </ul>
                                 </nav>
 
                                 <div className="foot-notes flex flex-col bottom-0 justify-between pl-8 md:p-16 w-3/5 md:w-4/5">
                                   <div className="flex-col flex ">
-                                    <p className="">604 706 5876</p>
+                                    {/* <p className="">604 706 5876</p> */}
                                     <Link href="https://www.google.com/maps/place/Little+Pisces/@49.2438823,-122.893232,15z/data=!4m2!3m1!1s0x0:0xc9eb0fd6b40fa8f4?sa=X&ved=1t:2428&ictx=111">
                                       4501 North Rd, Unit 202B
-                                    </Link>
-                                  </div>
-                                  <div className="flex-col flex ">
-                                    {/* <p className="mb-4">NOW HIRING</p> */}
-                                    <Link href="mailto:jacky@littlepisces.com">
-                                      jacky@littlepisces.com
                                     </Link>
                                   </div>
                                 </div>

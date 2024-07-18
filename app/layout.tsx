@@ -38,7 +38,7 @@ function Footer() {
                 <li className="mb-2 md:mb-0">{item.content}</li>
               ))}
             </ul>
-            <div className="w-2/4 ">
+            {/* <div className="w-2/4 ">
               <ul className="">
                 {ProjectMessages.ContactInfo.map((item, index) => (
                   <Link
@@ -49,7 +49,7 @@ function Footer() {
                   </Link>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
 
           <div className="footer-icon-wrapper w-full md:w-2/4 right-0 mr-0 ml-auto mt-4 md:mt-0">
@@ -68,7 +68,7 @@ function Footer() {
         <div className="col-start-1 col-end-13 flex justify-between md:mt-32 mt-16">
           <div
             className="w-full flex justify-between
-          bottom-0 flex-col sm:flex-row"
+          bottom-0 flex-col sm:flex-row opacity-70"
           >
             <p>Little Pisces Copyright 2024 &copy;</p>
             <Link href="https://www.005f.agency">Website by 005F</Link>

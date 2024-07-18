@@ -148,7 +148,8 @@ export default function Landing() {
             </div>
           </div>
         </div> */}
-        <div className="text-white landing-parallax bg-orange">
+        <div className="text-white landing-parallax">
+          <ContentfulImage fill={true} src="/images/landing.jpg"></ContentfulImage>
           <section className="landing-content">
             <motion.div
               // initial={{ opacity: 0 }}
@@ -157,7 +158,7 @@ export default function Landing() {
               // transition={{ delay: 3, duration: 1.5, ease: "easeInOut" }}
               className="header-wrapper container justify-center align-middle items-center"
             >
-              <div className="  container flex flex-col mt-auto h-full">
+              {/* <div className="  container flex flex-col mt-auto h-full">
                 <div className="flex flex-col md:mb-[5vh] mb-[8vh] mt-auto">
                   <Link className="h-fit w-fit " href="">
                     <ul className="h-fit w-fit">
@@ -169,7 +170,7 @@ export default function Landing() {
                     </ul>
                   </Link>
                 </div>
-              </div>
+              </div> */}
               <div className="absolute w-[10rem] h-[10rem] md:w-[15rem] md:h-[15rem] m-auto">
                 <ContentfulImage
                   src={test}

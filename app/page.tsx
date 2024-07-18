@@ -60,9 +60,12 @@ export default function Page() {
       </Head> */}
       <Landing />
       <StoreInfo />
-      <Works />
+      {/* <Works /> */}
+      <div className="bg-orange">
+
       <Carousel />
-      <SocialMedia />
+
+      </div>
     </div>
   );
 }

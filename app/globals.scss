@@ -23,7 +23,7 @@ html {
   a,
   img:hover {
     transform: rotate(20deg);
-    transition: 200ms ease;
+    transition: 200ms ease-in-out;
   }
 }
 
@@ -177,7 +177,7 @@ footer {
 .carousel-container {
   width: 80vw;
   margin: auto;
-  margin-top: 4rem;
+  padding: 4rem;
   .splide__slide {
     width: 100vw !important;
   }
@@ -187,10 +187,10 @@ footer {
   .splide__arrow {
     background: none;
     color: white;
-    color: $orange !important;
+    color: $blue !important;
     -webkit-text-stroke-color: #77b7cb;
     * {
-      color: $orange !important;
+      color: $blue !important;
       fill: white !important;
       opacity: 1;
     }
@@ -211,10 +211,9 @@ footer {
       margin: 0.25rem;
       height: 0.6rem;
       width: 0.6rem;
-      border-style: solid;
-      border-color: $black;
 
-      border-width: 0.01rem;
+
+
       // left: 0;
       // text-align: left;
       // justify-content: end;
@@ -228,7 +227,7 @@ footer {
       background-color: white !important;
     }
     button.splide__pagination__page.is-active {
-      background-color: $orange !important;
+      background-color: $blue !important;
     }
   }
 }
@@ -253,10 +252,6 @@ footer {
   color: $orange;
 }
 
-.text-shadow-strong {
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
-    0px 5px 5px rgba(0, 0, 0, 0.1);
-}
 
 .border-y-1 {
   border-width: 1px;
@@ -438,9 +433,9 @@ header {
         font-size: 1rem;
         //   margin-right: $sm-space;
         padding: 0.25rem 0.75rem;
-        // border-width: 1px;
-        // border-color: white;
-        // border: solid 1px;
+        border-width: 1px;
+        border-color: white;
+        border: solid 1px;
       }
       .lang-btn:hover {
         color: linear-gradient(
@@ -538,7 +533,7 @@ header {
 
             text-align: center;
             width: fit-content;
-            text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+
             font-size: 3rem;
             font-style: normal;
             // font-weight: 700;
@@ -600,37 +595,6 @@ header {
             p {
               margin: 0 auto;
               font-size: 0.8rem;
-            }
-          }
-        }
-        .locations {
-          // position: absolute;
-          bottom: 10vh;
-          color: #fff;
-          margin-top: 16px;
-          font-size: 0.8rem;
-          font-weight: 600;
-          // display: block;
-          width: 100%;
-
-          .location-content {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-          }
-          a {
-            cursor: pointer;
-            &:first-child {
-              //   margin-left: 64px;
-            }
-            font-weight: 400;
-            margin: 0 32px;
-            transition: 0.3s ease-in-out;
-            &:hover {
-              color: #fff;
-              background: black;
-              padding: 8px 24px;
-              border-radius: 4px;
             }
           }
         }

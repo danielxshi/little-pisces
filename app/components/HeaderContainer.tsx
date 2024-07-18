@@ -30,7 +30,7 @@ class SlugNav extends Component<Props, any> {
     return (
       // <AnimatePresence>
       <Navbar style={""}>
-        <div className="w-full h-full bg-orange absolute z-0"></div>
+        <div className="w-full h-full absolute z-0"></div>
         <motion.nav
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, y: 0 }}
@@ -57,10 +57,10 @@ class SlugNav extends Component<Props, any> {
               </div>
               <div className="menu">
                 <Link
-                  href="https://littlepisces.square.site"
-                  className="z-10 text-white text-lg lang-btn uppercase bg-blue-400 rounded-full"
+                  href="/menu"
+                  className="z-10 text-white text-lg lang-btn uppercase bg-blue-400 rounded-sm border-white border-solid"
                 >
-                  MERCH
+                  MENU
                 </Link>
 
                 <button
