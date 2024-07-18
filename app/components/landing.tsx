@@ -13,143 +13,14 @@ import car1 from "../../public/car-1.webp";
 import Link from "next/link";
 
 export default function Landing() {
-  // const container = useRef<HTMLDivElement>(null); // create a ref for the root level element
-  // useGSAP(() => {
-  //   console.log("working");
-  //   let ctx = gsap.context(
-  //     () => {
-  //       gsap.from(".letter", {
-  //         duration: 0.8,
-  //         y: -20,
-  //         opacity: 0,
-  //         ease: "power3.inOut",
-  //         stagger: 0.1,
-  //       });
-  // gsap.to(".top-left, .top-right", {
-  //   duration: 2,
-  //   top: "0",
-  //   ease: "power3.inOut",
-  // });
-  //   gsap.to(".bottom-right,", {
-  //     duration: 2,
-  //     bottom: "0",
-  //     ease: "power3.inOut",
-  //   });
-  // },
-  //     { scope: container }
-  //   );
-  // });
-  const container = useRef<HTMLDivElement>(null);
-  useGSAP(
-    () => {
-      // gsap code here...
-      console.log("working");
-      gsap.from(".letter", {
-        duration: 0.8,
-        y: -20,
-        opacity: 0,
-        ease: "power3.inOut",
-        stagger: 0.1,
-      });
-
-      gsap.to(".top-left, .top-right", {
-        duration: 2,
-        top: "17.5px",
-        ease: "power3.inOut",
-        delay: 2,
-      });
-      gsap.to(".bottom-right", {
-        duration: 2,
-        bottom: "0",
-        ease: "power3.inOut",
-        delay: 2,
-      });
-      gsap.to(".top-left", {
-        duration: 2,
-        left: "0",
-        ease: "power3.inOut",
-        delay: 4,
-      });
-      gsap.to(".top-right", {
-        duration: 2,
-        right: "0",
-        ease: "power3.inOut",
-        delay: 4,
-      });
-      gsap.to(".bottom-right", {
-        duration: 2,
-        left: "0",
-        ease: "power3.inOut",
-        delay: 4,
-      });
-      gsap.to(".block-left", {
-        duration: 2,
-        left: "-50%",
-        ease: "power3.inOut",
-        delay: 4,
-      });
-      gsap.to(".block-right", {
-        duration: 2,
-        right: "-50%",
-        ease: "power3.inOut",
-        delay: 4,
-      });
-      gsap.to(".top-left", {
-        duration: 1.5,
-        ease: "power3.inOut",
-        delay: 5,
-        opacity: 0,
-      });
-      gsap.to(".top-right", {
-        duration: 1.5,
-        ease: "power3.inOut",
-        delay: 5,
-        opacity: 0,
-      });
-      gsap.to(".bottom-right", {
-        duration: 1.5,
-        ease: "power3.inOut",
-        delay: 5,
-        opacity: 0,
-      });
-      gsap.to(".reveal-container", {
-        delay: 5.3,
-        display: "none",
-      });
-    },
-    { scope: container }
-  ); // <-- scope is for selector text (optional)
   return (
     <div>
-      <motion.div
-      // initial={{ opacity: 0 }}
-      // animate={{ opacity: 1 }}
-      // transition={{ delay: 0.5, duration: 2, ease: "easeInOut" }}
-      >
-        {/* <Reveal></Reveal> */}
-        {/* <div ref={container} className="reveal-container absolute z-10">
-          <div className="blocks">
-            <div className="block block-left"></div>
-            <div className="block block-right"></div>
-          </div>
-          <div className="letters container relative">
-            <div className="row">
-              <div className="letter top-left lg:text-[8rem] text-[2rem] ">
-
-              </div>
-              <div className="letter top-right lg:text-[8rem] text-[2rem] ">
-                L
-              </div>
-            </div>
-            <div className="row">
-              <div className="letter bottom-right lg:text-[8rem] text-[2rem] ">
-                P
-              </div>
-            </div>
-          </div>
-        </div> */}
+      <motion.div>
         <div className="text-white landing-parallax">
-          <ContentfulImage fill={true} src="/images/landing.jpg"></ContentfulImage>
+          <ContentfulImage
+            fill={true}
+            src="/images/landing.jpg"
+          ></ContentfulImage>
           <section className="landing-content">
             <motion.div
               // initial={{ opacity: 0 }}
