@@ -3,6 +3,7 @@ import MenuSecondary from "../components/Menu/MenuSecondary";
 import ProjectMessages from "../JSON/ProjectMessages";
 import taiyaki from "../../public/DSCF4600.webp";
 import Head from "next/head";
+import ContentfulImage from "@/lib/contentful-image";
 
 export const metadata = {
   title: `Little Pisces Menu`,
@@ -14,50 +15,32 @@ export const metadata = {
 
 export default function Menu() {
   return (
-    <div className="min-h-screen bg-orange md:pb-32 pb-16">
-      {/* <Head>
-        <title>Little Pisces Menu</title>
-        <link
-          rel="shortcut icon"
-          href="../favicon.ico?v=2"
-          type="image/x-icon"
-        />
-
-
-
-        <link
-          rel="shortcut icon"
-          href="../favicon.ico?v=2"
-          type="image/x-icon"
-          sizes="32x32"
-        />
-        <link
-          rel="apple-touch-icon"
-          href="../apple-icon.png"
-          type="image/png"
-          sizes="32x32"
-        ></link>
-        <link
-          rel="apple-touch-icon"
-          href="../../public/apple-icon.png"
-          type="image/png"
-          sizes="32x32"
-        ></link>
-      </Head> */}
+    <div className="min-h-screen bg-orange md:pb-32 pb-16 pt-32 md:pt-0">
       <MenuStandard
         title="Taiyaki"
-        image={taiyaki}
+        image={"/images/menu1.jpg"}
         combo1="mix and match any 2 flavors"
-        price1="6.7"
+        price1={JSON.stringify(
+          ProjectMessages.TaiyakiPrices[0]["price"]
+        ).replaceAll('"', "")}
         combo2="mix and match any 5 flavors"
-        price2="14.7"
+        price2={JSON.stringify(
+          ProjectMessages.TaiyakiPrices[1]["price"]
+        ).replaceAll('"', "")}
       >
         <div className="w-full">
-          <ul className="w-3/5">
+          <ul className="w-4/5">
             {ProjectMessages.MenuTaiyaki.map((item, index) => (
               <li className="w-full flex justify-between mb-4 ml-8">
-                <span>{item.name}</span>
-                <span>{item.price}</span>
+                <div className="w-16 h-16">
+                  <ContentfulImage
+                    src={`/images/menu-icons/${item.image}`}
+                    fill={true}
+                  ></ContentfulImage>
+                </div>
+                <div className="flex w-3/5 text-left ml-8">
+                  <span className="self-center">{item.name}</span>
+                </div>
               </li>
             ))}
           </ul>
@@ -65,41 +48,37 @@ export default function Menu() {
       </MenuStandard>
       <MenuStandard
         title="Soft Serve"
-        image="https://images.unsplash.com/photo-1636564499112-6113e73c504a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        image="/images/menu2.jpg"
         combo1="in a cup"
-        price1="7.9"
+        price1={JSON.stringify(
+          ProjectMessages.SoftservePrices[0]["price"]
+        ).replaceAll('"', "")}
         combo2="with a taiyaki cone"
-        price2="8.9"
-      >
-        <div className="w-full">
-          <ul className="w-3/5">
-            {ProjectMessages.MenuSoftServe.map((item, index) => (
-              <li className="w-full flex justify-between mb-4 ml-8">
-                <span>{item.name}</span>
-                <span>{item.price}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </MenuStandard>
-      {/* <MenuStandard
-        title="TAIYAKI SOFT SERVE"
-        image="https://images.unsplash.com/photo-1636564499112-6113e73c504a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        price2={JSON.stringify(
+          ProjectMessages.SoftservePrices[1]["price"]
+        ).replaceAll('"', "")}
       >
         <div className="w-full">
           <ul className="w-4/5">
             {ProjectMessages.MenuSoftServe.map((item, index) => (
               <li className="w-full flex justify-between mb-4 ml-8">
-                <span>{item.name}</span>
-                <span>{item.price}</span>
+                <div className="w-16 h-16">
+                  <ContentfulImage
+                    src={`/images/menu-icons/${item.image}`}
+                    fill={true}
+                  ></ContentfulImage>
+                </div>
+                <div className="flex w-3/5 text-left ml-8">
+                  <span className="self-center">{item.name}</span>
+                </div>
               </li>
             ))}
           </ul>
         </div>
-      </MenuStandard> */}
+      </MenuStandard>
       <MenuStandard
         title="DRINKS"
-        image="https://images.unsplash.com/photo-1589638895165-e80df3583854?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        image="/images/menu3.jpg"
         combo1=""
         price1=""
         combo2=""
@@ -109,7 +88,9 @@ export default function Menu() {
           <ul className="w-4/5">
             {ProjectMessages.MenuDrinks.map((item, index) => (
               <li className="w-full flex justify-between mb-4 ml-8">
-                <span>{item.name}</span>
+                <div className="flex w-3/5 text-left ">
+                  <span className="">{item.name}</span>
+                </div>
                 <span className="md:mr-32">{item.price}</span>
               </li>
             ))}

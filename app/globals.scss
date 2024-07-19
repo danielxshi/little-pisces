@@ -15,6 +15,10 @@ html {
   color: $orange;
 }
 
+.landing-bg img {
+  height: auto !important;
+}
+
 .store-info-buttons a:hover {
   // transform: scale(1.1);
 }

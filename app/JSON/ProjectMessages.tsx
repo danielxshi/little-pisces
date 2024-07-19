@@ -1,5 +1,6 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
+// import BananaMilkSS from "/images/menu-icons/bananamilkSS.svg";
 
 const SocialMedia = [
   // { icon: "LOGO", url: "", name: "WECHAT" },
@@ -27,6 +28,9 @@ const OperationHours = [
   { day: "SUNDAY", hours: "12PM - 12AM" },
 ];
 
+const TaiyakiPrices = [{ price: "2pc / 6.7" }, { price: "5pc / 14.7" }];
+const SoftservePrices = [{ price: "7.9 / cup" }, { price: "8.9 / cone" }];
+
 const StoreInfo = [
   { content: "4501 North Rd, Unit 202B" },
   { content: "Burnaby, BC V3N 4R7" },
@@ -35,21 +39,22 @@ const StoreInfo = [
 const ContactInfo = [{ content: "jacky@littlepisces.com" }];
 
 const MenuTaiyaki = [
-  { name: "Red Bean", price: "", },
-  { name: "Custard", price: "" },
-  { name: "Nutella", price: "" },
-  { name: "Ube", price: "" },
-  { name: "Hotteok", price: "" },
-  { name: "Matcha Strawberry", price: "" },
-  { name: "Pizza", price: "" },
+  { name: "Red Bean", image: "red bean.svg" },
+  { name: "Custard", image: "custard.svg" },
+  { name: "Nutella", image: "nutella.svg" },
+  { name: "Taro", image: "taro.svg" },
+  { name: "Hotteok", image: "hotteok.svg" },
+  { name: "Matcha Strawberry", image: "matcha strawberry.svg" },
+  { name: "Pizza", image: "pizza.svg" },
   // { name: "Taro", price: "" },
 ];
 
 const MenuSoftServe = [
-  { name: "Matcha", price: "" },
-  { name: "Banana Milk", price: "" },
-  { name: "Milk", price: "" },
-  { name: "Guava Sorbet", price: "" },
+  { name: "Matcha", image: "matcha SS.svg" },
+  { name: "Banana Milk", image: "bananamilkSS.svg" },
+  { name: "Milk", image: "milk SS.svg" },
+  { name: "Guava Sorbet", image: "passion fruit green tea drink.svg" },
+  { name: "Matcha Banana", image: "matcha banana SS.svg" },
 ];
 
 const MenuTaiyakiSoftServe = [
@@ -64,7 +69,7 @@ const MenuTaiyakiSoftServe = [
 ];
 
 const MenuDrinks = [
-  { name: "Mango Milk", price: "6.5", },
+  { name: "Mango Milk", price: "6.5" },
   { name: "Strawberry Milk", price: "6.5" },
   { name: "Matcha Latte", price: "6.5" },
   { name: "Matcha Mango Latte", price: "7.5" },
@@ -82,6 +87,8 @@ const ProjectMessages = {
   MenuSoftServe: MenuSoftServe,
   MenuTaiyakiSoftServe: MenuTaiyakiSoftServe,
   MenuDrinks: MenuDrinks,
+  TaiyakiPrices: TaiyakiPrices,
+  SoftservePrices: SoftservePrices,
 };
 
 export default ProjectMessages;
