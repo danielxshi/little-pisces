@@ -15,11 +15,12 @@ export default function Landing() {
     <div>
       <div>
         <div className="text-white relative">
-          <div className="absolute w-full h-screen landing-bg">
+          <div className="w-full h-full landing-bg">
             <ContentfulImage
               fill={true}
               quality={80}
               src="/images/landing.jpg"
+              objectFit="cover"
             ></ContentfulImage>
           </div>
           <section className="landing-content">
