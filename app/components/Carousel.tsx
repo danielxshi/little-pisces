@@ -74,7 +74,7 @@ export default function Carousel() {
           return (
             <SplideSlide key={index} className="lg:h-[700px] md:h-[500px] h-[400px]">
               <ContentfulImage
-                className="d-block w-[80vw] h-100"
+                className="d-block h-100"
                 src={item.image}
                 // fallbackSrc={item.fallback}
                 //   alt={item.alt}
