@@ -4,11 +4,11 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import React from "react";
 import "@splidejs/react-splide/css";
 import { LOOP } from "@splidejs/splide";
-import car1 from "../../public/car-1.webp";
-import car2 from "../../public/car-2.webp";
-import car3 from "../../public/car-3.webp";
-import car4 from "../../public/car-4.webp";
-import car5 from "../../public/car-5.webp";
+import car1 from "../../public/images/carousel/carousel1.jpg";
+import car2 from "../../public/images/carousel/carousel2.jpg";
+import car3 from "../../public/images/carousel/carousel3.jpg";
+import car4 from "../../public/images/carousel/carousel4.jpg";
+import car5 from "../../public/images/carousel/carousel5.jpg";
 
 const content = [
   {
@@ -72,7 +72,7 @@ export default function Carousel() {
       >
         {content.map((item, index) => {
           return (
-            <SplideSlide key={index} className="lg:h-[700px] md:h-[500px] h-[400px]">
+            <SplideSlide key={index} className="lg:h-[700px] md:h-[500px] h-[400px] w-[700px]">
               <ContentfulImage
                 className="d-block h-100"
                 src={item.image}
@@ -80,6 +80,7 @@ export default function Carousel() {
                 //   alt={item.alt}
                 layout="fill"
                 objectFit="cover"
+    
               />
             </SplideSlide>
           );
