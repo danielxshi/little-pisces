@@ -77,7 +77,7 @@ export default function Carousel() {
                 className="d-block h-100"
                 src={item.image}
                 // fallbackSrc={item.fallback}
-                //   alt={item.alt}
+                  alt={"taiyaki store"}
                 layout="fill"
                 objectFit="cover"
     
