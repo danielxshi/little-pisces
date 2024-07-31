@@ -133,37 +133,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ScrollObserver>
-      <html lang="en" className={` ${Manrope.className}`}>
-        <Head>
-          <link rel="shortcut icon" href="/images/favicon.ico?v=2" />
-          <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="../public/images/apple-touch-icon.png?ce70f3e9aca01868"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="../public/images/favicon.png?v=2"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="../public/images/favicon.png?v=2"
-          />
-        </Head>
-        <body>
-          <section className="min-h-screen">
-            <HeaderModal />
+    // <ScrollObserver>
+    <html lang="en" className={` ${Manrope.className}`}>
+      <head>
+        <title>Little Pisces</title>
+        <meta name="description" content="Description" />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico"></link>
+      </head>
+      <body>
+        <section className="min-h-screen">
+          <HeaderModal />
 
-            <main>{children}</main>
-            <Footer />
-          </section>
-        </body>
-      </html>
-    </ScrollObserver>
+          <main>{children}</main>
+          <Footer />
+        </section>
+      </body>
+    </html>
+    // </ScrollObserver>
   );
 }
