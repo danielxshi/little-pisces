@@ -62,7 +62,7 @@ export default function Page() {
       <StoreInfo />
       {/* <Works /> */}
       <div className="bg-orange">
-        <div className="max-w-[1300px] w-[700px] m-auto">
+        <div className="max-w-[1300px] m-auto">
           <Carousel />
         </div>
       </div>
