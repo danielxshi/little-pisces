@@ -72,7 +72,7 @@ export default function Carousel() {
       >
         {content.map((item, index) => {
           return (
-            <SplideSlide key={index} className="lg:h-[700px] md:h-[500px] h-[400px] splide-car">
+            <SplideSlide key={index} className="lg:h-[700px] md:h-[500px] h-[400px] w-[100vw] splide-car">
               <ContentfulImage
                 src={item.image}
                 // fallbackSrc={item.fallback}
