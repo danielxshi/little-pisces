@@ -14,7 +14,7 @@ type Props = {
 const ParallaxBG = ({ children, style, url }: Props) => {
   return (
     <div className={`parallax-bg-container relative ${style}`}>
-      <Parallax bgImage={url} bgImageAlt="" className="" strength={-300}>
+      <Parallax bgImage={url} bgImageAlt="" className="" strength={0}>
         {children}
       </Parallax>
     </div>

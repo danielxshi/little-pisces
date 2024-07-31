@@ -30,7 +30,7 @@ class SlugNav extends Component<Props, any> {
     return (
       // <AnimatePresence>
       <Navbar style={""}>
-        <div className="w-full h-full absolute z-0"></div>
+        <div className="w-full bg-orange h-full absolute z-0"></div>
         <motion.nav
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, y: 0 }}

@@ -32,8 +32,8 @@ const TaiyakiPrices = [{ price: "2pc / 6.7" }, { price: "5pc / 14.7" }];
 const SoftservePrices = [{ price: "7.9 / cup" }, { price: "8.9 / cone" }];
 
 const StoreInfo = [
-  { content: "4501 North Rd, Unit 202B" },
   { content: "Burnaby, BC V3N 4R7" },
+  { content: "4501 North Rd, Unit 202B" },
 ];
 
 const ContactInfo = [{ content: "jacky@littlepisces.com" }];
@@ -69,13 +69,13 @@ const MenuTaiyakiSoftServe = [
 ];
 
 const MenuDrinks = [
-  { name: "Mango Milk", price: "6.5" },
-  { name: "Strawberry Milk", price: "6.5" },
-  { name: "Matcha Latte", price: "6.5" },
-  { name: "Matcha Mango Latte", price: "7.5" },
-  { name: "Matcha Strawberry Latte", price: "7.5" },
-  { name: "Cold Brew", price: "5.0" },
-  { name: "Hojicha Tea", price: "4.0" },
+  { name: "Mango Milk", price: "6.5", image: "mango milk.svg" },
+  { name: "Strawberry Milk", price: "6.5", image: "strawberry milk.svg" },
+  { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
+  { name: "Matcha Mango Latte", price: "7.5", image: "matcha mango latte.svg" },
+  { name: "Matcha Strawberry Latte", price: "7.5", image: "matcha strawberry latte.svg" },
+  { name: "Cold Brew", price: "5.0", image: "cold brew.svg" },
+  { name: "Hojicha Tea", price: "4.0", image: "hojicha tea.svg" },
 ];
 
 const ProjectMessages = {

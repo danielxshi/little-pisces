@@ -15,11 +15,11 @@ export const metadata = {
 
 export default function Menu() {
   return (
-    <div className="min-h-screen bg-orange md:pb-32 pb-16 pt-32 md:pt-0">
+    <div className="min-h-screen menu-page md:pb-32 pb-16 pt-32 md:pt-0">
       <MenuStandard
         title="Taiyaki"
         image={"/images/menu1.jpg"}
-        combo1="mix and match any 2 flavors"
+        combo1="Can mix and match among the following taiyaki flavors"
         price1={JSON.stringify(
           ProjectMessages.TaiyakiPrices[0]["price"]
         ).replaceAll('"', "")}
@@ -29,9 +29,9 @@ export default function Menu() {
         ).replaceAll('"', "")}
       >
         <div className="w-full">
-          <ul className="w-4/5">
+          <ul className="w-full">
             {ProjectMessages.MenuTaiyaki.map((item, index) => (
-              <li className="w-full flex justify-between mb-4 ml-8">
+              <li className="w-full flex justify-between ml-8">
                 <div className="w-16 h-16">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
@@ -39,7 +39,7 @@ export default function Menu() {
                   ></ContentfulImage>
                 </div>
                 <div className="flex w-3/5 text-left ml-8">
-                  <span className="self-center">{item.name}</span>
+                  <span className="self-center text-xl">{item.name}</span>
                 </div>
               </li>
             ))}
@@ -49,7 +49,7 @@ export default function Menu() {
       <MenuStandard
         title="Soft Serve"
         image="/images/menu2.jpg"
-        combo1="in a cup"
+        combo1="You can get any of our soft serve flavors in a cup only or with an upside down taiyaki cone (+$1)"
         price1={JSON.stringify(
           ProjectMessages.SoftservePrices[0]["price"]
         ).replaceAll('"', "")}
@@ -59,9 +59,9 @@ export default function Menu() {
         ).replaceAll('"', "")}
       >
         <div className="w-full">
-          <ul className="w-4/5">
+          <ul className="w-full">
             {ProjectMessages.MenuSoftServe.map((item, index) => (
-              <li className="w-full flex justify-between mb-4 ml-8">
+              <li className="w-full flex justify-between ml-8">
                 <div className="w-16 h-16">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
@@ -69,7 +69,7 @@ export default function Menu() {
                   ></ContentfulImage>
                 </div>
                 <div className="flex w-3/5 text-left ml-8">
-                  <span className="self-center">{item.name}</span>
+                  <span className="self-center text-xl">{item.name}</span>
                 </div>
               </li>
             ))}
@@ -79,19 +79,25 @@ export default function Menu() {
       <MenuStandard
         title="DRINKS"
         image="/images/menu3.jpg"
-        combo1=""
+        combo1="All our drinks are iced for the summer (16oz)"
         price1=""
         combo2=""
         price2=""
       >
         <div className="w-full">
-          <ul className="w-4/5">
+          <ul className="w-full">
             {ProjectMessages.MenuDrinks.map((item, index) => (
-              <li className="w-full flex justify-between mb-4 ml-8">
-                <div className="flex w-3/5 text-left ">
-                  <span className="">{item.name}</span>
+              <li className="w-full flex justify-between md:ml-8">
+                <div className="w-32 h-16">
+                  <ContentfulImage
+                    src={`/images/menu-icons/${item.image}`}
+                    fill={true}
+                  ></ContentfulImage>
                 </div>
-                <span className="md:mr-32">{item.price}</span>
+                <div className="flex w-full text-left ml-8">
+                  <span className="text-xl self-center">{item.name}</span>
+                </div>
+                <span className="md:mr-32 text-xl self-center ml-8">{item.price}</span>
               </li>
             ))}
           </ul>

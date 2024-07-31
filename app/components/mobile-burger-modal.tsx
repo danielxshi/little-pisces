@@ -149,7 +149,7 @@ export const BurgerModal = ({
   const [element, setElement] = useState<null | HTMLDivElement>(null);
 
   return (
-    <header className="burger-menu  md:hidden">
+    <header className="burger-menu md:hidden">
       <AnimatePresence>
         {showModal ? (
           <motion.div ref={modalRef}>

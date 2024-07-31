@@ -19,8 +19,16 @@ html {
   width: 100vw !important;
 }
 
-.landing-bg img {
-  // height: auto !important;
+.store-hours {
+  background-color: rgba(237, 173, 75, 0.5);
+  border-radius: 5px;
+}
+
+.menu-page {
+  background-color: #fefae8;
+  * {
+    color: $orange !important;
+  }
 }
 
 .store-info-buttons a:hover {
@@ -220,8 +228,6 @@ footer {
       height: 0.6rem;
       width: 0.6rem;
 
-
-
       // left: 0;
       // text-align: left;
       // justify-content: end;
@@ -259,7 +265,6 @@ footer {
 .title-orange {
   color: $orange;
 }
-
 
 .border-y-1 {
   border-width: 1px;
@@ -495,7 +500,7 @@ header {
       position: relative;
 
       //   background: rgb(183, 86, 86);
-      background: $orange;
+      background: $blue;
 
       backdrop-filter: blur(2px);
       height: 100%;
