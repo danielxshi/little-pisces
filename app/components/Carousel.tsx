@@ -4,7 +4,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import React from "react";
 import "@splidejs/react-splide/css";
 import { LOOP } from "@splidejs/splide";
-import car1 from "../../public/car-1.webp";
+import car1 from "../../public/images/carousel/carousel1.jpg";
 import car2 from "../../public/images/carousel/carousel2.jpg";
 import car3 from "../../public/images/carousel/carousel3.jpg";
 import car4 from "../../public/images/carousel/carousel4.jpg";
@@ -72,7 +72,7 @@ export default function Carousel() {
       >
         {content.map((item, index) => {
           return (
-            <SplideSlide key={index} className="lg:h-[700px] md:h-[500px] h-[400px] w-[700px]">
+            <SplideSlide key={index} className="lg:h-[700px] md:h-[500px] h-[400px] w-[700px] splide-car">
               <ContentfulImage
                 src={item.image}
                 // fallbackSrc={item.fallback}
