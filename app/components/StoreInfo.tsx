@@ -23,7 +23,7 @@ export default function StoreInfo() {
           style="text-white landing-parallax"
         >
           <section className="container md:py-16 md:grid md:grid-cols-12 flex flex-wrap">
-            <div className="store-hours px-8 flex flex-col col-start-1 col-end-7 w-full py-8 mx-2 my-8 md:m-0">
+            <div className="store-hours px-3 md:px-8 flex flex-col col-start-1 col-end-7 w-full py-8 mx-2 my-8 md:m-0">
               <h2 className="text-4xl md:text-5xl mb-8">Opening Hours</h2>
               <ul className="flex flex-col w-full">
                 {ProjectMessages.OperationHours.map((item, index) => (
