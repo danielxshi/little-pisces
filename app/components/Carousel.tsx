@@ -78,7 +78,9 @@ export default function Carousel() {
                 // fallbackSrc={item.fallback}
                   alt={"taiyaki store"}
                 layout="fill"
-                objectFit="cover"
+                // width={700}
+                // height={700}
+                // objectFit="cover"
     
               />
             </SplideSlide>
