@@ -63,7 +63,7 @@ export default function Page() {
       {/* <Works /> */}
       <div className="bg-orange">
         {/* <div className="max-w-[1300px] m-auto"> */}
-          {/* <Carousel /> */}
+          <Carousel />
         {/* </div> */}
       </div>
     </div>

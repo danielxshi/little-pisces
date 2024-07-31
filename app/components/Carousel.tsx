@@ -80,7 +80,7 @@ export default function Carousel() {
                 layout="fill"
                 // width={700}
                 // height={700}
-                // objectFit="cover"
+                objectFit="cover"
     
               />
             </SplideSlide>
