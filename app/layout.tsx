@@ -52,20 +52,20 @@ function Footer() {
             </div> */}
           </div>
 
-          <div className="footer-icon-wrapper w-full md:w-2/4 right-0 mr-0 ml-auto mt-4 md:mt-0">
-            <div className="flex flex-col justify-end text-right">
+          <div className="footer-icon-wrapper w-full md:w-2/4 right-0 mr-0 ml-auto mt-8 md:mt-0">
+            <div className="flex flex-col justify-end text-right ">
               <ul className="flex flex-row right-0 ml-auto mr-0 w-full text-right md:justify-end justify-start">
                 {ProjectMessages.SocialMedia.map((item, index) => (
-                  <li className="text-left md:text-right mb-2 md:mb-0 ml-4 ">
+                  <li className="text-left md:text-right mb-2 md:mb-0 md:ml-4 mr-4 ">
                     <Link className="w-[1.5rem] h-[1.5rem]" href={item.url}>
                       {item.icon}
                     </Link>
                   </li>
                 ))}
-                <p className="ml-4">@eatlittlepisces</p>
+                <p className="md:ml-4">@eatlittlepisces</p>
               </ul>
-              <div>
-                <a href="" className="mt-2 font-bold w-fit">
+              <div className="flex">
+                <a href="" className="mt-2 font-bold md:w-fit text-left w-full">
                   Contact Us
                 </a>
               </div>
