@@ -19,7 +19,7 @@ export default function StoreInfo() {
     <div className="bg-orange  relative overflow-hidden">
       <div className=" relative overflow-hidden flex flex-col ">
         <ParallaxBG
-          url="/images/info-bg.jpg"
+          url="/images/info-bg-2.jpg"
           style="text-white landing-parallax"
         >
           <section className="container md:py-16 md:grid md:grid-cols-12 flex flex-wrap">
