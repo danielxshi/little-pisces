@@ -65,7 +65,7 @@ function Footer() {
                 <p className="md:ml-4">@eatlittlepisces</p>
               </ul>
               <div className="flex">
-                <a href="" className="mt-2 font-bold md:w-fit text-left w-full">
+                <a href="" className=" font-bold md:w-fit text-left w-full md:flex-row-reverse">
                   Contact Us
                 </a>
               </div>

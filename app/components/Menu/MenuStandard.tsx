@@ -41,12 +41,12 @@ export default function MenuStandard(props: {
     | undefined;
 }) {
   return (
-    <div className="container pt-6 md:pt-32 lg:grid lg:grid-cols-12 food-menu flex flex-col">
+    <div className="container pt-6 md:pt-32 lg:grid lg:grid-cols-12 food-menu flex flex-col pb-16 md:pb-0">
       
       <div className="col-start-2 col-end-12 row-start-1 flex flex-row mb-8 md:mb-8">
         <h2 className="md:text-6xl text-5xl uppercase font-black text-white">
           {props.title}
-          <p className="text-xl w-80">{props.combo1}</p>
+          <p className="text-xl w-64">{props.combo1}</p>
         </h2>
         <div className="flex flex-col my-[-4px] md:ml-14 ml-0 w-80 text-right md:text-left">
           <span className="md:text-2xl text-xl text-white font-bold">
@@ -65,7 +65,7 @@ export default function MenuStandard(props: {
         </div>
       </div>
 
-      <div className="col-start-2 col-end-7 row-start-2 text-white lg:mt-0 mt-16">
+      <div className="col-start-2 col-end-7 row-start-2 text-white lg:mt-0 md:mt-16 mt-8">
         {props.children}
       </div>
     </div>

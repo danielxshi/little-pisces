@@ -61,11 +61,11 @@ export default function Page() {
       <Landing />
       <StoreInfo />
       {/* <Works /> */}
-      {/* <div className="bg-orange">
-        <div className="max-w-[1300px] m-auto">
-          <Carousel />
-        </div>
-      </div> */}
+      <div className="bg-orange">
+        {/* <div className="max-w-[1300px] m-auto"> */}
+          {/* <Carousel /> */}
+        {/* </div> */}
+      </div>
     </div>
   );
 }
