@@ -64,7 +64,7 @@ const Background = styled.div`
 `;
 
 const ModalWrapper = styled.div`
-  width: 50vw;
+  width: 25vw;
   height: 100vh;
   color: #fff;
   grid-template-columns: 1fr 1fr;
@@ -107,7 +107,7 @@ export const BurgerModal = ({
     config: {
       duration: 400,
     },
-    x: showModal ? "100%" : "200%",
+    x: showModal ? "300%" : "400%",
   });
 
   const closeModal = (e: { target: HTMLInputElement | null }) => {
@@ -209,7 +209,7 @@ export const BurgerModal = ({
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line1 = el)}
-                                        href="mailto:jacky@littlepisces.com"
+                                        href="/contact"
                                         onClick={() => {
                                           ListClick.onClick();
                                         }}

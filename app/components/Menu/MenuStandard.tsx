@@ -46,7 +46,7 @@ export default function MenuStandard(props: {
       <div className="col-start-2 col-end-12 row-start-1 flex flex-row mb-8 md:mb-8">
         <h2 className="md:text-6xl text-5xl uppercase font-black text-white">
           {props.title}
-          <p className="text-xl w-64">{props.combo1}</p>
+          <p className="text-base w-66 italic">{props.combo1}</p>
         </h2>
         <div className="flex flex-col my-[-4px] md:ml-14 ml-0 w-80 text-right md:text-left">
           <span className="md:text-2xl text-xl text-white font-bold">

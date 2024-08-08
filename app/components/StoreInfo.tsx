@@ -2,7 +2,7 @@ import Link from "next/link";
 import ProjectMessages from "../JSON/ProjectMessages";
 import ParallaxBG from "./ParallaxBG";
 import localFont from "next/font/local";
-import test from "@/public/images/info-bg.jpg"
+import test from "@/public/images/info-bg.jpg";
 
 const Manrope = localFont({
   src: [
@@ -36,7 +36,6 @@ export default function StoreInfo() {
             </div>
           </section>
         </ParallaxBG>
-        
       </div>
     </div>
   );

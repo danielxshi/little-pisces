@@ -62,12 +62,12 @@ function Footer() {
                     </Link>
                   </li>
                 ))}
-                <p className="md:ml-4">@eatlittlepisces</p>
+                <p className="md:ml-2">@eatlittlepisces</p>
               </ul>
               <div className="flex md:flex-row-reverse">
-                <a href="" className=" font-bold md:w-fit text-left w-full ">
+                <Link href="/contact" className=" font-bold md:w-fit text-left w-full ">
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>

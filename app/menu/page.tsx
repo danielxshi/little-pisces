@@ -31,14 +31,14 @@ export default function Menu() {
         <div className="w-full">
           <ul className="w-full">
             {ProjectMessages.MenuTaiyaki.map((item, index) => (
-              <li className="w-full flex justify-between ml-8">
-                <div className="w-16 h-16">
+              <li className="w-full flex justify-between mb-[-2.5rem]">
+                <div className="w-28 h-fit ml-[-2rem]">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
                     fill={true}
                   ></ContentfulImage>
                 </div>
-                <div className="flex w-3/5 text-left ml-8">
+                <div className="flex w-4/5 text-left">
                   <span className="self-center text-xl">{item.name}</span>
                 </div>
               </li>
@@ -61,14 +61,14 @@ export default function Menu() {
         <div className="w-full">
           <ul className="w-full">
             {ProjectMessages.MenuSoftServe.map((item, index) => (
-              <li className="w-full flex justify-between ml-8">
-                <div className="w-16 h-16">
+              <li className="w-full flex justify-between mb-[-2.5rem] ">
+                <div className="w-32 h-fit ml-[-2rem]">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
                     fill={true}
                   ></ContentfulImage>
                 </div>
-                <div className="flex w-3/5 text-left ml-8">
+                <div className="flex w-4/5 text-left ml-8">
                   <span className="self-center text-xl">{item.name}</span>
                 </div>
               </li>
@@ -87,8 +87,8 @@ export default function Menu() {
         <div className="w-full">
           <ul className="w-full">
             {ProjectMessages.MenuDrinks.map((item, index) => (
-              <li className="w-full flex justify-between md:ml-8">
-                <div className="w-32 h-16">
+              <li className="w-full flex justify-between md:mb-[-2.5rem] mb-[-2.5rem]">
+                <div className="w-48 h-fit ml-[-2rem]">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
                     fill={true}
