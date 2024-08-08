@@ -8,7 +8,7 @@ export default function BasicForm() {
 
   const [error, setError] = useState("");
 
-  function onSubmit(e) {
+  function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     e.stopPropagation();
 
