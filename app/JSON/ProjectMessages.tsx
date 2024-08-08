@@ -50,11 +50,12 @@ const MenuTaiyaki = [
 ];
 
 const MenuSoftServe = [
-  { name: "Matcha", image: "matcha SS.svg" },
-  { name: "Banana Milk", image: "bananamilkSS.svg" },
   { name: "Milk", image: "milk SS.svg" },
   { name: "Guava Sorbet", image: "passion fruit green tea drink.svg" },
-  { name: "Matcha Banana", image: "matcha banana SS.svg" },
+  { name: "Matcha", image: "matcha SS.svg" },
+  { name: "Banana Milk", image: "bananamilkSS.svg" },
+  { name: "Milk / Guava Twist", image: "guava sorbet.svg" },
+  { name: "Matcha / Banana Milk Twist", image: "matcha banana SS.svg" },
 ];
 
 const MenuTaiyakiSoftServe = [
@@ -69,13 +70,14 @@ const MenuTaiyakiSoftServe = [
 ];
 
 const MenuDrinks = [
-  { name: "Mango Milk", price: "6.5", image: "mango milk.svg" },
-  { name: "Strawberry Milk", price: "6.5", image: "strawberry milk.svg" },
-  { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
-  { name: "Matcha Mango Latte", price: "7.5", image: "matcha mango latte.svg" },
-  { name: "Matcha Strawberry Latte", price: "7.5", image: "matcha strawberry latte.svg" },
-  { name: "Cold Brew", price: "5.0", image: "cold brew.svg" },
   { name: "Hojicha Tea", price: "4.0", image: "hojicha tea.svg" },
+  { name: "Passionfruit Green Tea", price: "5.0", image: "passion fruit green tea drink.svg" },
+  { name: "Cold Brew", price: "5.0", image: "cold brew.svg" },
+  { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
+  { name: "Matcha Strawberry Latte", price: "7.5", image: "matcha strawberry latte.svg" },
+  { name: "Matcha Mango Latte", price: "7.5", image: "matcha mango latte.svg" },
+  { name: "Strawberry Milk", price: "6.5", image: "strawberry milk.svg" },
+  { name: "Mango Milk", price: "6.5", image: "mango milk.svg" },
 ];
 
 const ProjectMessages = {
