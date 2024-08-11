@@ -48,7 +48,7 @@ export default function Menu() {
       </MenuStandard>
       <MenuStandard
         title="Soft Serve"
-        image="/images/menu2.jpg"
+        image="/images/carousel/carousel1.jpg"
         combo1="You can get any of our soft serve flavors in a cup only or with an upside down taiyaki cone (+$1)"
         price1={JSON.stringify(
           ProjectMessages.SoftservePrices[0]["price"]
