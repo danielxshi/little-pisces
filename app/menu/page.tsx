@@ -18,7 +18,7 @@ export default function Menu() {
     <div className="min-h-screen menu-page md:pb-32 pb-16 pt-32 md:pt-0">
       <MenuStandard
         title="Taiyaki"
-        image={"/images/menu1.jpg"}
+        image="/images/carousel/carousel4.jpg"
         combo1="Can mix and match among the following taiyaki flavors"
         price1={JSON.stringify(
           ProjectMessages.TaiyakiPrices[0]["price"]
