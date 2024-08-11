@@ -33,23 +33,12 @@ function Footer() {
       <div className="grid grid-cols-12 container">
         <div className="col-start-1 col-end-13 flex justify-between md:flex-row flex-col">
           <div className="w-full md:w-2/4 ">
+          <p className="font-bold">Store Address</p>
             <ul className="">
               {ProjectMessages.StoreInfo.map((item, index) => (
                 <li className="mb-2 md:mb-0">{item.content}</li>
               ))}
             </ul>
-            {/* <div className="w-2/4 ">
-              <ul className="">
-                {ProjectMessages.ContactInfo.map((item, index) => (
-                  <Link
-                    href="mailto:jacky@littlepisces.com"
-                    className="mb-2 md:mb-0"
-                  >
-                    {item.content}
-                  </Link>
-                ))}
-              </ul>
-            </div> */}
           </div>
 
           <div className="footer-icon-wrapper w-full md:w-2/4 right-0 mr-0 ml-auto mt-8 md:mt-0">
@@ -65,7 +54,10 @@ function Footer() {
                 <p className="md:ml-2">@eatlittlepisces</p>
               </ul>
               <div className="flex md:flex-row-reverse">
-                <Link href="/contact" className=" font-bold md:w-fit text-left w-full ">
+                <Link
+                  href="/contact"
+                  className=" font-bold md:w-fit text-left w-full "
+                >
                   Contact Us
                 </Link>
               </div>

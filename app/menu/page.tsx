@@ -32,7 +32,7 @@ export default function Menu() {
           <ul className="w-full">
             {ProjectMessages.MenuTaiyaki.map((item, index) => (
               <li className="w-full flex justify-between mb-[-2.5rem]">
-                <div className="w-28 h-fit ml-[-2rem]">
+                <div className="w-28 h-28 ml-[-2rem]">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
                     fill={true}
@@ -62,7 +62,7 @@ export default function Menu() {
           <ul className="w-full">
             {ProjectMessages.MenuSoftServe.map((item, index) => (
               <li className="w-full flex justify-between mb-[-2.5rem] ">
-                <div className="w-32 h-fit ml-[-2rem]">
+                <div className="w-32 h-28 ml-[-2rem]">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
                     fill={true}
@@ -88,7 +88,7 @@ export default function Menu() {
           <ul className="w-full">
             {ProjectMessages.MenuDrinks.map((item, index) => (
               <li className="w-full flex justify-between md:mb-[-2.5rem] mb-[-2.5rem]">
-                <div className="w-48 h-fit ml-[-2rem]">
+                <div className="w-38 md:w-38 h-28 ml-[-2rem]">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
                     fill={true}
