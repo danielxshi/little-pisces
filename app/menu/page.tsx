@@ -32,10 +32,11 @@ export default function Menu() {
           <ul className="w-full">
             {ProjectMessages.MenuTaiyaki.map((item, index) => (
               <li className="w-full flex justify-between mb-[-2.5rem]">
-                <div className="w-28 h-28 ml-[-2rem]">
+                <div className="w-28 h-28 ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
                     fill={true}
+                    objectFit="contain"
                   ></ContentfulImage>
                 </div>
                 <div className="flex w-4/5 text-left">
@@ -62,10 +63,11 @@ export default function Menu() {
           <ul className="w-full">
             {ProjectMessages.MenuSoftServe.map((item, index) => (
               <li className="w-full flex justify-between mb-[-2.5rem] ">
-                <div className="w-32 h-28 ml-[-2rem]">
+                <div className="w-28  h-28 ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
                     fill={true}
+                    objectFit="contain"
                   ></ContentfulImage>
                 </div>
                 <div className="flex w-4/5 text-left ml-8">
@@ -88,16 +90,19 @@ export default function Menu() {
           <ul className="w-full">
             {ProjectMessages.MenuDrinks.map((item, index) => (
               <li className="w-full flex justify-between md:mb-[-2.5rem] mb-[-2.5rem]">
-                <div className="w-38 md:w-38 h-28 ml-[-2rem]">
+                <div className="w-28 h-28 ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
                     fill={true}
+                    objectFit="contain"
                   ></ContentfulImage>
                 </div>
                 <div className="flex w-full text-left ml-8">
                   <span className="text-xl self-center">{item.name}</span>
                 </div>
-                <span className="md:mr-32 text-xl self-center ml-8">{item.price}</span>
+                <span className="md:mr-32 text-xl self-center ml-8">
+                  {item.price}
+                </span>
               </li>
             ))}
           </ul>
