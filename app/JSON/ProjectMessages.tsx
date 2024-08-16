@@ -44,7 +44,7 @@ const MenuTaiyaki = [
   { name: "Nutella", image: "nutella.svg" },
   { name: "Taro", image: "taro.svg" },
   { name: "Hotteok", image: "hotteok.svg" },
-  { name: "Matcha Strawberry", image: "matcha strawberry.svg" },
+  { name: "Matcha Custard", image: "matcha custard.svg" },
   { name: "Pizza", image: "pizza.svg" },
   { name: "Buldak", image: "buldak.svg" },
 ];
