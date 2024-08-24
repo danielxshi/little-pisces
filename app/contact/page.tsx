@@ -39,7 +39,7 @@ export default function BasicForm() {
   }
 
   return (
-    <div className="h-screen flex form-container">
+    <div className="h-screen flex form-container px-8">
       <section className="formcarry-container">
         <form onSubmit={(e) => onSubmit(e)}>
           <div className="formcarry-block">
