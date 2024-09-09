@@ -235,13 +235,13 @@ export const BurgerModal = ({
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
-                                        href="https://littlepisces.square.site"
+                                        href="https://www.clover.com/online-ordering/littlepisces"
                                         onClick={() => {
                                           ListClick.onClick();
                                         }}
                                       >
                                         {" "}
-                                        MERCH
+                                        ORDER
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
