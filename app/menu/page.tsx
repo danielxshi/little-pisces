@@ -81,7 +81,7 @@ export default function Menu() {
       <MenuStandard
         title="DRINKS"
         image="/images/menu3.jpg"
-        combo1="All our drinks are iced for the summer (16oz)"
+        combo1="Hot (12oz) or Iced (16oz)"
         price1=""
         combo2=""
         price2=""
