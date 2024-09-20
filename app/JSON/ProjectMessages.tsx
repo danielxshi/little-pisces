@@ -70,14 +70,15 @@ const MenuTaiyakiSoftServe = [
 ];
 
 const MenuDrinks = [
-  { name: "Hojicha Tea", price: "4.0", image: "hojicha tea.svg" },
-  { name: "Passionfruit Green Tea", price: "5.0", image: "passion fruit green tea drink.svg" },
-  { name: "Cold Brew", price: "5.0", image: "cold brew.svg" },
-  { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
-  { name: "Matcha Strawberry Latte", price: "7.5", image: "matcha strawberry latte.svg" },
-  { name: "Matcha Mango Latte", price: "7.5", image: "matcha mango latte.svg" },
-  { name: "Strawberry Milk", price: "6.5", image: "strawberry milk.svg" },
-  { name: "Mango Milk", price: "6.5", image: "mango milk.svg" },
+  { name: "Hojicha Tea (hot/iced)", price: "4.0", image: "hojicha tea.svg" },
+  { name: "Passionfruit Green Tea (iced)", price: "5.0", image: "passion fruit green tea drink.svg" },
+  { name: "Taro Milk (hot/iced)", price: "6.5", image: "taro milk.svg" },
+  { name: "Matcha Latte (hot/iced)", price: "6.5", image: "matcha latte.svg" },
+  { name: "Matcha Strawberry Latte (iced)", price: "7.5", image: "matcha strawberry latte.svg" },
+  { name: "Matcha Mango Latte (iced)", price: "7.5", image: "matcha mango latte.svg" },
+  { name: "Hojicha Latte (hot/iced)", price: "6.5", image: "hojicha latte.svg" },
+  { name: "Hojicha Taro Latte (hot/iced)", price: "7.5", image: "hojicha taro latte.svg" },
+  { name: "Milo Hot Chocolate (hot)", price: "6.0", image: "cold brew.svg" },
 ];
 
 const ProjectMessages = {
