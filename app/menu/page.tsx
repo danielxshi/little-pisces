@@ -67,7 +67,7 @@ export default function Menu() {
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
                     fill={true}
-                    objectFit="scale-down"
+                    objectFit="none"
                   ></ContentfulImage>
                 </div>
                 <div className="flex w-4/5 text-left ml-8">
