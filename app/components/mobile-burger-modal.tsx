@@ -216,24 +216,6 @@ export const BurgerModal = ({
                                         className="pl-8 md:pl-16"
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
-                                        // ref={(el) => (line1 = el)}
-                                        href="/contact"
-                                        onClick={() => {
-                                          ListClick.onClick();
-                                        }}
-                                      >
-                                        CONTACT
-                                        {/* {localizedMessages.COMPANY} */}
-                                      </Link>
-                                    </li>
-
-                                    <li
-                                    // className={` ${quicksand.className}`}
-                                    >
-                                      <Link
-                                        className="pl-8 md:pl-16"
-                                        onMouseEnter={(e) => handleHover(e)}
-                                        onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
                                         href="https://www.clover.com/online-ordering/littlepisces"
                                         onClick={() => {
@@ -243,6 +225,23 @@ export const BurgerModal = ({
                                         {" "}
                                         ORDER
                                         {/* {localizedMessages.CONTACT} */}
+                                      </Link>
+                                    </li>
+                                    <li
+                                    // className={` ${quicksand.className}`}
+                                    >
+                                      <Link
+                                        className="pl-8 md:pl-16"
+                                        onMouseEnter={(e) => handleHover(e)}
+                                        onMouseOut={(e) => handleHoverExit(e)}
+                                        // ref={(el) => (line1 = el)}
+                                        href="/contact"
+                                        onClick={() => {
+                                          ListClick.onClick();
+                                        }}
+                                      >
+                                        CONTACT
+                                        {/* {localizedMessages.COMPANY} */}
                                       </Link>
                                     </li>
                                   </ul>
