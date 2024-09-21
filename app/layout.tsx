@@ -51,7 +51,7 @@ function Footer() {
                     </Link>
                   </li>
                 ))}
-                <p className="md:ml-2">@eatlittlepisces</p>
+                <Link className="md:ml-2" href="https://www.instagram.com/eatlittlepisces">@eatlittlepisces</Link>
               </ul>
               <div className="flex md:flex-row-reverse">
                 <Link
