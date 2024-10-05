@@ -70,9 +70,9 @@ const MenuTaiyakiSoftServe = [
 ];
 
 const MenuDrinks = [
-  { name: "Hojicha Tea (hot/iced)", price: "4.0", image: "hojicha tea.svg" },
+  { name: "Hojicha Tea", price: "❄️🔥 4.0", image: "hojicha tea.svg" },
   { name: "Passionfruit Green Tea (iced)", price: "5.0", image: "passion fruit green tea drink.svg" },
-  { name: "Taro Milk (hot/iced)", price: "6.5", image: "taro milk.svg" },
+  { name: "Taro Milk (hot/iced)", price: "🔥 6.5", image: "taro milk.svg" },
   { name: "Matcha Latte (hot/iced)", price: "6.5", image: "matcha latte.svg" },
   { name: "Matcha Strawberry Latte (iced)", price: "7.5", image: "matcha strawberry latte.svg" },
   { name: "Matcha Mango Latte (iced)", price: "7.5", image: "matcha mango latte.svg" },
