@@ -43,7 +43,7 @@ export default function MenuStandard(props: {
   return (
     <div className="container pt-6 md:pt-32 lg:grid lg:grid-cols-12 food-menu flex flex-col pb-16 md:pb-0">
       
-      <div className="col-start-2 col-end-12 row-start-1 flex flex-row mb-8 md:mb-8">
+      <div className="col-start-2 col-end-12 row-start-0 flex flex-row mb-8 md:mb-8">
         <h2 className="md:text-6xl text-5xl uppercase font-black text-white">
           {props.title}
           <p className="text-base w-66 italic md:w-[550px]">{props.combo1}</p>
