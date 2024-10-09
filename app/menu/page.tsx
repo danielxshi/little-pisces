@@ -31,7 +31,7 @@ export default function Menu() {
         <div className="w-full">
           <ul className="w-full">
             {ProjectMessages.MenuTaiyaki.map((item, index) => (
-              <li className="w-full flex  mb-[-2.5rem]">
+              <li className="w-full flex justify-around mb-[-2.5rem]">
                 <div className="w-24 h-24 md:ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
@@ -39,7 +39,7 @@ export default function Menu() {
                     objectFit="contain"
                   ></ContentfulImage>
                 </div>
-                <div className="flex w-4/5 text-left ml-8">
+                <div className="flex w-4/5 text-left ml-0">
                   <span className="self-center text-xl">{item.name}</span>
                 </div>
               </li>
@@ -62,7 +62,7 @@ export default function Menu() {
         <div className="w-full">
           <ul className="w-full">
             {ProjectMessages.MenuSoftServe.map((item, index) => (
-              <li className="w-full flex  mb-[-2.5rem] ">
+              <li className="w-full flex justify-around mb-[-2.5rem] ">
                 <div className="w-26 h-26 md:ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
@@ -70,7 +70,7 @@ export default function Menu() {
                     objectFit="contain"
                   ></ContentfulImage>
                 </div>
-                <div className="flex w-4/5 text-left ml-8">
+                <div className="flex w-4/5 text-left ml-0">
                   <span className="self-center text-xl">{item.name}</span>
                 </div>
               </li>
@@ -89,7 +89,7 @@ export default function Menu() {
         <div className="w-full">
           <ul className="w-full">
             {ProjectMessages.MenuDrinks.map((item, index) => (
-              <li className="w-full flex  md:mb-[-2.5rem] mb-[-2.5rem]">
+              <li className="w-full flex justify-around md:mb-[-2.5rem] mb-[-2.5rem]">
                 <div className="w-26 h-26 md:ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
                   <ContentfulImage
                     src={`/images/menu-icons/${item.image}`}
@@ -97,10 +97,10 @@ export default function Menu() {
                     objectFit="contain"
                   ></ContentfulImage>
                 </div>
-                <div className="flex w-full text-left ml-8">
+                <div className="flex w-full text-left ml-0">
                   <span className="text-xl self-center">{item.name}</span>
                 </div>
-                <span className="md:mr-32 text-xl self-center ml-8">
+                <span className="md:mr-32 text-xl self-center ml-0">
                   {item.price}
                 </span>
               </li>
