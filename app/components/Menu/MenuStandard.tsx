@@ -59,10 +59,14 @@ export default function MenuStandard(props: {
       </div>
 
 
-      <div className="col-start-7 col-end-12 relative row-start-2">
+      <div className="col-start-7 col-end-12 relative row-start-1">
         <div className="food-image-container h-3/5 relative w-full justify-end mr-0 ml-auto flex z-100">
           <ContentfulImage src={props.image} fill={true} objectFit="contain" />
         </div>
+      </div>
+
+      <div className="col-start-2 col-end-7 row-start-1 text-white lg:mt-0 md:mt-16 mt-8">
+        {props.children}
       </div>
     </div>
   );
