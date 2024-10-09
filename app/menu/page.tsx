@@ -39,7 +39,7 @@ export default function Menu() {
                     objectFit="contain"
                   ></ContentfulImage>
                 </div>
-                <div className="flex w-4/5 text-left ml-2">
+                <div className="flex w-4/5 text-left ml-8">
                   <span className="self-center text-xl">{item.name}</span>
                 </div>
               </li>
@@ -70,7 +70,7 @@ export default function Menu() {
                     objectFit="contain"
                   ></ContentfulImage>
                 </div>
-                <div className="flex w-4/5 text-left ml-2">
+                <div className="flex w-4/5 text-left ml-8">
                   <span className="self-center text-xl">{item.name}</span>
                 </div>
               </li>
@@ -97,10 +97,10 @@ export default function Menu() {
                     objectFit="contain"
                   ></ContentfulImage>
                 </div>
-                <div className="flex w-full text-left ml-2">
+                <div className="flex w-full text-left ml-8">
                   <span className="text-xl self-center">{item.name}</span>
                 </div>
-                <span className="md:mr-32 text-xl self-center ml-2">
+                <span className="md:mr-32 text-xl self-center ml-8">
                   {item.price}
                 </span>
               </li>
