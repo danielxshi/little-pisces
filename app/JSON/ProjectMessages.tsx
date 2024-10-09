@@ -74,7 +74,7 @@ const MenuDrinks = [
   { name: "Passionfruit Green Tea", price: "5.0", image: "passion fruit green tea drink.svg" },
   { name: "Taro Milk", price: "6.5", image: "taro milk.svg" },
   { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
-  { name: "Matcha Strawberry Latte ❄️", price: "7.5", image: "matcha strawberry latte.svg" },
+  { name: "Matcha Strawberry Latte", price: "7.5", image: "matcha strawberry latte.svg" },
   { name: "Hojicha Latte", price: "6.5", image: "hojicha latte.svg" },
   { name: "Hojicha Taro Latte", price: "7.5", image: "hojicha taro latte.svg" },
   { name: "Milo Hot Chocolate", price: "6.0", image: "cold brew.svg" },
