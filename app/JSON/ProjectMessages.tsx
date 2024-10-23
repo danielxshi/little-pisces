@@ -51,8 +51,8 @@ const MenuTaiyaki = [
 
 const MenuSoftServe = [
   { name: "Matcha", image: "matcha SS.svg" },
-  { name: "Strawberry Sorbet", image: "strawberry sorbet.svg" },
-  { name: "Banana Milk", image: "bananamilkSS.svg" },
+  { name: "Strawberry Sorbet", image: "strawberry sorbet SS.svg" },
+  { name: "Banana Milk", image: "banana milk SS.svg" },
   { name: "Coffee", image: "coffee SS.svg" },
   { name: "Matcha / Strawberry Twist", image: "matcha strawberry SS.svg" },
   { name: "Banana Milk / Coffee Twist", image: "banana coffee SS.svg" },
