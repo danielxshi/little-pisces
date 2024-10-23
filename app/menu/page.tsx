@@ -19,7 +19,7 @@ export default function Menu() {
       <MenuStandard
         title="Taiyaki"
         image="/images/carousel/carousel4.jpg"
-        combo1="Can mix and match among the following taiyaki flavors"
+        combo1="Mix and match among the following taiyaki flavors"
         price1={JSON.stringify(
           ProjectMessages.TaiyakiPrices[0]["price"]
         ).replaceAll('"', "")}
@@ -50,7 +50,7 @@ export default function Menu() {
       <MenuStandard
         title="Soft Serve"
         image="/images/carousel/carousel1.jpg"
-        combo1="You can get any of our soft serve flavors in a cup only or with an upside down taiyaki cone (+$1)"
+        combo1="Just a cup or with an upside down taiyaki cone (we also have pints available)"
         price1={JSON.stringify(
           ProjectMessages.SoftservePrices[0]["price"]
         ).replaceAll('"', "")}
