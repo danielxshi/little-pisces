@@ -197,7 +197,25 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        ORDER
+                                        ORDER PICKUP
+                                        {/* {localizedMessages.CONTACT} */}
+                                      </Link>
+                                    </li>
+                                    <li
+                                    // className={` ${quicksand.className}`}
+                                    >
+                                      <Link
+                                        className="pl-8 md:pl-16"
+                                        onMouseEnter={(e) => handleHover(e)}
+                                        onMouseOut={(e) => handleHoverExit(e)}
+                                        // ref={(el) => (line3 = el)}
+                                        href="https://www.ubereats.com/store/little-pisces-taiyaki-%26-soft-serve/e1sv_PokUp-ooc7R2Cq_1A"
+                                        onClick={() => {
+                                          ListClick.onClick();
+                                        }}
+                                      >
+                                        {" "}
+                                        ORDER DELIVERY
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
