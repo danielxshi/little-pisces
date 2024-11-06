@@ -197,7 +197,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        ORDER PICKUP
+                                        PICKUP
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
@@ -215,7 +215,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        ORDER DELIVERY
+                                        DELIVERY
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
