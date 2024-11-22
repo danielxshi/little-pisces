@@ -252,6 +252,24 @@ export const BurgerModal = ({
                                         className="pl-8 md:pl-16"
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
+                                        // ref={(el) => (line3 = el)}
+                                        href="https://little-pisces.member.rewardup.io/"
+                                        onClick={() => {
+                                          ListClick.onClick();
+                                        }}
+                                      >
+                                        {" "}
+                                        LOYALTY
+                                        {/* {localizedMessages.CONTACT} */}
+                                      </Link>
+                                    </li>
+                                    <li
+                                    // className={` ${quicksand.className}`}
+                                    >
+                                      <Link
+                                        className="pl-8 md:pl-16"
+                                        onMouseEnter={(e) => handleHover(e)}
+                                        onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line1 = el)}
                                         href="/contact"
                                         onClick={() => {
