@@ -42,19 +42,19 @@ const MenuTaiyaki = [
   { name: "Red Bean", image: "red bean.svg" },
   { name: "Custard", image: "custard.svg" },
   { name: "Nutella", image: "nutella.svg" },
-  { name: "Taro", image: "taro.svg" },
   { name: "Hotteok", image: "hotteok.svg" },
   { name: "Matcha Custard", image: "matcha custard.svg" },
   { name: "Black Sesame", image: "black sesame taiyaki.svg" },
+  { name: "Biscoff", image: "biscoff.svg" },
   { name: "Pizza", image: "pizza.svg" },
 ];
 
 const MenuSoftServe = [
   { name: "Matcha", image: "matcha SS.svg" },
-  { name: "Strawberry Sorbet", image: "strawberry sorbet.svg" },
+  { name: "Mango Sorbet", image: "mango sorbet SS.svg" },
   { name: "Banana Milk", image: "banana milk SS.svg" },
   { name: "Coffee", image: "coffee SS.svg" },
-  { name: "Matcha / Strawberry Twist", image: "matcha strawberry SS.svg" },
+  { name: "Matcha / Mango Twist", image: "matcha mango SS.svg" },
   { name: "Banana Milk / Coffee Twist", image: "banana coffee SS.svg" },
 ];
 
