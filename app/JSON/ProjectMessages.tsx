@@ -25,7 +25,7 @@ const OperationHours = [
   { day: "THURSDAY", hours: "12PM - 11PM" },
   { day: "FRIDAY", hours: "12PM - 12AM" },
   { day: "SATURDAY", hours: "12PM - 12AM" },
-  { day: "SUNDAY", hours: "12PM - 12AM" },
+  { day: "SUNDAY", hours: "12PM - 11PM" },
 ];
 
 const TaiyakiPrices = [{ price: "2pc / 6.7" }, { price: "5pc / 14.7" }];
