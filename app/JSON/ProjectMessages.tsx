@@ -79,7 +79,7 @@ const MenuDrinks = [
   { name: "Hojicha Taro Latte", price: "7.5", image: "hojicha taro latte.svg" },
   { name: "Milo Hot Choco*", price: "8.0", image: "milo hot choco.svg" },
   { name: "Black Sesame Hot Choco*", price: "8.0", image: "blk sesame hot choco.svg" },
-  { name: "*Hot Chocolate Festival drink includes Taiyaki Mochi" },
+  { name: "*Hot Chocolate Festival drinks include a Taiyaki Mochi", image: "custard.svg" },
 ];
 
 const ProjectMessages = {
