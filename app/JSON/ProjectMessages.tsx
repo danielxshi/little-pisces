@@ -72,11 +72,9 @@ const MenuTaiyakiSoftServe = [
 const MenuDrinks = [
   { name: "Hojicha Tea", price: "4.0", image: "hojicha tea.svg" },
   { name: "Passionfruit Green Tea", price: "5.0", image: "passion fruit green tea drink.svg" },
-  { name: "Taro Milk", price: "6.5", image: "taro milk.svg" },
   { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
   { name: "Matcha Strawberry Latte", price: "7.5", image: "matcha strawberry latte.svg" },
   { name: "Hojicha Latte", price: "6.5", image: "hojicha latte.svg" },
-  { name: "Hojicha Taro Latte", price: "7.5", image: "hojicha taro latte.svg" },
   { name: "Milo Hot Choco*", price: "8.0", image: "milo hot choco.svg" },
   { name: "Black Sesame Hot Choco*", price: "8.0", image: "blk sesame hot choco.svg" },
   { name: "*Hot Chocolate Festival drinks include a Taiyaki Mochi", image: "custard.svg" },
