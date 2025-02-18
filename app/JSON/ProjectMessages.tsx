@@ -42,10 +42,8 @@ const MenuTaiyaki = [
   { name: "Red Bean", image: "red bean.svg" },
   { name: "Custard", image: "custard.svg" },
   { name: "Nutella", image: "nutella.svg" },
-  { name: "Taro", image: "taro.svg" },
   { name: "Hotteok", image: "hotteok.svg" },
   { name: "Matcha Custard", image: "matcha custard.svg" },
-  { name: "Apple Pie", image: "apple pie.svg" },
   { name: "Pizza", image: "pizza.svg" },
 ];
 
@@ -75,9 +73,7 @@ const MenuDrinks = [
   { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
   { name: "Matcha Strawberry Latte", price: "7.5", image: "matcha strawberry latte.svg" },
   { name: "Hojicha Latte", price: "6.5", image: "hojicha latte.svg" },
-  { name: "Milo Hot Choco*", price: "8.0", image: "milo hot choco.svg" },
-  { name: "Black Sesame Hot Choco*", price: "8.0", image: "blk sesame hot choco.svg" },
-  { name: "*Hot Chocolate Festival drinks include a Taiyaki Mochi", image: "custard.svg" },
+  { name: "Milo Hot Choco", price: "6.0", image: "milo hot choco.svg" },
 ];
 
 const ProjectMessages = {
