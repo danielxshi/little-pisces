@@ -19,7 +19,7 @@ const SocialMedia = [
 ];
 
 const OperationHours = [
-  { day: "MONDAY", hours: "12PM - 11PM (Closed March 31)" },
+  { day: "MONDAY", hours: "12PM - 11PM" },
   { day: "TUESDAY", hours: "12PM - 11PM" },
   { day: "WEDNESDAY", hours: "12PM - 11PM" },
   { day: "THURSDAY", hours: "12PM - 11PM" },
