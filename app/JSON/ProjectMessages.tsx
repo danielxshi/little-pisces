@@ -32,8 +32,8 @@ const TaiyakiPrices = [{ price: "2pc / 6.7" }, { price: "5pc / 14.7" }];
 const SoftservePrices = [{ price: "7.9 / cup" }, { price: "8.9 / cone" }];
 
 const StoreInfo = [
-  { content: "4501 North Rd, Unit 202B, Burnaby, BC V3N 4R7" },
-  { content: "8531 Alexandra Rd, Unit 128, Richmond, BC V6X 1C3" },
+  { content: "4501 North Rd, Unit 202B, Burnaby, BC" },
+  { content: "8531 Alexandra Rd, Unit 128, Richmond, BC" },
 ];
 
 const ContactInfo = [{ content: "jacky@littlepisces.com" }];
