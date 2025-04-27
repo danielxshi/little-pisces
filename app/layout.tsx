@@ -68,7 +68,7 @@ function Footer() {
                   className=" font-bold md:w-fit text-left w-full "
                 >
                   Allergens
-                </Link>
+                </a>
               </div>
             </div>
           </div>
