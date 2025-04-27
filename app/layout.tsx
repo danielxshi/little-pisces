@@ -61,6 +61,15 @@ function Footer() {
                   Contact Us
                 </Link>
               </div>
+              <div className="flex md:flex-row-reverse">
+                <a
+                  href="https://drive.google.com/file/d/1nkkRfXGUgoTUSOgu-F-Yo7vKRS_VaU1l/view?usp=sharing"
+                  download="Little Pisces Allergens"
+                  className=" font-bold md:w-fit text-left w-full "
+                >
+                  Allergens
+                </Link>
+              </div>
             </div>
           </div>
         </div>
