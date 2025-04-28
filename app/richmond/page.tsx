@@ -6,7 +6,7 @@ import Head from "next/head";
 import ContentfulImage from "@/lib/contentful-image";
 
 export const metadata = {
-  title: `Little Pisces Menu`,
+  title: `Little Pisces Richmond Menu`,
   // icons: {
   //   icon: `../../public/apple-icon.png?v=2`,
   // },
@@ -61,7 +61,7 @@ export default function Richmond() {
       >
         <div className="w-full">
           <ul className="w-full">
-            {ProjectMessages.LougheedSoftServe.map((item, index) => (
+            {ProjectMessages.RichmondSoftServe.map((item, index) => (
               <li className="w-full flex mb-[-2.5rem] ">
                 <div className="w-26 h-26 md:ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
                   <ContentfulImage
@@ -88,7 +88,7 @@ export default function Richmond() {
       >
         <div className="w-full">
           <ul className="w-full">
-            {ProjectMessages.LougheedDrinks.map((item, index) => (
+            {ProjectMessages.RichmondDrinks.map((item, index) => (
               <li className="w-full flex md:mb-[-2.5rem] mb-[-2.5rem]">
                 <div className="w-26 h-26 md:ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
                   <ContentfulImage
