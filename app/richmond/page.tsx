@@ -19,8 +19,6 @@ export default function Richmond() {
       <div className="w-26 h-26 md:ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
         <a
           //className="pl-8 md:pl-16"
-          onMouseEnter={(e) => handleHover(e)}
-          onMouseOut={(e) => handleHoverExit(e)}
           href="https://www.clover.com/online-ordering/littlepisces"
         >
           ORDER PICKUP
