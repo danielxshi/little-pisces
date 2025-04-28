@@ -215,7 +215,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        DELIVERY
+                                              DELIVERY
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
