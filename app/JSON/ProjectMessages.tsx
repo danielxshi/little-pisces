@@ -71,7 +71,6 @@ const RichmondTaiyaki = [
   { name: "Red Bean", image: "red bean.svg" },
   { name: "Custard", image: "custard.svg" },
   { name: "Nutella", image: "nutella.svg" },
-  { name: "Hotteok", image: "black sesame.svg" },
   { name: "Pizza", image: "pizza.svg" },
 ];
 
