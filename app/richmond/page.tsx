@@ -108,22 +108,20 @@ export default function Richmond() {
           </ul>
         </div>
       </MenuStandard>
-      <div>
-        <Link
-          className="pl-8 md:pl-16"
-          onMouseEnter={(e) => handleHover(e)}
-          onMouseOut={(e) => handleHoverExit(e)}
-          // ref={(el) => (line3 = el)}
-          href="https://www.clover.com/online-ordering/littlepisces"
-          onClick={() => {
-            ListClick.onClick();
-          }}
-        >
-          {" "}
-          PICKUP
-          {}
-        </Link>
-      </div>
+      <Link
+        className="pl-8 md:pl-16"
+        onMouseEnter={(e) => handleHover(e)}
+        onMouseOut={(e) => handleHoverExit(e)}
+        // ref={(el) => (line3 = el)}
+        href="https://www.clover.com/online-ordering/littlepisces"
+        onClick={() => {
+          ListClick.onClick();
+        }}
+      >
+        {" "}
+        PICKUP
+        {}
+      </Link>
     </div>
   );
 }
