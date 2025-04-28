@@ -18,7 +18,7 @@ export default function Richmond() {
     <div className="min-h-screen menu-page md:pb-32 pb-16 pt-32 md:pt-0">
       <div>
         <a
-          className="pl-8 md:pl-16"
+          //className="pl-8 md:pl-16"
           href="https://www.clover.com/online-ordering/littlepisces"
         >
           ORDER PICKUP
