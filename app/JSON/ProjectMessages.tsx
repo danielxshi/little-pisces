@@ -72,7 +72,7 @@ const RichmondTaiyaki = [
   { name: "Custard", image: "custard.svg" },
   { name: "Nutella", image: "nutella.svg" },
   { name: "Matcha Strawberry", image: "matcha strawberry.svg" },
-  { name: "Black Sesame", image: "blk sesame.svg" },
+  { name: "Black Sesame", image: "black sesame taiyaki.svg" },
   { name: "Pizza", image: "pizza.svg" },
   { name: "Salted Egg Yolk", image: "custard.svg" },
 ];
@@ -80,8 +80,8 @@ const RichmondTaiyaki = [
 const RichmondSoftServe = [
   { name: "Matcha", image: "matcha SS.svg" },
   { name: "Mango Sorbet", image: "mango sorbet SS.svg" },
-  { name: "Milk Tea", image: "hojicha SS.svg" },
-  { name: "Yakult", image: "yakult SS.svg" },
+  { name: "Milk Tea", image: "hojicha ss.svg" },
+  { name: "Yakult", image: "yakult ss.svg" },
   { name: "Matcha / Mango Twist", image: "matcha mango SS.svg" },
 ];
 
