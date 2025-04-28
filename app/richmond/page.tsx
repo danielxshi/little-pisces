@@ -116,6 +116,14 @@ export default function Richmond() {
           </ul>
         </div>
       </MenuStandard>
+      <div>
+        <a
+          //className="pl-8 md:pl-16"
+          href="https://www.clover.com/online-ordering/littlepisces"
+        >
+          ORDER PICKUP
+        </a>
+      </div>
     </div>
   );
 }
