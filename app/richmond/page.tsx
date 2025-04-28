@@ -16,14 +16,6 @@ export const metadata = {
 export default function Richmond() {
   return (
     <div className="min-h-screen menu-page md:pb-32 pb-16 pt-32 md:pt-0">
-      <div>
-        <a
-          //className="pl-8 md:pl-16"
-          href="https://www.clover.com/online-ordering/littlepisces"
-        >
-          ORDER PICKUP
-        </a>
-      </div>
       <MenuStandard
         title="Taiyaki"
         image="/images/carousel/carousel4.jpg"
@@ -116,14 +108,6 @@ export default function Richmond() {
           </ul>
         </div>
       </MenuStandard>
-      <div>
-        <a
-          //className="pl-8 md:pl-16"
-          href="https://www.clover.com/online-ordering/littlepisces"
-        >
-          ORDER PICKUP
-        </a>
-      </div>
     </div>
   );
 }
