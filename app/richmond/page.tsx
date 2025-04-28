@@ -108,7 +108,7 @@ export default function Richmond() {
           </ul>
         </div>
       </MenuStandard>
-      <Link
+      <a
         className="pl-8 md:pl-16"
         onMouseEnter={(e) => handleHover(e)}
         onMouseOut={(e) => handleHoverExit(e)}
@@ -121,7 +121,7 @@ export default function Richmond() {
         {" "}
         PICKUP
         {}
-      </Link>
+      </a>
     </div>
   );
 }
