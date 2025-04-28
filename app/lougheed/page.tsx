@@ -13,7 +13,7 @@ export const metadata = {
   // description: ``,
 };
 
-export default function Menu() {
+export default function Lougheed() {
   return (
     <div className="min-h-screen menu-page md:pb-32 pb-16 pt-32 md:pt-0">
       <MenuStandard
