@@ -108,7 +108,7 @@ export default function Richmond() {
           </ul>
         </div>
       </MenuStandard>
-      <li>
+      <div>
         <Link
           className="pl-8 md:pl-16"
           onMouseEnter={(e) => handleHover(e)}
@@ -123,7 +123,7 @@ export default function Richmond() {
           PICKUP
           {}
         </Link>
-      </li>
+      </div>
     </div>
   );
 }
