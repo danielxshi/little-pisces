@@ -30,7 +30,7 @@ export default function Menu() {
       >
         <div className="w-full">
           <ul className="w-full">
-            {ProjectMessages.MenuTaiyaki.map((item, index) => (
+            {ProjectMessages.LougheedTaiyaki.map((item, index) => (
               <li className="w-full flex mb-[-2.5rem]">
                 <div className="w-24 h-24 md:ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
                   <ContentfulImage
@@ -61,7 +61,7 @@ export default function Menu() {
       >
         <div className="w-full">
           <ul className="w-full">
-            {ProjectMessages.MenuSoftServe.map((item, index) => (
+            {ProjectMessages.LougheedSoftServe.map((item, index) => (
               <li className="w-full flex mb-[-2.5rem] ">
                 <div className="w-26 h-26 md:ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
                   <ContentfulImage
@@ -88,7 +88,7 @@ export default function Menu() {
       >
         <div className="w-full">
           <ul className="w-full">
-            {ProjectMessages.MenuDrinks.map((item, index) => (
+            {ProjectMessages.LougheedDrinks.map((item, index) => (
               <li className="w-full flex md:mb-[-2.5rem] mb-[-2.5rem]">
                 <div className="w-26 h-26 md:ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
                   <ContentfulImage
