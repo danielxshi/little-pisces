@@ -180,9 +180,9 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {/* {localizedMessages.PROJECT} */}
-                                        MENU
+                                        &nbsp;&nbsp;MENU
                                       </Link>
-                                    </li>{" "}
+                                    </li>
                                     <li
                                     // className={` ${quicksand.className}`}
                                     >
@@ -197,7 +197,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        PICKUP
+                                        &nbsp;&nbsp;PICKUP
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
@@ -215,7 +215,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        DELIVERY
+                                        &nbsp;&nbsp;DELIVERY
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
