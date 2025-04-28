@@ -38,7 +38,7 @@ const StoreInfo = [
 
 const ContactInfo = [{ content: "jacky@littlepisces.com" }];
 
-const MenuTaiyaki = [
+const LougheedTaiyaki = [
   { name: "Red Bean", image: "red bean.svg" },
   { name: "Custard", image: "custard.svg" },
   { name: "Nutella", image: "nutella.svg" },
@@ -49,25 +49,14 @@ const MenuTaiyaki = [
   { name: "Pizza", image: "pizza.svg" },
 ];
 
-const MenuSoftServe = [
+const LougheedSoftServe = [
   { name: "Matcha", image: "matcha SS.svg" },
   { name: "Mango Sorbet", image: "mango sorbet SS.svg" },
   { name: "Black Sesame", image: "blk sesame SS.svg" },
   { name: "Matcha / Mango Twist", image: "matcha mango SS.svg" },
 ];
 
-const MenuTaiyakiSoftServe = [
-  { name: "Red Bean", price: "" },
-  { name: "Custard", price: "" },
-  { name: "Nutella", price: "" },
-  { name: "Taro", price: "" },
-  { name: "Ube Halaya", price: "" },
-  { name: "Salted Egg Yolk", price: "" },
-  { name: "Hotteok", price: "" },
-  { name: "Pizza", price: "" },
-];
-
-const MenuDrinks = [
+const LougheedDrinks = [
   { name: "Hojicha Tea", price: "4.0", image: "hojicha tea.svg" },
   { name: "Passionfruit Green Tea", price: "5.0", image: "passion fruit green tea drink.svg" },
   { name: "Matcha Lemonade", price: "6.5", image: "matcha lemonade drink.svg" },
@@ -78,15 +67,41 @@ const MenuDrinks = [
   { name: "Black Sesame Hojicha Einspanner", price: "8.0", image: "black sesame hojicha einspanner.svg" },
 ];
 
+const RichmondTaiyaki = [
+  { name: "Red Bean", image: "red bean.svg" },
+  { name: "Custard", image: "custard.svg" },
+  { name: "Nutella", image: "nutella.svg" },
+  { name: "Hotteok", image: "black sesame.svg" },
+  { name: "Pizza", image: "pizza.svg" },
+];
+
+const RichmondSoftServe = [
+  { name: "Matcha", image: "matcha SS.svg" },
+  { name: "Mango Sorbet", image: "mango sorbet SS.svg" },
+  { name: "Black Sesame", image: "blk sesame SS.svg" },
+  { name: "Matcha / Mango Twist", image: "matcha mango SS.svg" },
+];
+
+const RichmondDrinks = [
+  { name: "Hojicha Tea", price: "4.0", image: "hojicha tea.svg" },
+  { name: "Passionfruit Green Tea", price: "5.0", image: "passion fruit green tea drink.svg" },
+  { name: "Matcha Lemonade", price: "6.5", image: "matcha lemonade drink.svg" },
+  { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
+  { name: "Hojicha Latte", price: "6.5", image: "hojicha latte.svg" },
+  { name: "Matcha Strawberry Latte", price: "7.5", image: "matcha strawberry latte.svg" },
+];
+
 const ProjectMessages = {
   OperationHours: OperationHours,
   StoreInfo: StoreInfo,
   SocialMedia: SocialMedia,
   ContactInfo: ContactInfo,
-  MenuTaiyaki: MenuTaiyaki,
-  MenuSoftServe: MenuSoftServe,
-  MenuTaiyakiSoftServe: MenuTaiyakiSoftServe,
-  MenuDrinks: MenuDrinks,
+  LougheedTaiyaki: LougheedTaiyaki,
+  LougheedSoftServe: LougheedSoftServe,
+  LougheedDrinks: LougheedDrinks,
+  RichmondTaiyaki: RichmondTaiyaki,
+  RichmondSoftServe: RichmondSoftServe,
+  RichmondDrinks: RichmondDrinks,
   TaiyakiPrices: TaiyakiPrices,
   SoftservePrices: SoftservePrices,
 };
