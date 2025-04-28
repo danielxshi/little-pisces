@@ -21,7 +21,6 @@ export default function Richmond() {
           //className="pl-8 md:pl-16"
           onMouseEnter={(e) => handleHover(e)}
           onMouseOut={(e) => handleHoverExit(e)}
-          ref={(el) => (line3 = el)}
           href="https://www.clover.com/online-ordering/littlepisces"
         >
           ORDER PICKUP
