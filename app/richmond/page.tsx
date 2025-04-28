@@ -16,6 +16,17 @@ export const metadata = {
 export default function Richmond() {
   return (
     <div className="min-h-screen menu-page md:pb-32 pb-16 pt-32 md:pt-0">
+      <div className="w-26 h-26 md:ml-[-2rem] min-w-[100px] max-w-[100px] min-h-[100px] max-h-[120px]">
+        <a
+          //className="pl-8 md:pl-16"
+          onMouseEnter={(e) => handleHover(e)}
+          onMouseOut={(e) => handleHoverExit(e)}
+          ref={(el) => (line3 = el)}
+          href="https://www.clover.com/online-ordering/littlepisces"
+        >
+          ORDER PICKUP
+        </a>
+      </div>
       <MenuStandard
         title="Taiyaki"
         image="/images/carousel/carousel4.jpg"
@@ -108,17 +119,6 @@ export default function Richmond() {
           </ul>
         </div>
       </MenuStandard>
-      <div>
-        <a
-          //className="pl-8 md:pl-16"
-          //onMouseEnter={(e) => handleHover(e)}
-          //onMouseOut={(e) => handleHoverExit(e)}
-          // ref={(el) => (line3 = el)}
-          href="https://www.clover.com/online-ordering/littlepisces"
-        >
-          PICKUP
-        </a>
-      </div>
     </div>
   );
 }
