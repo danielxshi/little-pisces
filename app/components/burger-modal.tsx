@@ -168,7 +168,7 @@ export const BurgerModal = ({
                                     </li>
                                     <li>
                                       <Link
-                                        className="pl-8 md:pl-16"
+                                        className="pl-8 md:pl-16 w-80vw"
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
