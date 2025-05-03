@@ -55,30 +55,6 @@ class SlugNav extends Component<Props, any> {
                   />
                 </Link>
               </div>
-              <div className="menu">
-                <Link
-                  href="/menu"
-                  className="z-10 text-white text-lg lang-btn uppercase bg-blue-400 rounded-sm border-white border-solid"
-                >
-                  MENU
-                </Link>
-
-                <button
-                  id="nav-icon2"
-                  className={this.state.clicked ? "open" : "closed"}
-                  onClick={() => {
-                    this.props.onClick();
-                    this.handleClick();
-                  }}
-                >
-                  <span className="w-full"></span>
-                  <span className="w-full"></span>
-                  <span className="w-full"></span>
-                  <span className="w-full"></span>
-                  <span className="w-full"></span>
-                  <span className="w-full"></span>
-                </button>
-              </div>
             </div>
           </div>
         </motion.nav>
