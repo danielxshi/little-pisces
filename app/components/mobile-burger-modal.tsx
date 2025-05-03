@@ -179,7 +179,7 @@ export const BurgerModal = ({
                                     // className={` ${quicksand.className}`}
                                     >
                                       <Link
-                                        className="pl-8"
+                                        className="pl-8 text-sm"
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
@@ -194,7 +194,7 @@ export const BurgerModal = ({
                                     </li>
                                     <li>
                                       <Link
-                                        className="pl-8"
+                                        className="pl-8 text-sm"
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
