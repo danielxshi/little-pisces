@@ -200,13 +200,28 @@ export const BurgerModal = ({
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
-                                        href="/menu"
+                                        href="/lougheed"
                                         onClick={() => {
                                           ListClick.onClick();
                                         }}
                                       >
                                         {/* {localizedMessages.PROJECT} */}
-                                        MENU
+                                        LOUGHEED
+                                      </Link>
+                                    </li>
+                                    <li>
+                                      <Link
+                                        className="pl-8 md:pl-16"
+                                        onMouseEnter={(e) => handleHover(e)}
+                                        onMouseOut={(e) => handleHoverExit(e)}
+                                        // ref={(el) => (line3 = el)}
+                                        href="/lougheed"
+                                        onClick={() => {
+                                          ListClick.onClick();
+                                        }}
+                                      >
+                                        {/* {localizedMessages.PROJECT} */}
+                                        &nbsp;&nbsp;Menu
                                       </Link>
                                     </li>
                                     <li
@@ -223,7 +238,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        PICKUP
+                                        &nbsp;&nbsp;Pickup
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
@@ -241,8 +256,38 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        DELIVERY
+                                        &nbsp;&nbsp;Delivery
                                         {/* {localizedMessages.CONTACT} */}
+                                      </Link>
+                                    </li>
+                                    <li>
+                                      <Link
+                                        className="pl-8 md:pl-16"
+                                        onMouseEnter={(e) => handleHover(e)}
+                                        onMouseOut={(e) => handleHoverExit(e)}
+                                        // ref={(el) => (line3 = el)}
+                                        href="/richmond"
+                                        onClick={() => {
+                                          ListClick.onClick();
+                                        }}
+                                      >
+                                        {/* {localizedMessages.PROJECT} */}
+                                        RICHMOND
+                                      </Link>
+                                    </li>
+                                    <li>
+                                      <Link
+                                        className="pl-8 md:pl-16"
+                                        onMouseEnter={(e) => handleHover(e)}
+                                        onMouseOut={(e) => handleHoverExit(e)}
+                                        // ref={(el) => (line3 = el)}
+                                        href="/richmond"
+                                        onClick={() => {
+                                          ListClick.onClick();
+                                        }}
+                                      >
+                                        {/* {localizedMessages.PROJECT} */}
+                                        &nbsp;&nbsp;Menu
                                       </Link>
                                     </li>
                                     <li
