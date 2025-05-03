@@ -142,11 +142,11 @@ export const BurgerModal = ({
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0 }}
                           transition={{ duration: 1, ease: "easeInOut" }}
-                          className="w-screen md:w-[25vw] h-full"
+                          className="w-screen md:w-[50vw] h-full"
                         >
                           <div className="wrapper">
                             <div className="menu-links">
-                              <div className="flex flex-col h-80vh w-fit">
+                              <div className="flex flex-col h-fit w-full">
                                 <nav>
                                   <ul>
                                     <li
