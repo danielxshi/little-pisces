@@ -178,7 +178,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {/* {localizedMessages.PROJECT} */}
-                                        Lougheed Menu
+                                        LOUGHEED MENU
                                       </Link>
                                     </li>
                                     <li
