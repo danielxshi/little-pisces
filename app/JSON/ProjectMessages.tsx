@@ -58,7 +58,7 @@ const LougheedSoftServe = [
 
 const LougheedDrinks = [
   { name: "Hojicha Tea", price: "4.0", image: "hojicha tea.svg" },
-  { name: "Passionfruit Green Tea", price: "5.0", image: "passion fruit green tea drink.svg" },
+  { name: "Passionfruit Green Tea", price: "5.5", image: "passion fruit green tea drink.svg" },
   { name: "Matcha Lemonade", price: "6.5", image: "matcha lemonade drink.svg" },
   { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
   { name: "Hojicha Latte", price: "6.5", image: "hojicha latte.svg" },
@@ -89,7 +89,7 @@ const RichmondSoftServe = [
 
 const RichmondDrinks = [
   { name: "Jasmine Green Tea", price: "4.5", image: "jasmine tea.svg" },
-  { name: "Passionfruit Green Tea", price: "5.0", image: "passion fruit green tea drink.svg" },
+  { name: "Passionfruit Green Tea", price: "5.5", image: "passion fruit green tea drink.svg" },
   { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
   { name: "Hojicha Latte", price: "6.5", image: "hojicha latte.svg" },
   { name: "Matcha Strawberry Latte", price: "7.5", image: "matcha strawberry latte.svg" },
