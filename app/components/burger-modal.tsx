@@ -168,7 +168,7 @@ export const BurgerModal = ({
                                     </li>
                                     <li>
                                       <Link
-                                        className="pl-8 md:pl-16 md:w-[50vw]"
+                                        className="pl-8 md:pl-16"
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
@@ -178,7 +178,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {/* {localizedMessages.PROJECT} */}
-                                        LOUGHEED MENU
+                                        Lougheed Menu
                                       </Link>
                                     </li>
                                     <li
