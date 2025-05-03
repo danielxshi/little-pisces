@@ -88,7 +88,7 @@ const RichmondSoftServe = [
 ];
 
 const RichmondDrinks = [
-  { name: "Jasmine Tea Cold Brew", price: "4.5", image: "jasmine tea.svg" },
+  { name: "Jasmine Green Tea", price: "4.5", image: "jasmine tea.svg" },
   { name: "Passionfruit Green Tea", price: "5.0", image: "passion fruit green tea drink.svg" },
   { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
   { name: "Hojicha Latte", price: "6.5", image: "hojicha latte.svg" },
