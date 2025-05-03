@@ -244,7 +244,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        LOYALTY
+                                        Loyalty
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
@@ -261,7 +261,7 @@ export const BurgerModal = ({
                                           ListClick.onClick();
                                         }}
                                       >
-                                        CONTACT
+                                        Contact
                                         {/* {localizedMessages.COMPANY} */}
                                       </Link>
                                     </li>
