@@ -64,7 +64,7 @@ const Background = styled.div`
 `;
 
 const ModalWrapper = styled.div`
-  width: 15vw;
+  width: 25vw;
   height: 100vh;
   color: #fff;
   grid-template-columns: 1fr 1fr;
@@ -168,7 +168,7 @@ export const BurgerModal = ({
                                     </li>
                                     <li>
                                       <Link
-                                        className="pl-8 md:pl-16"
+                                        className="pl-8 md:pl-16 w-[70vw]"
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
