@@ -127,7 +127,7 @@ export const BurgerModal = ({
             <Background ref={modalRef}>
               <a.div className="" style={animation}>
                 <ModalWrapper
-                  className="w-screen md:w-[75vw]"
+                  className="w-screen md:w-[100vw]"
                   ref={(el) => setElement(el)}
                 >
                   <motion.div
