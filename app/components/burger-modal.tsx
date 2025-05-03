@@ -166,9 +166,22 @@ export const BurgerModal = ({
                                         HOME
                                       </Link>
                                     </li>
-                                    <li
-                                    // className={` ${quicksand.className}`}
-                                    >
+                                    <li>
+                                      <Link
+                                        className="pl-8 md:pl-16"
+                                        onMouseEnter={(e) => handleHover(e)}
+                                        onMouseOut={(e) => handleHoverExit(e)}
+                                        // ref={(el) => (line3 = el)}
+                                        href="/lougheed"
+                                        onClick={() => {
+                                          ListClick.onClick();
+                                        }}
+                                      >
+                                        {/* {localizedMessages.PROJECT} */}
+                                        Lougheed
+                                      </Link>
+                                    </li>
+                                    <li>
                                       <Link
                                         className="pl-8 md:pl-16"
                                         onMouseEnter={(e) => handleHover(e)}
@@ -217,6 +230,36 @@ export const BurgerModal = ({
                                         {" "}
                                         &nbsp;&nbsp;DELIVERY
                                         {/* {localizedMessages.CONTACT} */}
+                                      </Link>
+                                    </li>
+                                    <li>
+                                      <Link
+                                        className="pl-8 md:pl-16"
+                                        onMouseEnter={(e) => handleHover(e)}
+                                        onMouseOut={(e) => handleHoverExit(e)}
+                                        // ref={(el) => (line3 = el)}
+                                        href="/richmond"
+                                        onClick={() => {
+                                          ListClick.onClick();
+                                        }}
+                                      >
+                                        {/* {localizedMessages.PROJECT} */}
+                                        Richmond
+                                      </Link>
+                                    </li>
+                                    <li>
+                                      <Link
+                                        className="pl-8 md:pl-16"
+                                        onMouseEnter={(e) => handleHover(e)}
+                                        onMouseOut={(e) => handleHoverExit(e)}
+                                        // ref={(el) => (line3 = el)}
+                                        href="/richmond"
+                                        onClick={() => {
+                                          ListClick.onClick();
+                                        }}
+                                      >
+                                        {/* {localizedMessages.PROJECT} */}
+                                        &nbsp;&nbsp;MENU
                                       </Link>
                                     </li>
                                     <li
