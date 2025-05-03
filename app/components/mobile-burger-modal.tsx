@@ -189,24 +189,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {/* {localizedMessages.PROJECT} */}
-                                        HOME
-                                      </Link>
-                                    </li>
-                                    <li
-                                    // className={` ${quicksand.className}`}
-                                    >
-                                      <Link
-                                        className="pl-8 md:pl-16"
-                                        onMouseEnter={(e) => handleHover(e)}
-                                        onMouseOut={(e) => handleHoverExit(e)}
-                                        // ref={(el) => (line3 = el)}
-                                        href="/lougheed"
-                                        onClick={() => {
-                                          ListClick.onClick();
-                                        }}
-                                      >
-                                        {/* {localizedMessages.PROJECT} */}
-                                        LOUGHEED
+                                        Home
                                       </Link>
                                     </li>
                                     <li>
@@ -221,11 +204,10 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {/* {localizedMessages.PROJECT} */}
-                                        &nbsp;&nbsp;Menu
+                                        Lougheed Menu
                                       </Link>
                                     </li>
                                     <li
-                                    // className={` ${quicksand.className}`}
                                     >
                                       <Link
                                         className="pl-8 md:pl-16"
@@ -243,7 +225,6 @@ export const BurgerModal = ({
                                       </Link>
                                     </li>
                                     <li
-                                    // className={` ${quicksand.className}`}
                                     >
                                       <Link
                                         className="pl-8 md:pl-16"
@@ -272,22 +253,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {/* {localizedMessages.PROJECT} */}
-                                        RICHMOND
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link
-                                        className="pl-8 md:pl-16"
-                                        onMouseEnter={(e) => handleHover(e)}
-                                        onMouseOut={(e) => handleHoverExit(e)}
-                                        // ref={(el) => (line3 = el)}
-                                        href="/richmond"
-                                        onClick={() => {
-                                          ListClick.onClick();
-                                        }}
-                                      >
-                                        {/* {localizedMessages.PROJECT} */}
-                                        &nbsp;&nbsp;Menu
+                                        Richmond Menu
                                       </Link>
                                     </li>
                                     <li
@@ -304,7 +270,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        LOYALTY
+                                        Loyalty
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
@@ -321,7 +287,7 @@ export const BurgerModal = ({
                                           ListClick.onClick();
                                         }}
                                       >
-                                        CONTACT
+                                        Contact
                                         {/* {localizedMessages.COMPANY} */}
                                       </Link>
                                     </li>
