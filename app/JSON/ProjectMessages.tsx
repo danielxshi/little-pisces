@@ -71,26 +71,29 @@ const RichmondTaiyaki = [
   { name: "Red Bean", image: "red bean.svg" },
   { name: "Custard", image: "custard.svg" },
   { name: "Nutella", image: "nutella.svg" },
-  { name: "Matcha Strawberry", image: "matcha strawberry.svg" },
   { name: "Black Sesame", image: "black sesame taiyaki.svg" },
-  { name: "Pizza", image: "pizza.svg" },
-  { name: "Salted Egg Yolk", image: "custard.svg" },
+  { name: "Matcha Strawberry", image: "matcha strawberry.svg" },
+  { name: "Lemon Tart", image: "lemon tart.svg" },
+  { name: "Salted Egg Yolk", image: "salted egg yolk.svg" },
+  { name: "Pork Floss", image: "pork floss.svg" },
 ];
 
 const RichmondSoftServe = [
   { name: "Matcha", image: "matcha SS.svg" },
-  { name: "Mango Sorbet", image: "mango sorbet SS.svg" },
-  { name: "Milk Tea", image: "hojicha ss.svg" },
+  { name: "Milk Tea", image: "milk tea SS.svg" },
   { name: "Yakult", image: "yakult ss.svg" },
-  { name: "Matcha / Mango Twist", image: "matcha mango SS.svg" },
+  { name: "Mango Sorbet", image: "mango sorbet SS.svg" },
+  { name: "Matcha / Milk Tea Twist", image: "matcha milk tea SS.svg" },
+  { name: "Yakult / Mango Twist", image: "yakult mango SS.svg" },
 ];
 
 const RichmondDrinks = [
-  { name: "Hojicha Tea", price: "4.0", image: "hojicha tea.svg" },
+  { name: "Jasmine Green Tea", price: "4.5", image: "jasmine tea.svg" },
   { name: "Passionfruit Green Tea", price: "5.0", image: "passion fruit green tea drink.svg" },
   { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
   { name: "Hojicha Latte", price: "6.5", image: "hojicha latte.svg" },
   { name: "Matcha Strawberry Latte", price: "7.5", image: "matcha strawberry latte.svg" },
+  { name: "Grape Jasmine Tea", price: "7.5", image: "grape jasmine tea.svg" },
 ];
 
 const ProjectMessages = {
