@@ -64,7 +64,7 @@ const Background = styled.div`
 `;
 
 const ModalWrapper = styled.div`
-  width: 25vw;
+  width: 33vw;
   height: 100vh;
   color: #fff;
   grid-template-columns: 1fr 1fr;
