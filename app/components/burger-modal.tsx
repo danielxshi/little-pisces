@@ -153,7 +153,7 @@ export const BurgerModal = ({
                                     // className={` ${quicksand.className}`}
                                     >
                                       <Link
-                                        className="pl-8 text-sm"
+                                        className="pl-8 text-base"
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
@@ -168,7 +168,7 @@ export const BurgerModal = ({
                                     </li>
                                     <li>
                                       <Link
-                                        className="pl-8 text-sm"
+                                        className="pl-8 text-lg"
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
@@ -184,7 +184,7 @@ export const BurgerModal = ({
                                     <li
                                     >
                                       <Link
-                                        className="pl-8 text-sm"
+                                        className="pl-8 text-xl"
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
@@ -218,7 +218,7 @@ export const BurgerModal = ({
                                     </li>
                                     <li>
                                       <Link
-                                        className="pl-8 text-sm"
+                                        className="pl-8 text-2xl"
                                         onMouseEnter={(e) => handleHover(e)}
                                         onMouseOut={(e) => handleHoverExit(e)}
                                         // ref={(el) => (line3 = el)}
