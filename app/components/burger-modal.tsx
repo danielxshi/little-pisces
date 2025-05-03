@@ -178,7 +178,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {/* {localizedMessages.PROJECT} */}
-                                        Lougheed
+                                        LOUGHEED
                                       </Link>
                                     </li>
                                     <li>
@@ -193,7 +193,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {/* {localizedMessages.PROJECT} */}
-                                        &nbsp;&nbsp;MENU
+                                        &nbsp;&nbsp;Menu
                                       </Link>
                                     </li>
                                     <li
@@ -210,7 +210,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        &nbsp;&nbsp;PICKUP
+                                        &nbsp;&nbsp;Pickup
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
@@ -228,7 +228,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        &nbsp;&nbsp;DELIVERY
+                                        &nbsp;&nbsp;Delivery
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
@@ -244,7 +244,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {/* {localizedMessages.PROJECT} */}
-                                        Richmond
+                                        RICHMOND
                                       </Link>
                                     </li>
                                     <li>
@@ -259,7 +259,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {/* {localizedMessages.PROJECT} */}
-                                        &nbsp;&nbsp;MENU
+                                        &nbsp;&nbsp;Menu
                                       </Link>
                                     </li>
                                     <li
