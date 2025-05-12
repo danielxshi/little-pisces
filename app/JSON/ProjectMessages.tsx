@@ -53,7 +53,9 @@ const LougheedSoftServe = [
   { name: "Matcha", image: "matcha SS.svg" },
   { name: "Mango Sorbet", image: "mango sorbet SS.svg" },
   { name: "Black Sesame", image: "blk sesame SS.svg" },
+  { name: "Ube", image: "ube SS.svg" },
   { name: "Matcha / Mango Twist", image: "matcha mango SS.svg" },
+  { name: "Ube / Black Sesame Twist", image: "ube black sesame.svg" },
 ];
 
 const LougheedDrinks = [
