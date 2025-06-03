@@ -50,7 +50,7 @@ export default function Richmond() {
       <MenuStandard
         title="Soft Serve"
         image="/images/carousel/carousel1.jpg"
-        combo1="Just a cup or with an upside down taiyaki cone (we have pints coming soon)"
+        combo1="Just a cup or with an upside down taiyaki cone (we also have pints available)"
         price1={JSON.stringify(
           ProjectMessages.SoftservePrices[0]["price"]
         ).replaceAll('"', "")}
