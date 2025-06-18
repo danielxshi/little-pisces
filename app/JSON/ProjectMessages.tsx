@@ -51,11 +51,11 @@ const LougheedTaiyaki = [
 
 const LougheedSoftServe = [
   { name: "Matcha", image: "matcha SS.svg" },
-  { name: "Mango Sorbet", image: "mango sorbet SS.svg" },
-  { name: "Black Sesame", image: "blk sesame SS.svg" },
+  { name: "Guava Sorbet", image: "guava sorbet.svg" },
   { name: "Ube", image: "ube SS.svg" },
-  { name: "Matcha / Mango Twist", image: "matcha mango SS.svg" },
-  { name: "Ube / Black Sesame Twist", image: "ube black sesame.svg" },
+  { name: "Mango Sticky Rice (+0.5)", image: "mango sticky rice ss.svg" },
+  { name: "Matcha / Guava Twist", image: "matcha guava SS.svg" },
+  { name: "Ube / Mango Sticky Rice (+0.5)", image: "ube and mango sticky rice ss.svg" },
 ];
 
 const LougheedDrinks = [
@@ -82,11 +82,11 @@ const RichmondTaiyaki = [
 
 const RichmondSoftServe = [
   { name: "Matcha", image: "matcha SS.svg" },
-  { name: "Milk Tea", image: "milk tea SS.svg" },
-  { name: "Yakult", image: "yakult ss.svg" },
-  { name: "Mango Sorbet", image: "mango sorbet SS.svg" },
-  { name: "Matcha / Milk Tea Twist", image: "matcha milk tea SS.svg" },
-  { name: "Yakult / Mango Twist", image: "yakult mango SS.svg" },
+  { name: "Banana Milk", image: "banana milk SS.svg" },
+  { name: "Milk", image: "milk ss.svg" },
+  { name: "HK Lemon Tea", image: "mango sorbet SS.svg" },
+  { name: "Matcha / Banana Milk", image: "matcha banana SS.svg" },
+  { name: "Milk / HK Lemon Tea", image: "yakult mango SS.svg" },
 ];
 
 const RichmondDrinks = [
