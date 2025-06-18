@@ -84,9 +84,9 @@ const RichmondSoftServe = [
   { name: "Matcha", image: "matcha SS.svg" },
   { name: "Banana Milk", image: "banana milk SS.svg" },
   { name: "Milk", image: "milk SS.svg" },
-  { name: "HK Lemon Tea", image: "mango sorbet SS.svg" },
+  { name: "HK Lemon Tea", image: "hk lemon tea ss.svg" },
   { name: "Matcha / Banana Milk", image: "matcha banana SS.svg" },
-  { name: "Milk / HK Lemon Tea", image: "yakult mango SS.svg" },
+  { name: "Milk / HK Lemon Tea", image: "milk and hk lemon tea ss.svg" },
 ];
 
 const RichmondDrinks = [
