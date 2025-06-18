@@ -83,7 +83,7 @@ const RichmondTaiyaki = [
 const RichmondSoftServe = [
   { name: "Matcha", image: "matcha SS.svg" },
   { name: "Banana Milk", image: "banana milk SS.svg" },
-  { name: "Milk", image: "milk ss.svg" },
+  { name: "Milk", image: "milk SS.svg" },
   { name: "HK Lemon Tea", image: "mango sorbet SS.svg" },
   { name: "Matcha / Banana Milk", image: "matcha banana SS.svg" },
   { name: "Milk / HK Lemon Tea", image: "yakult mango SS.svg" },
