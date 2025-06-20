@@ -194,25 +194,7 @@ export const BurgerModal = ({
                                         }}
                                       >
                                         {" "}
-                                        &nbsp;&nbsp;Pickup
-                                        {/* {localizedMessages.CONTACT} */}
-                                      </Link>
-                                    </li>
-                                    <li
-                                    // className={` ${quicksand.className}`}
-                                    >
-                                      <Link
-                                        className="pl-8 text-4xl"
-                                        onMouseEnter={(e) => handleHover(e)}
-                                        onMouseOut={(e) => handleHoverExit(e)}
-                                        // ref={(el) => (line3 = el)}
-                                        href="https://www.ubereats.com/store/little-pisces-taiyaki-%26-soft-serve/e1sv_PokUp-ooc7R2Cq_1A"
-                                        onClick={() => {
-                                          ListClick.onClick();
-                                        }}
-                                      >
-                                        {" "}
-                                        &nbsp;&nbsp;Delivery
+                                        &nbsp;&nbsp;Order
                                         {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
@@ -229,6 +211,23 @@ export const BurgerModal = ({
                                       >
                                         {/* {localizedMessages.PROJECT} */}
                                         Richmond Menu
+                                      </Link>
+                                    </li>
+                                    <li
+                                    >
+                                      <Link
+                                        className="pl-8 text-4xl"
+                                        onMouseEnter={(e) => handleHover(e)}
+                                        onMouseOut={(e) => handleHoverExit(e)}
+                                        // ref={(el) => (line3 = el)}
+                                        href="https://www.clover.com/online-ordering/littlepiscesrichmond"
+                                        onClick={() => {
+                                          ListClick.onClick();
+                                        }}
+                                      >
+                                        {" "}
+                                        &nbsp;&nbsp;Order
+                                        {/* {localizedMessages.CONTACT} */}
                                       </Link>
                                     </li>
                                     <li
