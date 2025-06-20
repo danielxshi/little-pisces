@@ -45,7 +45,7 @@ const LougheedTaiyaki = [
   { name: "Hotteok", image: "hotteok.svg" },
   { name: "Matcha Strawberry", image: "matcha strawberry.svg" },
   { name: "Ube", image: "ube.svg" },
-  { name: "Lemon Tart", image: "lemon tart.svg" },
+  { name: "Pistachio (+0.5)", image: "pistachio.svg" },
   { name: "Pizza", image: "pizza.svg" },
 ];
 
@@ -61,12 +61,12 @@ const LougheedSoftServe = [
 const LougheedDrinks = [
   { name: "Hojicha Tea", price: "4.0", image: "hojicha tea.svg" },
   { name: "Passionfruit Green Tea", price: "5.5", image: "passion fruit green tea drink.svg" },
-  { name: "Matcha Lemonade", price: "6.5", image: "matcha lemonade drink.svg" },
+  { name: "Maesil-ade", price: "6.5", image: "maesil-ade.svg" },
+  { name: "Lychee Mojito", price: "8.0", image: "lychee mojito.svg" },
   { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
   { name: "Hojicha Latte", price: "6.5", image: "hojicha latte.svg" },
   { name: "Matcha Strawberry Latte", price: "7.5", image: "matcha strawberry latte.svg" },
-  { name: "Brown Sugar Matcha Latte", price: "7.5", image: "brown sugar matcha latte.svg" },
-  { name: "Black Sesame Hojicha Einspanner", price: "8.0", image: "black sesame hojicha einspanner.svg" },
+  { name: "Matcha Mango Latte", price: "8.0", image: "matcha mango latte.svg" },
 ];
 
 const RichmondTaiyaki = [
@@ -76,8 +76,8 @@ const RichmondTaiyaki = [
   { name: "Black Sesame", image: "black sesame taiyaki.svg" },
   { name: "Matcha Strawberry", image: "matcha strawberry.svg" },
   { name: "Lemon Tart", image: "lemon tart.svg" },
-  { name: "Salted Egg Yolk", image: "salted egg yolk.svg" },
-  { name: "Pork Floss", image: "pork floss.svg" },
+  { name: "Salted Egg Yolk (+0.5)", image: "salted egg yolk.svg" },
+  { name: "Pistachio (+0.5)", image: "pistachio.svg" },
 ];
 
 const RichmondSoftServe = [
@@ -91,11 +91,13 @@ const RichmondSoftServe = [
 
 const RichmondDrinks = [
   { name: "Jasmine Green Tea", price: "4.5", image: "jasmine tea.svg" },
-  { name: "Passionfruit Green Tea", price: "5.5", image: "passion fruit green tea drink.svg" },
+  { name: "Grape Jasmine Tea", price: "7.5", image: "grape jasmine tea.svg" },
   { name: "Matcha Latte", price: "6.5", image: "matcha latte.svg" },
   { name: "Hojicha Latte", price: "6.5", image: "hojicha latte.svg" },
   { name: "Matcha Strawberry Latte", price: "7.5", image: "matcha strawberry latte.svg" },
-  { name: "Grape Jasmine Tea", price: "7.5", image: "grape jasmine tea.svg" },
+  { name: "Matcha Mango Latte", price: "8.0", image: "matcha mango latte.svg" },
+  { name: "Strawberry Milk", price: "6.5", image: "strawberry milk.svg" },
+  { name: "Mango Milk", price: "7.0", image: "mango milk.svg" },
 ];
 
 const ProjectMessages = {
